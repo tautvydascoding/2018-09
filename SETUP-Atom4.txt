@@ -19,6 +19,16 @@ atom-bootstrap4
 v-bootstrap4
 Files->Packages -> autosave -> settings -> varnele uzdeti
 
+
+
+ Goto-definition   - PHP f-ju atidarymui
+atom-autocomplete-php
+linter-php
+jQuery-snippets
+jquery
+emmet
+
+
 =========short-cuts=============:
 p, a, button, header, footer, section … - HTML 5 auto elementu kurimas
 idea  - komentaro isvedimui 
@@ -40,16 +50,15 @@ Images:
 GIMP, KRITA, online photoshop
  
 
- Goto-definition   - PHP f-ju atidarymui
-atom-autocomplete-php
-linter-php
-jQuery-snippets
-jquery
-emmet
+
 
 --------TERMINAL-------:
 SourceTree: terminala pakeisti i "vim" redaktoriu
 
 git config --global core.editor "vim"
+// John Doe - jusu username is www.GIThub.com puslapio
+git config --global user.name "tautvydascoding"
+git config --global user.name "tautvydascoding@gmail.com"
+
 git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
