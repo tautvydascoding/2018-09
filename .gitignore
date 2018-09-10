@@ -11,6 +11,9 @@ wp-content/mu-plugins/
 wp-content/wp-cache-config.php
 wp-content/plugins/hello.php
 
+/.DS_Store
+*.DS_Store
+
 /.htaccess
 /license.txt
 /readme.html
