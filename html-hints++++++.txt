@@ -1,3 +1,5 @@
+﻿
+
 <!--
     KAIP SURASTI, KODEL failas neveikia?
     1. blogas kelias/pavadinimas iki failo:
@@ -16,7 +18,7 @@
     5. ar tikrai programuoti i failus, kurie paleisti narsykleje?
     patikrinimas:  uzdaryti failus Atome, atsiradyti juos per nauja ir paleisti narsykleje per nauja
 -->
-
+..
 
 <!—- ==================== responsive design ====================  -—>
 ideti i head dali:
