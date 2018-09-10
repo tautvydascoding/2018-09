@@ -1,0 +1,14 @@
+.container {
+  width: 50%;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.card-header {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+p {
+  text-align: justify;
+}

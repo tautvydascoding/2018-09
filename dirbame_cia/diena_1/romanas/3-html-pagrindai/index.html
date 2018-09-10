@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML pagrindai</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+<!-- 1. Pridėti antraštę “Hello world”
+2. Pridėti paragrafą teksto, kurio viduje vienas žodis būtų
+‘italic’
+3. Pridėti įvedimo laukelį email adreso įvedimui
+4. Pridėti mygtuką, kuris siųstų formą
+5. Pridėti tekstinį įvedimą pavadinimu ‘q’?????????
+6. Nurodyti formos siuntimą per GET metodą į ‘http://
+www.google.com/search' -->
+    <div class="jumbotron">
+      <h1 class="display-3">Hello World</h1>
+      <p class="lead">Lorem ipsum dolor sit amet, <em>consectetur</em> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <hr class="my-4">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+      <div class="form-group">
+        <form action="http://www.google.com/search" method="get">
+          <label for="inputEmail">El. paštas</label>
+          <div class="form-inline">
+            <input type="email" class="form-control" name="email" value="" id="inputEmail" placeholder="Enter your email address">
+            <button type="submit" class="btn btn-outline-info">Įvesti</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
