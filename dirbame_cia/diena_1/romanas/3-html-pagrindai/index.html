@@ -20,15 +20,18 @@ www.google.com/search' -->
       <p class="lead">Lorem ipsum dolor sit amet, <em>consectetur</em> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       <hr class="my-4">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-      <div class="form-group">
-        <form action="http://www.google.com/search" method="get">
+
+      <form action="http://www.google.com/search" method="get">
+        <div class="form-group">
           <label for="inputEmail">El. paštas</label>
-          <div class="form-inline">
-            <input type="email" class="form-control" name="email" value="" id="inputEmail" placeholder="Enter your email address">
-            <button type="submit" class="btn btn-outline-info">Įvesti</button>
-          </div>
-        </form>
-      </div>
+          <input type="email" class="form-control" name="q" value="" id="inputEmail" placeholder="Įveskite savo el. pašto adresą">
+        </div>
+        <div class="form-group">
+          <label for="">Žinutė</label>
+          <input type="text" class="form-control"  placeholder="Jūsų žinutė">
+        </div>
+        <button type="submit" class="btn btn-outline-info">Įvesti</button>
+      </form>
     </div>
   </body>
 </html>
