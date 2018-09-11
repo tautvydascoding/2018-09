@@ -1,5 +1,13 @@
-.klase
-{
-  background-color: blue;
+td.a {
 
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+td.b {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: green;
 }
