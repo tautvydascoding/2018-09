@@ -1,0 +1,22 @@
+table {
+    border-collapse: collapse;
+}
+th {
+  width: 100px
+}
+th {
+  height: 100px
+}
+
+#th02, #th04, #th06 {
+  background-color: blue;
+}
+#th05, #th13, #th16 {
+  background-color: red;
+}
+#th03, #th11, #th24 {
+  background-color: green;
+}
+#th15, #th01, #th41 {
+  background-color: yellow;
+}
