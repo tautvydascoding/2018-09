@@ -1,0 +1,25 @@
+.product {
+  background-color: pink;
+  border: 1px solid purple;
+  display: inline-block;
+  width: 19%;
+  text-align: center;
+  min-width: 200px;
+  margin: 10px auto;
+}
+
+.product h2:first-of-type {
+  color: green;
+}
+
+.product p:first-of-type {
+  text-align: justify;
+  padding: 0 10px;
+}
+
+.product a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin: 15px;
+}
