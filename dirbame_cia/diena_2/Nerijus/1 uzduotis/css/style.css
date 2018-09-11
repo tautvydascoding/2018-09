@@ -1,0 +1,39 @@
+.spalva1 {
+  color: red;
+}
+.spalva2 {
+  color: blue;
+}
+.spalva3 {
+  color: green;
+}
+.spalva4 {
+  color: brown;
+}
+.spalva5 {
+  color: yellow;
+}
+.spalva6 {
+  color: orange;
+}
+.blokas1 {
+  background-color: blue;
+}
+.blokas2 {
+  background-color: red;
+}
+.blokas3 {
+  background-color: brown;
+}
+.blokas4 {
+  background-color: green;
+}
+.blokas5 {
+  background-color: orange;
+}
+.blokas6 {
+  background-color: yellow;
+}
+article {
+  border: solid 5px #000;
+}
