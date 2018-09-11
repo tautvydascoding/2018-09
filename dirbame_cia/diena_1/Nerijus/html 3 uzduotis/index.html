@@ -3,9 +3,19 @@
   <head>
     <meta charset="utf-8">
     <title>Home</title>
+    <script>
+        function iskviesti(message) {
+          alert("jus paspaudete: " + message);
+          prompt("uzvedet pele ant: ","cia yra: " + message);
+        }
+
+        function loadFunc() {
+          alert("puslapis kraunasi " + new Date());
+        }
+    </script>
   </head>
 
-  <body>
+  <body onload="loadFunc()">
     <nav> <!-- start menu -->
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -13,6 +23,8 @@
         <li><a href="about.html">About</a></li>
         <li><a href="contacts.html">Contact</a></li>
       </ul>
+      <button type="buttom" name="reg" onclick="iskviesti('mygtukas')">try it!</button>
+
     </nav> <!-- end menu -->
 
     <!-- UŽDAVINYS 3
@@ -22,7 +34,7 @@
     4. i kontaktu puslapi ideti: google maps
     5. i galerijos puslapi ideti 8 nuotraukas (vienodas) su atributais: width='20%' heigth='auto' -->
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p onmouseover="iskviesti('paragrafas')">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
   </body>
 </html>

@@ -6,7 +6,7 @@ sukurti 5 prekes vienoje eilute, pvz:
 
 <div> 
     <h2> Dviratis </h2>
-    <p>  Lorem ... puikus viratis ...  ... </p>
+    <p>  Puikus dviratis ...Lorem ...   ... </p>
     <a href="" >  Kaina 550</a>
 </div>
 

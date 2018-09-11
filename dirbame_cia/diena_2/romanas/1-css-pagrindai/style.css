@@ -1,0 +1,25 @@
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  display: inline-flex;
+  margin-right: -4px;
+  margin-top: -4px;
+}
+
+.square:nth-of-type(2n+1) {
+  background-color: blue;
+}
+
+.square:nth-of-type(5n+3) {
+  background-color: green;
+}
+
+.square:nth-of-type(8n+2) {
+  background-color: pink;
+}
