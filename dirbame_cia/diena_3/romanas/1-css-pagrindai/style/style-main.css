@@ -1,0 +1,40 @@
+.jumbotron {
+  padding-top: 20px;
+}
+
+.jumbo-content {
+  text-align: center;
+  margin: auto;
+}
+
+.switch-buttons>h3 {
+  padding-bottom: 20px;
+}
+
+.manu-name {
+  background-color: rgb(121, 136, 244);
+  border: 1px solid rgb(179, 179, 179);
+  float: right;
+  margin: 0 0 10px 10px;
+  text-align: center;
+}
+
+h3 {
+  margin: 0;
+  padding: 3px 10px;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.card-text {
+  padding: 15px;
+}
+
+.card-menu {
+  display: flex;
+}
+.col-lg-4 {
+  flex: auto;
+}

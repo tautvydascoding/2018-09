@@ -1,0 +1,58 @@
+
+h1 {text-align: center;}
+
+.a {
+  background: #908989;
+  width: 405px;
+  height: 230px;
+  float: left;
+  margin-left: 20px;
+  padding-left: 15px;
+   border-style: solid; <!-- divo remas -->
+
+}
+
+.b {
+  background: pink;
+  width: 100px;
+  height: 35px;
+  border: 2px solid black;
+  position: relative;
+  top: -2px;
+  left: 304px;
+  text-align: center;
+  font-size: 21px;
+
+
+
+}
+
+.c {
+  background: #c35466;
+  width: 100px;
+  height: 35px;
+  border: 2px solid black;
+  position: relative;
+  top: -2px;
+  left: 304px;
+  text-align: center;
+  color: white;
+  font-size: 21px;
+
+
+
+}
+
+.d {
+  background: #e1e0a9;
+  width: 100px;
+  height: 35px;
+  border: 2px solid black;
+  position: relative;
+  top: -2px;
+  left: 304px;
+  text-align: center;
+  font-size: 21px;
+
+
+}
