@@ -1,0 +1,15 @@
+div {
+    background: #000;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+.div5,.div8,.div15,.div20 {
+  background: red;
+}
+.div3,.div7,.div12,.div16 {
+  background: green;
+}
+.div1,.div9,.div11,.div18 {
+  background: green;
+}
