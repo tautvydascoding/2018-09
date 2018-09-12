@@ -1,0 +1,76 @@
+.pav {
+  font-size: 30px;
+  text-align: center;
+}
+
+.a {
+  background-color: red;
+}
+.b {
+  background-color: blue;
+}
+.c {
+  background-color: pink;
+}
+.d {
+  background-color: green;
+}
+.e {
+  background-color: orange;
+}
+.f {
+  background-color: purple;
+}
+.g {
+  background-color: yellow;
+}
+.h {
+  background-color: brown;
+}
+.l {
+  background-color: gray;
+}
+.m {
+  background-color: #ccff33;
+}
+
+.Pirmas {
+  background-color: pink;
+  border: 2px solid #333;
+}
+.Antras {
+  background-color: #433;
+  border: 2px solid #333;
+}
+.Trecias {
+  background-color: #543;
+  border: 2px solid #333;
+}
+.Ketvirtas {
+  background-color: #833;
+  border: 2px solid #333;
+}
+.Penktas {
+  background-color: #900;
+  border: 2px solid #333;
+}
+.Sestas {
+  background-color: #66ffcc;
+  border: 2px solid #333;
+}
+.Septintas {
+  background-color: #66ff33;
+  border: 2px solid #333;
+}
+.Astuntas {
+  background-color: #66cccc;
+  border: 2px solid #333;
+}
+.Devintas {
+  background-color: #66cc33;
+  border: 2px solid #333;
+}
+.Desimtas {
+  background-color: #6699cc;
+  border: 2px solid #333;
+}
