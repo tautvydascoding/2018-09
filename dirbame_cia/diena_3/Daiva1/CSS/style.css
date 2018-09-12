@@ -1,0 +1,19 @@
+h1 {text-align: center;}
+.vienas{
+  border-style: solid;
+  border-width: medium;
+  width: 170px;
+
+ background-color: lightgrey;
+
+}
+.du {
+  border-style: solid;
+  border-width: medium;
+background-color: lightgrey;
+}
+.trys{
+  border-style: solid;
+  border-width: medium;
+background-color: lightgrey;
+}
