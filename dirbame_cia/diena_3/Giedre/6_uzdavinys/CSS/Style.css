@@ -1,0 +1,50 @@
+h1 {
+    text-align: center;
+}
+
+.pilkas {
+    background-color: lightgray;
+    color: black;
+    border-style: solid;
+    text-align: left;
+    width: 450px;
+    float: left;
+    margin-left: 20px;
+    padding-left: 15px;
+}
+
+.chicken {
+    background-color: pink;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    width: 100px;
+    margin-left: 347px;
+    margin-top: -2px;
+    margin-bottom: -5px;
+}
+
+#beef {
+    background-color: red;
+    color: white;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    width: 100px;
+    margin-left: 347px;
+    margin-top: -2px;
+    margin-bottom: -5px;
+}
+
+#sushi {
+    background-color: sandybrown;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    width: 100px;
+    margin-left: 347px;
+    margin-top: -2px;
+    margin-bottom: -5px;
+}
