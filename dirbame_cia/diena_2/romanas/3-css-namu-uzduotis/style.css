@@ -1,0 +1,49 @@
+span {
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.jumbotron {
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.container {
+  padding-bottom: 20px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 1em;
+}
+
+.list-group {
+  display: grid;
+}
+
+.card-text {
+  padding: 15px;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.wrapper-img {
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.wrapper-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.wrapper-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
