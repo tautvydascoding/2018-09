@@ -1,19 +1,32 @@
 h1 {text-align: center;}
-.vienas{
-  border-style: solid;
-  border-width: medium;
-  width: 170px;
 
- background-color: lightgrey;
 
+.a {background: grey;
+  float: left;
+  width: 30%;
+  padding: 0;
+  position: relative;
+  margin: 5px;
+  border: 2px solid;}
+
+#a-box {
+    background-color: #FFB6C1;
+  }
+#b-box {
+  background-color: #ff0033
 }
-.du {
-  border-style: solid;
-  border-width: medium;
-background-color: lightgrey;
+#c-box{
+  background-color: #FFD700;
+  }
+
+.f {text-align: center;
+border:2px solid;
+text-align: center;
+width: 20%;
+top: -5px;
+float: right;
 }
-.trys{
-  border-style: solid;
-  border-width: medium;
-background-color: lightgrey;
+
+p {
+  margin: 10px;
 }
