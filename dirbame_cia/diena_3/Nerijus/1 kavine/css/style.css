@@ -1,44 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
 h1 {
   text-align: center;
 }
+h2 {
+    background-color: orange;
+}
 div {
-  border: 1px solid black;
+  margin-left: 2%;
+  background-color: #999;
+  border: 1px solid #666;
+  width: 30.5%;
   float: left;
   position: relative;
-  background-color: grey;
-  width: 30%;
-  margin-left: 20px;
 }
-.vistiena {
-  border: 1px solid black;
+div h2 {
   width: 100px;
-  float: left;
-  position: relative;
-  margin-left: 470px;
-  margin-top: -1px;
-  background-color: #F6546A;
-  text-align: center;
-}
-.kumpis {
-  border: 1px solid black;
-  width: 100px;
-  float: left;
-  position: relative;
-  margin-left: 470px;
-  margin-top: -1px;
-  background-color: red;
-  text-align: center;
-}
-.susis {
-  border: 1px solid black;
-  width: 100px;
-  float: left;
-  position: relative;
-  margin-left: 471px;
-  margin-top: -1px;
-  background-color: yellow;
+  margin: 0;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border: 1px solid #000;
   text-align: center;
 }
 p {
   padding: 20px;
+  padding-top: 28px;
+}
+.susiDivas {
+  margin-right: 2%;
+}
+.vistiena {
+  background-color: red;
+  border: 1px solid #000;
+}
+.kumpis {
+  background-color: blue;
+  border: 1px solid #000;
+}
+@media (max-width: 768px) {
+    div {
+      width: 47%;
+    }
+    .susiDivas {
+      margin-top: 3%;
+      width: 96%;
+      margin-bottom: 3%;
+    }
+}
+@media (max-width:425px) {
+  div {
+    width: 96%;
+    margin-bottom: 4%;
+  }
+  .susiDivas {
+    margin-top: 0;
+  }
 }
