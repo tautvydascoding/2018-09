@@ -1,0 +1,102 @@
+body {
+    background-image: url("https://media.giphy.com/media/DPK6EgQsBoHKw/giphy.gif");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 590px;
+  }
+
+  h1 {
+    text-align: center;
+    color: yellow;
+    font-size: 60px;
+  }
+
+.inline_1 {
+  display: flex;
+  justify-content: center; <!-- Pakuoti daiktus aplink centrą -->
+}
+
+.inline_2 {
+  display: flex;
+  justify-content: center; <!-- Pakuoti daiktus aplink centrą -->
+}
+
+.inline_3 {
+  display: flex;
+  justify-content: center;
+}
+
+  .box-1 {
+    border: 2px solid violet;
+   width: 30mm;
+   height: 30mm;
+   background: lightblue;
+   margin-left: 12px;
+   padding-left: 2px;
+   float: left;
+   text-align: center;
+   font-size: 30px;
+  }
+
+  .box-2 {
+    border: 2px solid violet;
+   width: 30mm;
+   height: 30mm;
+   background: pink;
+   margin-left: 12px;
+   padding-left: 2px;
+   float: left;
+   text-align: center;
+   font-size: 30px;
+  }
+
+.box-3 {
+  border: 2px solid violet;
+   width: 30mm;
+   height: 30mm;
+   background: green;
+   margin-left: 12px;
+   padding-left: 2px;
+   float: left;
+   text-align: center;
+   font-size: 30px;
+}
+
+.box-4 {
+  border: 2px solid violet;
+   width: 100mm;
+   height: 30mm;
+   background: yellow;
+   margin-left: 12px;
+   padding-left: 2px;
+   float: left;
+   text-align: left;
+   font-size: 30px;
+}
+
+.box-5 {
+  border: 2px solid violet;
+   width: 45mm;
+   height: 30mm;
+   background: #cc00cc;
+   margin-left: 12px;
+   padding-left: 2px;
+   float: left;
+   text-align: left;
+   font-size: 30px;
+}
+
+.box-6 {
+  border: 2px solid violet;
+   width: 45mm;
+   height: 30mm;
+   background: #00ffff;
+   margin-left: 12px;
+   padding-left: 2px;
+   float: left;
+   text-align: left;
+   font-size: 30px;
+}

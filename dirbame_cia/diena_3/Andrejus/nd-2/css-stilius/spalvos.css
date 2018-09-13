@@ -1,0 +1,86 @@
+#box1 {
+   border: 2px solid violet;
+   width: 30mm;
+   height: 30mm;
+   background: lightblue;
+   margin-left: 12px;
+   padding-left: 2px;
+   float: left;
+   text-align: center;
+   font-size: 30px;
+}
+#box2 {
+   border: 2px solid blue;
+   width: 30mm;
+   height: 30mm;
+   background: pink;
+   margin-left: 12px;
+   padding-left: 2px;
+   float: left;
+   text-align: center;
+   font-size: 30px;
+}
+#box3 {
+   border: 2px solid yellow;
+   width: 30mm;
+   height: 30mm;
+   background: green;
+   margin-left: 12px;
+   padding-left: 2px;
+   float: left;
+   text-align: center;
+   font-size: 30px;
+}
+
+  .inline {
+ display: flex;
+  justify-content: center;
+
+}
+
+#box4 {
+   border: 2px solid darkblue;
+   width: 100mm;
+   height: 30mm;
+   background: yellow;
+   margin-left: 7px;
+   margin-top: 5px;
+   padding-left: 2px;
+   float: left;
+   text-align: left;
+   font-size: 30px;
+}
+  .inline2 {
+  display: flex;
+  justify-content: center;
+}
+#box5 {
+   border: 2px solid darkblue;
+   width: 45mm;
+   height: 30mm;
+   background: pink;
+   margin-left: 20px;
+   margin-top: 5px;
+   padding-left: 2px;
+   float: left;
+   text-align: center;
+   font-size: 30px;
+}
+
+#box6 {
+   border: 2px solid violet;
+   width: 45mm;
+   height: 30mm;
+   background: lightblue;
+   margin-left: 20px;
+   margin-top: 5px;
+   padding-left: 2px;
+   float: left;
+   text-align: center;
+   font-size: 30px;
+}
+
+.inline3 {
+  display: flex;
+  justify-content: center;
+}
