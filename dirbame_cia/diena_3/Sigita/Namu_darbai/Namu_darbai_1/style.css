@@ -1,0 +1,66 @@
+
+body {
+    background-color: grey;
+}
+
+h1 {
+    font-family: verdana;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+.Tekstas {
+  border: 2px solid black;
+  width: 100%;
+  background-color: #f1f1c1;
+  float: left;
+  padding-left: 15px;
+  width: 30%;
+  margin-right: 10px;
+}
+.chiken {
+  widht: 10%;
+  background-color: pink;
+  padding:1px;
+  height:20px;
+  float: right;
+  text-align: center;
+
+}
+
+.Tekstas2 {
+  border: 2px solid black;
+  width: 100%;
+  background-color: powderblue;
+  float: left;
+  padding-left: 15px;
+  width: 30%;
+  margin-right: 10px;
+}
+.beef {
+  widht: 10%;
+  padding:1px;
+  background-color: red;
+  float: right;
+  text-align: center;
+}
+.Tekstas3 {
+  border: 2px solid black;
+  width: 100%;
+  background-color: yellow;
+  float: left;
+  padding-left: 15px;
+  width: 30%;
+  margin-right: 10px;
+}
+.sushi{
+  widht: 10%;
+  background-color: blue;
+  padding:1px;
+  text-align: center;
+  float: right;
+}
+div { border: solid 1px black;}
