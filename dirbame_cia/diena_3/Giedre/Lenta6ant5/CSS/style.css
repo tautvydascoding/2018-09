@@ -1,0 +1,53 @@
+body {
+    background-color: red;
+}
+
+.baltas {
+    border-color: black;
+    border-style: solid;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    display: inline-block;
+    margin: -5px;
+}
+
+.melynas {
+    border-color: black;
+    border-style: solid;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: inline-block;
+    margin: -5px;
+}
+
+.zalias {
+    border-color: black;
+    border-style: solid;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: inline-block;
+    margin: -5px;
+}
+
+.raudonas {
+    border-color: black;
+    border-style: solid;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: inline-block;
+    margin: -5px;
+}
+
+.juodas {
+    border-color: black;
+    border-style: solid;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: inline-block;
+    margin: -5px;
+}
