@@ -32,9 +32,10 @@
    font-size: 30px;
 }
 
-.inline {
+  .inline {
  display: flex;
   justify-content: center;
+
 }
 
 #box4 {
@@ -49,7 +50,7 @@
    text-align: left;
    font-size: 30px;
 }
-.inline2 {
+  .inline2 {
   display: flex;
   justify-content: center;
 }
@@ -57,7 +58,7 @@
    border: 2px solid darkblue;
    width: 45mm;
    height: 30mm;
-   background: violet;
+   background: pink;
    margin-left: 20px;
    margin-top: 5px;
    padding-left: 2px;
