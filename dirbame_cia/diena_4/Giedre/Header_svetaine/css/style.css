@@ -1,0 +1,69 @@
+.header1 {
+    list-style-type: none;
+    background-color: rgb(252, 119, 252);
+    color: darkblue;
+    width: 100%;
+    height: 10%;
+    display: inline-block;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+h1 {
+    font-family: Lobster, Pacifico;
+    text-align: center;
+}
+
+h2 {
+    font-family: Lobster, Pacifico;
+    text-align: left;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(252, 119, 252);
+    height: 475px;
+    margin: 20px;
+}
+
+.topnav li {
+    float: left;
+    display: block;
+    text-align: center;
+}
+
+
+.column {
+    float: left;
+    width: 80%;
+    height: 475px;
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    background-color:white;
+    text-align: left;
+    padding: 10px;
+    height: 10%;
+    clear: both;
+    margin: 20px;
+    padding: 10px;
+}
+
+

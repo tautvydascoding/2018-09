@@ -1,0 +1,51 @@
+.plotis-30 > h3 {
+    width: 60px;
+}
+
+.plotis-30 {
+max-width: 210px;
+}
+
+.plotis-45 > h2 {
+    width: 90px; 
+}
+
+.plotis-45 {
+    max-width: 210px;
+}
+
+.plotis-100 > h2 {
+    width: 190px;
+}
+
+.plotis-100 {
+    max-width: 210px;
+}
+
+.float h2, h3, h4 {
+  float: left;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: -15px;
+  height: 60px;
+}
+
+.fonas-blue {
+    background-color: aqua;
+    border: solid 2px magenta;
+}
+
+.fonas-green {
+    background-color: green;
+    border: solid 2px yellow;
+}
+
+.fonas-pink {
+    background-color: magenta;
+    border: solid 2px blue;
+}
+
+.fonas-yellow {
+    background-color: yellow;
+    border: solid 2px blue;
+}

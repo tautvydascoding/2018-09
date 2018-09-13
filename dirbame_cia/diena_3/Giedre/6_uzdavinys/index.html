@@ -15,27 +15,29 @@ padding-left: 15px;-->
 
     <link rel="stylesheet" href="css/Style.css" type="text/css" />
 </head>
-
+<!--reikalavimai:
+plocius nurodyti procentais %,
+patiekalu antrastes pozicionouti naudojant “position: absolute”
+i viena eilute 3 blokus sudeti naudojant : “float: left” komanda
+sukurti vienodus tarpus tarp 3-ju bloku-->
 <body>
     
     <h1>Our Menu</h1>
-
-    <div>
-        <div class="pilkas">
-        <h2 class="chicken">Chicken</h2>
+   
+    <div class="pilkas">
+        <h2 id="chicken">Chicken</h2>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero sunt eligendi eius perferendis ad maiores itaque, enim numquam molestias tenetur recusandae necessitatibus magni ipsa. Ullam explicabo quia deserunt sunt quo.</p>
-        </div>
-
-        <div class="pilkas">
-        <h2 id="beef">Beef</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non consectetur id consequuntur porro consequatur voluptate enim aliquam quidem. Impedit deleniti facilis nobis doloribus voluptatibus explicabo est dolore sequi, eos in!</p>
-        </div>
-        
-        <div class="pilkas">
-        <h2 id="sushi">Sushi</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati praesentium voluptas expedita, nesciunt voluptatibus, a animi eos recusandae voluptates fuga saepe, illo veritatis quia fugit doloremque vel earum corporis nam!</p>
-        </div>
     </div>
 
+    <div class="pilkas">
+        <h2 id="beef">Beef</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non consectetur id consequuntur porro consequatur voluptate enim aliquam quidem. Impedit deleniti facilis nobis doloribus voluptatibus explicabo est dolore sequi, eos in!</p>
+    </div>
+        
+    <div class="pilkas">
+        <h2 id="sushi">Sushi</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati praesentium voluptas expedita, nesciunt voluptatibus, a animi eos recusandae voluptates fuga saepe, illo veritatis quia fugit doloremque vel earum corporis nam!</p>
+    </div>
+    
 </body>
 </html>
