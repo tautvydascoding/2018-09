@@ -1,0 +1,64 @@
+p {
+  font-size: 20px;
+  font-style: oblique;
+  font-family: cursive;
+  float: left;
+  margin: 10px;
+}
+table, tr, th, td {
+  border: black 1px solid;
+}
+.Lentele {
+font-family: fantasy;
+font-style: italic;
+font-size: 30;
+flex: auto;
+text-align: left;
+
+}
+.plotis30 {
+width: 30mm;
+height: 30mm;
+border: solid black 2px;
+display: inline-block;
+
+}
+.plotis45 {
+width: 45mm;
+height: 45mm;
+border: solid red 2px;
+display: inline-block;
+
+}
+.plotis100 {
+width: 100mm;
+height: 100mm;
+border: solid blue 2px;
+background-color: yellow;
+
+
+}
+.borderpink {
+  border: pink 2px solid;
+  background-color: blue;
+}
+.borderblue {
+  border: blue 2px solid;
+  background-color: pink;
+}
+#borderyellow {
+  border: yellow 2px solid;
+  background-color: green;
+
+}
+.bendras {
+
+  text-align: center;
+
+}
+
+.bendras>div {
+  margin: auto;
+
+
+}

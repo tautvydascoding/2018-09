@@ -1,0 +1,41 @@
+
+.float{
+float: left;
+}
+.plotis-30{
+ width: 30%;
+ height: 150px;
+ text-align: center;
+ margin: 5px;
+}
+
+.plotis-45 {
+  width: 45%;
+  height: 150px;
+  text-align: center;
+  margin: 5px;
+}
+.plotis-100 {
+  width: 100%;
+  min-height: 150px;
+  text-align: center;
+  margin: 5px;
+}
+
+.blue {
+ background-color: blue;
+}
+
+.green {
+  border: solid 2px yellow;
+  background-color: green;
+}
+.pink{
+  border: solid 2px blue;
+  background-color: pink;
+
+}
+.yellow {
+  border: solid 2px blue;
+  background-color: yellow;
+}

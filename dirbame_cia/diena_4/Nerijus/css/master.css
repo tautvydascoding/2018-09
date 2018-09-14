@@ -1,0 +1,86 @@
+/* css */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Ruslan Display', cursive;
+  background-color: grey;
+}
+h1, h2 {
+  text-align: center;
+  font-size: 40px;
+}
+h3 {
+  padding: 0px 20px;
+  font-size: 30px;
+}
+header {
+  background-color: pink;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+li {
+  list-style-type: none;
+  float: left;
+  margin-left:  140px;
+  font-size: 30px;
+  margin-top: 35px;
+}
+a {
+  text-decoration: none;
+  list-style-type: bullets;
+}
+p {
+  padding: 0px 20px 0px 20px;
+}
+footer {
+  margin-top: 15px;
+  background-color: #fff;
+  width: 100%;
+  height: 100px;
+  position:relative;
+  margin-top: 830px;
+}
+#search {
+
+}
+.dydisLaukas {
+  margin-top: 30px;
+  width: 400px;
+  height: 40px;
+}
+.dydisKnopke {
+  width: 100px;
+  height: 40px;
+  color: #fff;
+  background-color: #000;
+  border: none;
+}
+.wrapper {
+  margin-top: 15px;
+}
+.section1 {
+  float: left;
+  width: 69%;
+  height: 800px;
+  margin-right: 18px;
+  background-color: #fff;
+}
+.section2 {
+  float: left;
+  width: 30%;
+  height: 800px;
+  background-color: pink;
+}
+.related {
+  margin: 20px 70px;
+}
+.footeris {
+  position:absolute;
+}
+.copyright {
+  font-size: 20px;
+  padding: 30px;
+  font-style: arial;
+}
