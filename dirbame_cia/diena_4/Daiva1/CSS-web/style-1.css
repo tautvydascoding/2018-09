@@ -1,0 +1,15 @@
+
+.header {background-color: #C0C0C0;
+        padding: 20px;
+        text-align: center;}
+
+
+.navigation {
+    float: left;
+    display: block;
+    color: #FF00FF;
+    text-align: center;
+    padding: 14px 16px;
+
+
+}
