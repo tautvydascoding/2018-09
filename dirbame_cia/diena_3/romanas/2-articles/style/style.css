@@ -1,0 +1,35 @@
+article {
+  border: solid 1px #7d7d7d;
+  padding: 8px;
+  margin: 2px;
+}
+
+.article-area {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.bg-red {background-color: red}
+.bg-green {background-color: rgb(78, 199, 59)}
+.bg-blue {background-color: rgb(69, 75, 215)}
+.bg-brown {background-color: rgb(186, 122, 36)}
+.bg-pink {background-color: pink}
+.bg-violet {background-color: rgb(199, 39, 173)}
+.bg-yellow {background-color: rgb(209, 217, 57)}
+.bg-orange {background-color: rgb(226, 166, 34)}
+.bg-white {background-color: white}
+.bg-black {background-color: black}
+
+.cl-red {color: red}
+.cl-green {color: rgb(78, 199, 59)}
+.cl-blue {color: rgb(69, 75, 215)}
+.cl-brown {color: rgb(186, 122, 36)}
+.cl-pink {color: pink}
+.cl-violet {color: rgb(199, 39, 173)}
+.cl-yellow {color: rgb(209, 217, 57)}
+.cl-orange {color: rgb(226, 166, 34)}
+.cl-white {color: white}
+.cl-black {color: black}

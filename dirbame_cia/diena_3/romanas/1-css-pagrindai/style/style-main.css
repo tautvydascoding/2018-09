@@ -31,10 +31,3 @@ h3 {
 .card-text {
   padding: 15px;
 }
-
-.card-menu {
-  display: flex;
-}
-.col-lg-4 {
-  flex: auto;
-}
