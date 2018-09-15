@@ -1,0 +1,17 @@
+* {
+box-sizing: border-box;
+}
+h1 {
+  color: red;
+}
+.aukstis {
+  height: 150px;
+  border: 2px solid white;
+}
+.aukstis1 {
+  height: 600px;
+  border: 6px solid white;
+}
+.row {
+  border: 2px solid white;
+}
