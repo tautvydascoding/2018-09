@@ -1,53 +1,35 @@
 body {
     background-color: red;
 }
+.visi {
+    max-width: 600px;
+}
+
+.visi >div {
+  float: left;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin: -1px;
+}
 
 .baltas {
-    border-color: black;
-    border-style: solid;
-    width: 100px;
-    height: 100px;
     background-color: white;
-    display: inline-block;
-    margin: -5px;
-}
+    }
 
 .melynas {
-    border-color: black;
-    border-style: solid;
-    width: 100px;
-    height: 100px;
     background-color: blue;
-    display: inline-block;
-    margin: -5px;
-}
+    }
 
 .zalias {
-    border-color: black;
-    border-style: solid;
-    width: 100px;
-    height: 100px;
     background-color: green;
-    display: inline-block;
-    margin: -5px;
-}
+   }
 
 .raudonas {
-    border-color: black;
-    border-style: solid;
-    width: 100px;
-    height: 100px;
     background-color: red;
-    display: inline-block;
-    margin: -5px;
-}
+  }
 
 .juodas {
-    border-color: black;
-    border-style: solid;
-    width: 100px;
-    height: 100px;
-    background-color: black;
-    display: inline-block;
-    margin: -5px;
-}
+   background-color: black;
+  }

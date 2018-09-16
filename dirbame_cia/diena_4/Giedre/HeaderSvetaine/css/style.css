@@ -1,0 +1,82 @@
+body {
+    background-color:grey;
+}
+
+h1 {
+    text-shadow: 3px 2px black;
+    color: white;
+    font-family: Lobster;
+    text-align: center;
+}
+
+.meniu {
+    background-color: rgb(252, 119, 252);
+    display: inline-block;
+    width: 100%;
+}
+
+.meniu li {
+    color: darkblue;
+    display: inline-block;
+    padding: 20px 95px;
+}
+
+#search {
+/* Reikalauja uzduotis id*/
+}
+
+#ieskoti {
+    background-color: black;
+    color: white;
+    width: 50px;
+    border: solid 1px black;
+}
+
+h2 {
+    font-family: Lobster;
+    text-align: center;
+    color: black;
+}
+
+h3 {
+    font-family: Lobster;
+    text-align: left;
+}
+
+.content {
+    background-color: white;
+    width: 75%;
+    height: 470px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.sidebare {
+    background-color: rgb(252, 119, 252);
+    width: 21.5%;
+    height: 470px;
+    float: right;
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 10px;
+}
+
+.sidebare li {
+    color: darkblue;
+    padding: 10px;
+}
+
+footer {
+    background-color:white;
+    text-align: left;
+    height: 10%;
+    margin-top: 50px;
+    clear: both;
+    padding: 20px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+}

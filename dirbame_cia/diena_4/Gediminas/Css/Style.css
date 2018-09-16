@@ -1,0 +1,109 @@
+body {
+  background-color: gray;
+}
+
+.header {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  left: 40mm;
+
+}
+.center {
+  display: flex;
+  justify-content: center;
+  left: 40mm;
+}
+h2 {
+  text-align: center;
+}
+
+.box-1 {
+    width: 203mm;
+    height: 120mm;
+    background: white;
+    margin-left: 0px;
+    padding-left: 2px;
+
+
+
+}
+.box-2 {
+   width: 70mm;
+   height: 120mm;
+   background: pink;
+   margin-left: 12px;
+
+   float: left;
+  
+
+
+}
+.top {
+
+
+  width: 277mm;
+  height: 15mm;
+  background: white;
+  margin-left: 38mm;
+
+  font-style: italic;
+
+
+
+
+
+}
+
+.a {
+ width: 45mm;
+ height: 15mm;
+ background: pink;
+ padding-left: 2px;
+ float: left;
+ text-align: center;
+ font-size: 10px;
+}
+
+.b {
+ width: 45mm;
+ height: 15mm;
+ background: pink;
+ padding-left: 20px;
+ float: left;
+ text-align: center;
+ font-size: 10px;
+}
+
+.c {
+ width: 45mm;
+ height: 15mm;
+ background: pink;
+ padding-left: 2px;
+ float: left;
+ text-align: center;
+ font-size: 10px;
+}
+
+.d {
+ width: 65mm;
+ height: 15mm;
+ background: pink;
+ padding-left: 2px;
+ float: left;
+ text-align: center;
+ font-size: 10px;
+}
+.e {
+ width: 70mm;
+ height: 15mm;
+ background: pink;
+ padding-left: 2px;
+ float: left;
+ font-size: 29px;
+}
