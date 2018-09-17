@@ -12,3 +12,7 @@ div h2 {
 .b {
   color: orange;
 }
+
+div h2.b {
+  color: green;
+}

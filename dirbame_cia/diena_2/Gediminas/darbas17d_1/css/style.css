@@ -1,0 +1,16 @@
+.dezute {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  text-align: center;
+  border-style: double;
+}
+.zalia {
+  background-color: green;
+}
+.melyna {
+  background-color: blue;
+}
+.juoda {
+  background-color: black;
+}
