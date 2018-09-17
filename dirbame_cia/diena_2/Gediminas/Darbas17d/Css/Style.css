@@ -1,0 +1,14 @@
+section h2 {
+  text-align: center;
+  color: red;
+}
+div h2 {
+  text-align: center;
+  color: blue;
+}
+.a {
+  color: orange;
+}
+.b {
+  color: orange;
+}
