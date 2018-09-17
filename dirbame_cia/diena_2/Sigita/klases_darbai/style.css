@@ -1,0 +1,19 @@
+#juodas h2 {
+  color: black;
+}
+
+h2 {
+  text-align: center;
+}
+
+section h2 {
+  color: red;
+}
+
+div h2 {
+  color: blue;
+}
+
+.paskutinisH2 {
+  color:orange;
+}

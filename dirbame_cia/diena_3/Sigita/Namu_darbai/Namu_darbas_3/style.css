@@ -14,7 +14,8 @@ h1 {
   font-family: cursive;
   font-size: 55px;
   font-style: italic;
--webkit-text-stroke: 5px red;
+/* -webkit-text-stroke: 5px red; */
+text-shadow: 5px 5px black;
 }
 h2 {
   font-style: italic;
@@ -40,7 +41,7 @@ body {
 }
 #ul1 {
 display: inline-block;
-    margin: 15px;
+    margin: 5px;
     font-style: italic;
 }
 #ul2 {
@@ -50,14 +51,17 @@ display: inline-block;
 }
 .li1 {
   display: inline;
-  margin: 100px;
+  margin: 50px;
   font-size: 20px;
 
 }
 
 #Go {
   float: right;
-  flex-direction: column;
+  display: flex;
+  margin: 10px;
+    /* flex-direction: column; */
+/* overflow: scroll; atsiranda scrolinimo rodykles*/
 }
 #gogo {
   text-decoration: none;
