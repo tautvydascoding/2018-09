@@ -9,3 +9,6 @@ text-align: center;
 .one{
   color: orange;
 }
+div h2.one{
+  color:  green;
+}
