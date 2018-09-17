@@ -14,51 +14,61 @@
 Reikalavimai:
 Visoms antrastems panaudoti spec. font’ą parsisiųstą iš www.fonts.google.com (nesvarbu kokį)
 Meniu punktus kurti naudojant html “li” elementus
-Menu sunktus sudeti i HTML 5 “nav” elementa, 
+Menu punktus sudeti i HTML 5 “nav” elementa, 
 Search ir mygtuka - sudeti į savo sugalvota html elementa ( pvz:  <div id=‘search’ > )
 Content ir sidebare dalis i viena eilute sudeti pasinaudojus: “float” vakarykste komanda
-Straipsnisu (3x) ideti i atskirus HTML5 elementus (article)
+Straipsnius (3x) ideti i atskirus HTML5 elementus (article)
 Footer copy rights simbolį išvesti pasigooglinus “html symbols codes”-->
 
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css">
 
 <body>
 
-    <div>
-        <nav class="clearfix">
-            <li class="header1">HOME</li>
-            <li class="header1">OUT TEAM</li>
-            <li class="header1">PROJECTS</li>
-            <li class="header1">CONTACT</li>
-            <li class="header1"><div id="search">
-                <form>
-                    <input type="text" placeholder="Search Query">
-                    <input type="submit" value="Go!">
-                    </form>
-            </div></li>
+    <h1>Header</h1>
+
+        <nav class="meniu">
+            <li>HOME</li>
+            <li>OUT TEAM</li>
+            <li>PROJECTS</li>
+            <li>CONTACT</li>
+            <li>
+                <form id="search">
+                    <input type="text" placeholder="Search query">
+                    <input type="submit" value="Go!" id="ieskoti">
+                </form>
+            </li>
         </nav>
+    
+    <div>   
+        <div class="content">
+            <h2><strong>Article heading</strong><strong></strong></h2>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, placeat beatae corrupti ad quia voluptates illum error reprehenderit laborum perspiciatis facere aut. Odit rem totam voluptas molestiae consequuntur quos vero.</p>
+            </article>
+            <h3><strong>subsection</strong></h3>
+            <article>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati commodi nisi molestias reiciendis. Quos iste deleniti ut doloremque fuga ratione accusamus? Unde aperiam vero ratione ipsum cumque sed accusantium placeat.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate nam numquam tempora enim ut autem facere cumque placeat eveniet. Illum ipsa doloremque animi soluta dicta impedit dignissimos ipsam necessitatibus est.</p>
+            </article>
+            <h3><strong>Another subsection</strong></h3>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, quasi laborum ipsa rerum deleniti illo doloremque velit culpa a porro ducimus veritatis unde repudiandae dolore, minus quia deserunt, voluptatibus iure!</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, obcaecati voluptatem? Vitae suscipit cum, quam ullam fuga iure nihil consequuntur accusantium, itaque asperiores exercitationem culpa! Sunt ex natus labore est.</p>
+            </article>
+        </div>
+
+        <div class="sidebare">
+            <h2><strong>Related</strong></h2>
+            <ul>
+                <li><a href="#">Oh I do like to be beside the seaside</a></li><br>
+                <li><a href="#">Oh I do like to be beside the sea</a></li><br>
+                <li><a href="#">Although in the North of England</a></li><br>
+                <li><a href="#">It never stops raining</a></li><br>
+                <li><a href="#">Oh well...</a></li><br>
+            </ul>
+        </div>
     </div>
 
-    <div class="column">
-        <h1><strong>Article heading</strong><strong></strong></h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, placeat beatae corrupti ad quia voluptates illum error reprehenderit laborum perspiciatis facere aut. Odit rem totam voluptas molestiae consequuntur quos vero.</p>
-        <h2><strong>subsection</strong></h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati commodi nisi molestias reiciendis. Quos iste deleniti ut doloremque fuga ratione accusamus? Unde aperiam vero ratione ipsum cumque sed accusantium placeat.</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate nam numquam tempora enim ut autem facere cumque placeat eveniet. Illum ipsa doloremque animi soluta dicta impedit dignissimos ipsam necessitatibus est.</p>
-        <h2><strong>Another subsection</strong></h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, quasi laborum ipsa rerum deleniti illo doloremque velit culpa a porro ducimus veritatis unde repudiandae dolore, minus quia deserunt, voluptatibus iure!</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, obcaecati voluptatem? Vitae suscipit cum, quam ullam fuga iure nihil consequuntur accusantium, itaque asperiores exercitationem culpa! Sunt ex natus labore est.</p>
-    </div>
-
-    <ul class="topnav"><h1><strong>Related</strong></h1>
-        <li><a href="#">Oh I do like to be beside the seaside</a></li>
-        <li><a href="#">Oh I do like to be beside the sea</a></li>
-        <li><a href="#">Although in the North of England</a></li>
-        <li><a href="#">It never stops raining</a></li>
-        <li><a href="#">Oh well...</a></li>
-    </ul>
-
-    <footer>&#174Copyright 2050 by nobody. All rights reversed.</footer>
+    <footer>&#169Copyright 2050 by nobody. All rights reversed.</footer>
 </body>
 </html>

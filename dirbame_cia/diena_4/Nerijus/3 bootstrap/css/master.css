@@ -1,0 +1,15 @@
+* {
+box-sizing: border-box;
+}
+h1 {
+  color: red;
+}
+.aukstis {
+  height: 600px;
+}
+.aukstesni1 {
+  height: 100px;
+}
+.aukstesni2 {
+  height: 400px;
+}
