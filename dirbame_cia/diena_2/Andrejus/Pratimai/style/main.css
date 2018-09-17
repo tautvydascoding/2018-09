@@ -14,3 +14,7 @@ div {
 .orange {
 color: orange;
 }
+
+div h2.orange {
+  color: green;
+}
