@@ -12,8 +12,9 @@ h1 {text-align: center;}
    border-style: solid; <!-- divo remas -->
       display: flex;
     flex-direction: row-reverse;
-
+box-sizing: border-box;
 }
+.cleerfix {  clear: both;}
 
 .b {
   background: pink;

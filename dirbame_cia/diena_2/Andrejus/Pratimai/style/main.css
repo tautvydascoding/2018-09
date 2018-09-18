@@ -1,0 +1,20 @@
+#black{
+  color: black;
+}
+h2 {
+  text-align: center;
+}
+section {
+  color: red;
+}
+
+div {
+  color: blue;
+}
+.orange {
+color: orange;
+}
+
+div h2.orange {
+  color: green;
+}

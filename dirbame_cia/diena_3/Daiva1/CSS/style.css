@@ -21,7 +21,6 @@ h1 {text-align: center;}
 
 .f {text-align: center;
 border:2px solid;
-text-align: center;
 width: 20%;
 top: -5px;
 float: right;
@@ -29,4 +28,9 @@ float: right;
 
 p {
   margin: 10px;
+}
+/* si komanda isjungia flow left */
+.cleenfix{
+  clear: both;
+  content: "";
 }
