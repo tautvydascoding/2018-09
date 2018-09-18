@@ -6,8 +6,9 @@ body {
       }
 .container {
         width: 90%;
-        border: 1px solid black;
-        margin: auto ;
+        border: 0px solid black;
+        margin: auto
+        ;
        }
 
 .header {
@@ -19,8 +20,11 @@ body {
   text-align: center;
   font-family: cursive;
 }
+/* mygtukas Go! juodas, be remelio */
 button {
-        background-color: black;
+      box-sizing: border-box;
+      border: none;
+      background-color: black;
       color: white;}
 
 /* meniu */
@@ -66,6 +70,7 @@ main-nav, .search {
   background-color:  #FF69B4;
   box-sizing: border-box;
   margin: left 2px;
+  height: 800px;
 }
 
 .kaire{
