@@ -19,11 +19,12 @@ h1 {text-align: center;}
   background-color: #FFD700;
   }
 
-.f {text-align: center;
-border:2px solid;
-width: 20%;
-top: -5px;
-float: right;
+.f {
+  text-align: center;
+  border:2px solid;
+  width: 20%;
+  top: -5px;
+  float: right;
 }
 
 p {
