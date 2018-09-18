@@ -2,6 +2,10 @@
   color: black;
 }
 
+div h2.paskutinisH2 {
+  color: green;
+}
+
 h2 {
   text-align: center;
 }
