@@ -1,0 +1,14 @@
+header, footer {
+    height: 100px;
+}
+
+main, nav, aside {
+    height: 400px;
+}
+header {
+    margin-bottom: 1%;
+}
+
+footer {
+    margin-top: 1%;
+}
