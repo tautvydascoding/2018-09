@@ -35,3 +35,19 @@ p {
   clear: both;
   content: "";
 }
+/* isdestymas plansetems  */
+@media (max-width: 768px){
+.max{
+  width: 95%;
+}
+.midi,.mini{
+  width: 45%;
+}
+}
+/* isdestymas mobiliems */
+@media (max-width: 425px){
+  .a {
+    width: 90%;
+    background-color: red;
+}
+}
