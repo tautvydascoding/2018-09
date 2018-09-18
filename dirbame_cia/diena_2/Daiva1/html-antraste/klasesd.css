@@ -1,0 +1,14 @@
+h2 {
+  text-align: center;
+  color: red;
+}
+div h2{
+color: blue;
+text-align: center;
+}
+.one{
+  color: orange;
+}
+div h2.one{
+  color:  green;
+}
