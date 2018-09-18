@@ -1,0 +1,51 @@
+h1 {
+  text-align: center;
+}
+
+p {
+  margin-top: 50px;
+  margin-left: 10px;
+  text-align: left;
+}
+
+body {
+  background-color: rgb(182, 195, 241);
+}
+
+.Didieji {
+  width: 30%;
+  height: 200px;
+  background-color: rgb(114, 110, 116);
+  float: left;
+  border: solid 2px black;
+  margin: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+div:hover {
+  overflow: visible;
+}
+
+h3 {
+  border: solid 1px black;
+  position: absolute;
+  width: 25%;
+  margin-left: 75%;
+  margin-top: 0;
+  overflow: hidden;
+}
+h3:hover {
+  overflow: visible;
+}
+.chiken {
+  background-color: rgb(232, 73, 193);
+}
+
+.beef {
+  background-color: rgb(139, 20, 20);
+}
+
+.sushi {
+  background-color: rgb(199, 233, 85)
+}
