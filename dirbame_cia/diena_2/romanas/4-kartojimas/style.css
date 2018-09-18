@@ -10,6 +10,10 @@ div h2 {
   color: blue;
 }
 
-h2:last-child {
+.orange {
   color: orange;
+}
+
+div h2.orange {
+  color: green;
 }
