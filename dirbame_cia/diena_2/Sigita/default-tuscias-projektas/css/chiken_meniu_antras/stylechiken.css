@@ -18,7 +18,7 @@ body {
   background-color: rgb(114, 110, 116);
   float: left;
   border: solid 2px black;
-  margin: 10px;
+  margin: 2%;
   position: relative;
   overflow: hidden;
 }
@@ -35,9 +35,11 @@ h3 {
   margin-top: 0;
   overflow: hidden;
 }
+
 h3:hover {
   overflow: visible;
 }
+
 .chiken {
   background-color: rgb(232, 73, 193);
 }
@@ -48,4 +50,19 @@ h3:hover {
 
 .sushi {
   background-color: rgb(199, 233, 85)
+}
+
+@media (max-width:768px) {
+  .sushitablet {
+    width: 96%;
+  }
+
+  .pirmiejidu {
+    width: 45%
+  }
+}
+
+@media (max-width: 425px) {
+      .Didieji { width: 95%;}
+
 }
