@@ -8,34 +8,39 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 
-    <title>Hello, world!</title>
+    <title>CSS Layouts</title>
   </head>
   <body>
 
-    <div class="container">
+    <div class="container-fluid">
       <div class="row mb-1">
-        <div class="col-12 bg-success">
+        <div class="col-md-12 aukstis-50 bg-success">
           Header
         </div>
       </div>
 
       <div class="row">
-        <div class="col-3 bg-success">
+        <div class="col-md bg-success aukstis-500 mr-md-1">
           Nav
         </div>
-        <div class="col-9 pr-0 pl-1">
-          <div class="bg-success pl-3">
-            Article
+        <div class="col-md-9">
+          <div class="row">
+            <div class="col-md-12 bg-success aukstis-200 mb-md-1 my-1 my-md-0">
+              Article
+            </div>
           </div>
-          <div class="bg-success mt-1 pl-3">
-            Ads
+          <div class="row">
+            <div class="col-md-12 bg-success aukstis-300">
+              Ads
+            </div>
           </div>
         </div>
       </div>
 
       <div class="row mt-1">
-        <div class="col-12 bg-success">
+        <div class="col-md-12 aukstis-50 bg-success">
           Footer
         </div>
       </div>

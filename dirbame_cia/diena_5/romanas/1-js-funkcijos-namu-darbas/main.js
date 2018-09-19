@@ -10,11 +10,10 @@
 // pvz.:
 var name = "Tomas";
 
-function generateFunctionNames(setName) {
+function generateNames(setName) {
   for (var i = 0; i <= 50; i++) {
     if (i % 2 !== 0) {
       console.log(name + i);
-      return name + i;
     } else {
       console.log(setName + i);
     }
