@@ -1,0 +1,7 @@
+header, footer {
+    height: 100px;
+}
+
+main, nav, aside {
+    height: 400px;
+}

@@ -1,0 +1,31 @@
+* {
+box-sizing: border-box;
+}
+h1 {
+  color: red;
+}
+.aukstis {
+  height: 150px;
+
+}
+.aukstesnis {
+  height: 400px;
+
+}
+.aukstesnis1 {
+  height: 300px;
+
+}
+.aukstesnis2 {
+  height: 100px;
+
+}
+.borderis {
+    border-bottom: 6px solid white;
+}
+.borderis1 {
+  border-right: 6px solid white;
+}
+.borderis2 {
+  border-top: 6px solid white;
+}

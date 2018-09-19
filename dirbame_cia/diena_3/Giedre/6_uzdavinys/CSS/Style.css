@@ -42,3 +42,16 @@ p {
     background-color: sandybrown;
     color: black;
 }
+
+@media (max-width: 768px) {
+    #box1 {width: 90%;}
+    #box2 {width: 90%;}
+    #box3 {width: 90%;}
+}
+
+
+@media (max-width: 425px) {
+    #box1 {width: 90%;}
+    #box2 {width: 90%;}
+    #box3 {width: 90%;}
+}
