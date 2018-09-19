@@ -5,6 +5,8 @@
 body {
   font-family: 'Ruslan Display', cursive;
   background-color: grey;
+  width: 95%;
+  margin-left: 40px;
 }
 h1, h2 {
   text-align: center;
