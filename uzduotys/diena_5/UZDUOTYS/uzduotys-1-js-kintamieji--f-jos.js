@@ -1,6 +1,8 @@
 //  1 UZDUOTIS
 // sukurti kintamuosius (ir jiems priskirti reiksmes):
 // vardas, pavarde, amzius, atlyginimas
+// ir panaudoti:
+// console.log( vardas, pavarde);
 
 // teo:
 //  typeof( k ); f-ja kuri isveda kintamojo tipa
