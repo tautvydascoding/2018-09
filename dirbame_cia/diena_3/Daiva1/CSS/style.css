@@ -36,6 +36,7 @@ p {
   content: "";
 }
 /* isdestymas plansetems  */
+
 @media (max-width: 768px){
 .max{
   width: 95%;
@@ -45,9 +46,10 @@ p {
 }
 }
 /* isdestymas mobiliems */
+
 @media (max-width: 425px){
   .a {
     width: 90%;
-    background-color: red;
+    
 }
 }
