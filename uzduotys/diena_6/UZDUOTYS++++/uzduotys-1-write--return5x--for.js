@@ -6,7 +6,6 @@
 
 
 
-
 //==============TEKSTO ISVEDIMAS (tik susipazinti)=========
 // UZDUOTIS
 // Issimeginti komandas:

@@ -8,20 +8,18 @@
 // lygines f-jos turi pakeisti varda ir uzdeti skaiciu salia
 // NOTE: visas f-jas iskviesti
 // pvz.:
-var name = "Tomas";
 
-function generateNames(setName) {
-  for (var i = 0; i <= 50; i++) {
-    if (i % 2 !== 0) {
-      console.log(name + i);
-    } else {
-      console.log(setName + i);
-    }
-  }
+var vardas = "Tomas";
+
+function setVardas(x) {
+  vardas = x;
 }
 
-// generateFunctionNames();
+function getVardas() {
+  return vardas + "1";
+}
 
+var x = getVardas
 //
 // var vardas = "Tomas";
 // // 1

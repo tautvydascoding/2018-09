@@ -1,0 +1,22 @@
+.dviratis {
+  background-color: #D3D3D3;
+  min-height: 300px;
+  margin-top: 2px;
+}
+
+
+.aukstis-100 {
+    min-height: 100px;
+}
+.aukstis-200 {
+    min-height: 200px;
+}
+.aukstis-300 {
+    min-height: 300px;
+}
+.aukstis-400 {
+    min-height: 400px;
+}
+.aukstis-500 {
+    min-height: 500px;
+}
