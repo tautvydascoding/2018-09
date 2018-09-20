@@ -28,8 +28,6 @@
 //  kuri atspausdina i konsole "x" reiksmes
 // iskviesti f-ja ir vietoj x irasyti koki nors teksta pvz: printTekstas( "Jokubo istorijos");
 
-// 6 UZDUOTIS
-// sukurti f-ja, kuri sudaugina du  paduotus skaicius "daugyba(x, y)"
 
 
 // 7 UZDUOTIS
