@@ -1,1 +1,1 @@
-console.log(  "Labas pasauli"  );
+
