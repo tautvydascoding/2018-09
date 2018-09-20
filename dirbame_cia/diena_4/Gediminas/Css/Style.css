@@ -24,8 +24,9 @@ h2 {
 }
 
 .box-1 {
+  min-height: 120px; <!-- dydis prisitaiko pagal teksta viduje automatiskai-->
     width: 203mm;
-    height: 120mm;
+
     background: white;
     margin-left: 0px;
     padding-left: 2px;
@@ -35,12 +36,13 @@ h2 {
 }
 .box-2 {
    width: 70mm;
-   height: 120mm;
+   min-height: 120px;
    background: pink;
    margin-left: 12px;
 
+
    float: left;
-  
+
 
 
 }
