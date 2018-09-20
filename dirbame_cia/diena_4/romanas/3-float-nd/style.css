@@ -1,0 +1,41 @@
+article {
+  background-color: green;
+  display: inline-block;
+  border: 1px solid black;
+  float: left;
+  box-sizing: border-box;
+  width: 24%;
+  margin-right: 1%;
+  padding: 1rem;
+}
+
+article:last-child {
+  margin-right: 0;
+}
+
+section {
+  background-color: pink;
+  height: 200px;
+  position: relative;
+}
+
+button {
+  position: absolute;
+}
+
+button:nth-child(1) {
+  right: 0;
+  top: 0;
+}
+button:nth-child(2) {
+  left: 0;
+  top: 0;
+}
+button:nth-child(3) {
+  right: 0;
+  bottom: 0;
+}
+button:nth-child(4) {
+  left: 0;
+  bottom: 0;
+}

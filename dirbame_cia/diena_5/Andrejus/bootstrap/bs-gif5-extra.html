@@ -14,15 +14,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mokomes</title>
 </head>
+<!-- perdaryti kad butu su 3 containerisiai. virsutinis kontaineris ir apatinis yra fluid. -->
 
 <body>
   <h1> Mokomes  </h1>
-  <div class="container">
+  <div class="container-fluid">
     <div class="row mb-1">
       <div class="col-12 bg-info">
         Header
       </div>
     </div>
+  </div>
+
+  <div class="container-fluid">
 
     <div class="row">
       <div class="col-6 px-0 offset-2">
@@ -41,13 +45,17 @@
         </div>
       </div>
     </div>
+  </div>
+  <!-- vidutinis geriausias atvejis sucentruoti tai su margin left and right per css (nemapmirst nustatyt width arba jei jau yra container) -->
+<div class="container-fluid">
 
     <div class="row mt-1">
       <div class="col-12 bg-info">
         Footer
       </div>
     </div>
-  </div>
+</div>
+
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
