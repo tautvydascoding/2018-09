@@ -1,0 +1,46 @@
+h1
+{
+  color: blue;
+  font-size: 50px;
+  text-align: center;
+}
+
+#ptekstas
+{
+font-size: 25px;
+font-weight: bold;
+
+}
+
+body
+{
+  background-color: teal;
+}
+
+.atekstas
+{
+  font-size: 20px;
+  color: purple;
+  font-weight: bolder;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+
+#foto
+{
+  padding-left: 30%;
+  border: 10px;
+  border-style: groove;
+  border-color: purple;
+  border
+}
+
+#btekstas
+{
+  letter-spacing: 0.5em;
+  word-spacing: 2em;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
