@@ -1,0 +1,68 @@
+#pirmas{
+  color: red;
+}
+
+#antras{
+  color: grey;
+}
+
+#trecias{
+  color: blue;
+}
+#ketvirtas{
+  color: yellow;
+}
+#penktas{
+  color: purple;
+}
+#sestas{
+  color: #507ec9;
+}
+#septintas{
+  color: #350d42;
+}
+#astuntas{
+  color: #1b7c64;
+}
+#devintas{
+  color: #1fe24d;
+}
+#desimtas{
+  color: #e28d1e;
+}
+article{
+  border: 3px black solid;
+}
+
+.pirmas{
+  background-color: green;
+}
+.antras {
+  background-color: blue;
+}
+.trecias {
+  background-color: #e28d1e;
+}
+.ketvirtas {
+  background-color: #8c7a62;
+}
+.penktas {
+  background-color: #65a080;
+}
+.sestas {
+  background-color: #229e5b;
+}
+.septintas {
+  background-color: #2a8faa;
+}
+.astuntas {
+  background-color: #7fbfd1;
+}
+.devintas {
+  background-color: #cba1e0;
+}.desimtas {
+  background-color: #5b4566;
+}
+.testas{
+  float: left;
+}
