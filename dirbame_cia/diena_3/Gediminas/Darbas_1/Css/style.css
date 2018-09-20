@@ -1,19 +1,21 @@
 
 
-h1 {text-align: center;}
+h1 {text-align: center;
+margin-left: auto;
+}
 
 .a {
   background: #908989;
-  width: 405px;
-  height: 230px;
+  width: 29%;
   float: left;
-  margin-left: 20px;
+  margin-left: 2%;
   padding-left: 15px;
-   border-style: solid; <!-- divo remas -->
-      display: flex;
-    flex-direction: row-reverse;
-box-sizing: border-box;
+  border-style: solid; <!-- divo remas -->
+min-height: 120px
+
+
 }
+
 .cleerfix {  clear: both;}
 
 .b {
@@ -23,12 +25,9 @@ box-sizing: border-box;
   border: 2px solid black;
   position: relative;
   top: -2px;
-  left: 304px;
-  text-align: center;
+  margin-left: auto;
+  text-align: center; <!-- automatiskai prisitaiko prie elemento-->
   font-size: 21px;
-
-
-
 
 }
 
@@ -39,7 +38,7 @@ box-sizing: border-box;
   border: 2px solid black;
   position: relative;
   top: -2px;
-  left: 304px;
+  margin-left: auto;
   text-align: center;
   color: white;
   font-size: 21px;
@@ -55,9 +54,49 @@ box-sizing: border-box;
   border: 2px solid black;
   position: relative;
   top: -2px;
-  left: 304px;
+  margin-left: auto;
   text-align: center;
   font-size: 21px;
 
+
+}
+@media (max-width: 768px) {
+.paskutinis{
+  width: 96%;
+  margin-top: 2%;
+
+}
+@media (max-width: 768px) {
+.krastas{
+  width: 96%;
+
+
+}
+@media (max-width: 768px) {
+.vidurinis{
+  width: 96%;
+    margin-top: 2%;
+
+
+}
+
+
+@media (max-width: 375px) {
+.krastas{
+  width: 96%;
+
+
+}
+@media (max-width: 375px) {
+.vidurinis{
+  width: 96%;
+    margin-top: 2%;
+
+
+}
+@media (max-width: 375px) {
+.paskutinis{
+  width: 96%;
+  margin-top: 2%;
 
 }
