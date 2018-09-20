@@ -1,0 +1,11 @@
+header, footer {
+    height: 100px;
+}
+
+nav {
+    height: auto;
+}
+
+main, aside {
+    height: 300px;
+}

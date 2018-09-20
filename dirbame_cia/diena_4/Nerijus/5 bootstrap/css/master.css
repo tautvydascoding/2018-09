@@ -6,12 +6,24 @@ h1 {
 }
 .aukstis {
   height: 150px;
-  border: 2px solid white;
+
 }
 .aukstis1 {
   height: 600px;
-  border: 6px solid white;
+
 }
-.row {
-  border: 2px solid white;
+.aukstis-450 {
+  height: 450px;
+}
+.border-top {
+  border-top: 10px solid white !important;
+}
+.border-right {
+  border-right: 10px solid white !important;
+}
+.border-left {
+  border-left: 2px solid white !important;
+}
+.border-bottom {
+  border-bottom: 10px solid white !important;
 }

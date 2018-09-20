@@ -11,32 +11,35 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <h1>anonymous</h1>
-    <div class="container"><!-- conteiner pradzia -->
-      <div class="row"><!-- pirmo row atidarimas -->
-        <div class="col-12 bg-info  aukstis">
+    <h1>10 uzduotis</h1>
+<!-- =============================================================================== -->    
+    <div class="container"><!-- 1 conteiner pradzia -->
+      <header class="row border-bottom"><!-- 1 row START -->
+        <div class="col-md-12 aukstis bg-dark">
           header
         </div>
-      </div><!-- pirmo row uzdarymas -->
-<!-- ========================================================================================== -->
-      <div class="row justify-content-md-center"><!-- antras row -->
-        <div class="col col-lg-6 bg-secondary aukstis1">
-          article
-        </div>
-        <div class="col-md-2 bg-success aukstis1">
+      </header><!-- 1 row END -->
+<!-- =============================================================================== -->
+      <div class="row"><!-- 2 row START -->
+        <nav class="col-md-3 bg-warning aukstis1 border-right"><!-- 1 column -->
           nav
-        </div>
-        <div class="col col-lg-1 bg-dark aukstis1">
-          ads
-        </div>
-      </div><!-- antro  row uzdarymas-->
-<!-- ========================================================================================== -->
-      <div class="row"><!-- trecio row atidarimas -->
-        <div class="col-12 bg-warning aukstis">
-          footer
-        </div>
-      </div><!-- trecio row uzdarymas -->
-    </div><!-- conteinerio uzdarimas -->
+        </nav><!-- 1 column -->
+        <main class="col-md-9"><!-- IDEA: 2 column -->
+          <div class="row bg-success">
+            <article class="col-md-10 bg-success aukstis-450 border-right">
+              article
+            </article>
+            <aside class="col-md-2 bg-warning aukstis-450">
+              ads
+            </aside>
+          </div>
+          <footer class="row bg-danger aukstis border-top">
+            footer
+          </footer>
+        </main><!-- IDEA: 2 column -->
+      </div><!-- 2 row END -->
+    </div><!-- 1 conteinerio uzdarimas -->
+<!-- ========================================================================= -->
 
 
     <!-- Optional JavaScript -->
