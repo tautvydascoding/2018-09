@@ -1,0 +1,34 @@
+#pasvires {
+  font-style: italic;
+}
+
+#boldas {
+font-weight: bold;
+
+}
+
+.deko {
+
+  text-decoration: underline;
+
+}
+
+#du {
+font-style: italic;
+font-weight: bold;
+text-decoration: underline;
+
+}
+
+#auto {
+width: 20%;
+
+}
+#game {
+width: 60%
+
+}
+.auto2 {
+width: 50%;
+
+}
