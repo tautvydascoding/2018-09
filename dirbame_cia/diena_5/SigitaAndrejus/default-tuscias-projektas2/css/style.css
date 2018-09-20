@@ -1,21 +1,34 @@
-h1 {
-    color: red;
+ul li {
+  float: left;
+  list-style-type: none;
+  margin: 30px;
+}
+
+.retroDviratis {
+  width: 250px;
+  align-content: center;
+}
+/* .kairen {
+  align-items: flex-start; */
+}
+.clearfix {
+  clear: both;
+  content: "";
+}
+.reklama:hover {
+  width: 75%;
 }
 
 
+/* .tekstasKaire{
 
-.aukstis-100 {
-    min-height: 100px;
-}
-.aukstis-200 {
-    min-height: 200px;
-}
-.aukstis-300 {
-    min-height: 300px;
-}
-.aukstis-400 {
-    min-height: 400px;
-}
-.aukstis-500 {
-    min-height: 500px;
-}
+width: 30%; */
+
+
+/* } */
+/* .straipsniai{
+  height: auto;
+  float: left;
+  background-color: rgb(228, 144, 145);
+  border: solid black 2px;
+} */
