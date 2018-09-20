@@ -62,10 +62,33 @@ printKaina(900.05);
 // parasyti f-ja "pazymiuVidurkis()", kuri apskaiciuoja vidurki is  5 menesiu pazymiu
 // suskaiciuoti pazymiu vidurki (pazymius sukurti f-jos viduje) 5, 10 , 8 , 6 , 8  (ir atspausdintu vidurki)
 
+function pazymiuVidurkis() {
+    var vidurkis = (5 + 10 + 8 + 6 + 8) / 5;
+    var tekstas =   "pazymiu vidurkis" + vidurkis + "<br>";
+
+     document.querySelector( "h1").innerHTML  +=    tekstas;
+}
+var tekstas = "Labas" + " " + " keliautojai." + " Kur keliaujate?";
+
+pazymiuVidurkis();
+pazymiuVidurkis();
+pazymiuVidurkis();
+
 // 1.1 UZDUOTIS
 // parasyti f-ja "pazymiuVidurkis1(x1, x2, x3, x4, x5)", kuriai galima paduoti 5 kintamuosius,
 // kuri apskaiciuoja vidurki is paduotu 5 menesiu pazymiu
 // suskaiciuoti pazymiu vidurki, 5, 10 , 8 , 6 , 8  (ir atspausdintu vidurki)
 
+function pazymiuVidurkis1 (x1, x2, x3, x4, x5) {
+    var vidurkis = (x1 + x2 + x3 + x4 + x5) / 5;
+    var tekstas =   "pazymiu vidurkis" + vidurkis + "<br>";
+
+     document.querySelector( "h1").innerHTML  +=    tekstas;
+}
+pazymiuVidurkis1 (5, 3, 6, 10, 5); // Maryte
+pazymiuVidurkis1 (9, 9 , 8, 4, 1); // Antanas
+pazymiuVidurkis1 (9, 10, 5, 6, 5); // Antano brolis
+pazymiuVidurkis1 (9, 9, 9, 9, 9); // Antano brolis
+pazymiuVidurkis1 (9, 9, 10, 10, 10); // Antano brolis
 
 //
