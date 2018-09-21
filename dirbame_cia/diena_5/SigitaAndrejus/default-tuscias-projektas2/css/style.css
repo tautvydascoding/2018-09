@@ -1,12 +1,39 @@
+
 ul li {
   float: left;
   list-style-type: none;
   margin: 30px;
 }
+.aukstis-300 {
+  min-height: 300px;
+}
 
+.sekcija1 {
+  display: flex;
+  align-items: flex-start;
+}
+.sekcija2{
+  display: flex;
+  align-items: center;
+}
+.sekcija3 {
+  display: flex;
+  align-items: flex-end;
+}
 .retroDviratis {
   width: 250px;
   align-content: center;
+=======
+.dviratis {
+  background-color: #D3D3D3;
+  min-height: 300px;
+  margin-top: 2px;
+}
+
+
+.aukstis-100 {
+    min-height: 100px;
+>>>>>>> 43dffa1d951d8ac5861b05f5c8f087eb699a69a8
 }
 /* .kairen {
   align-items: flex-start; */
