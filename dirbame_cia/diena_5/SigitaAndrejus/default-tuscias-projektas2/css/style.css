@@ -1,22 +1,102 @@
-.dviratis {
+.paveiksliukas {
   background-color: #D3D3D3;
   min-height: 300px;
   margin-top: 2px;
 }
+.vienratis {
+  display: flex;
+  justify-content: center;
+}
+.dv1 {
+  width: 90px;
+  height: 90px;
+  margin-top: 5px;
+}
+/* pirma eilute nuotrauka */
+
+.dviratis {
+  display: flex;
+  justify-content: space-between;
+}
+.dv2 {
+  width: 100px;
+  height: 90px;
+  margin-top: 5px;
+}
+/* antra eilute nuotrauku */
 
 
-.aukstis-100 {
-    min-height: 100px;
+.triratis {
+  display: flex;
+  justify-content: space-between;
 }
-.aukstis-200 {
-    min-height: 200px;
+.dv3 {
+  width: 100px;
+  height: 90px;
+  margin-top: 5px;
 }
-.aukstis-300 {
-    min-height: 300px;
+/* baigesi trecia eilute */
+/* baigesi galerija */
+
+.registras {
+min-height: 400px;
+background-color: #ff3333;
 }
-.aukstis-400 {
-    min-height: 400px;
+
+/* pagr pusl */
+/* migtukas */
+
+.migtukas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.aukstis-500 {
-    min-height: 500px;
+
+.bigone {
+  width: 936px;
+  height: 400px;
+}
+/* dviratis image */
+/* baigesi mid kontaineris */
+
+/* Article/footer kontainer */
+
+.text {
+  min-height: 500px;
+  background-color: #999999;
+  text-align: center;
+}
+/* article */
+.article {
+  min-height: 350px;
+  background-color: #FFEBCD;
+}
+.par1 {
+  display: flex;
+  align-items: flex-end;
+}
+
+.par2 {
+  display: flex;
+  align-items: center;
+}
+/* article pabaiga */
+.footer {
+min-height: 150px;
+background-color: #DCDCDC;
+}
+
+.listas {
+  text-align: left;
+}
+
+/* soninis paveiksliukas */
+.foot2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sonbike {
+  width: 80px;
+  height: 80px;
 }
