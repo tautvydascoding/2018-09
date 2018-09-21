@@ -1,3 +1,22 @@
+
+.foto{
+float: right;
+margin-right: -20px;
+}
+.main {
+  background-color: lightblue;
+}
+/* .header{
+height: 100px;
+}
+.tekstas{
+float: left;
+}  */
+ .rounded-circle{
+    width: 200px;
+    height: 200px;
+  }
+
 .div1 {
   height: 100%;
   background-image: url("http://www.sportima.lt/uploads/images/Gallery/Futbolo-aikstele/HL9G2127_galerija.jpg");
@@ -20,3 +39,4 @@
 }
 .center_bacgraund {
   background-image: url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&h=350");
+}
