@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
 }
@@ -9,12 +10,38 @@
 }
 .aukstis-300 {
     min-height: 300px;
+  }
+
+header, .logo-big {
+    height: 122px;
 }
-.aukstis-400 {
-    min-height: 400px;
+
+.logo-small {
+   height: 28px;
 }
-.aukstis-500 {
-    min-height: 500px;
+
+li {
+    list-style-type: none;
+    padding: 15px;
+  }
+
+h1 {
+text-align: center;
+}
+
+.aukstis {
+    height: 110px;
+   }
+
+.fonas {
+    background: url("img/Estonian_forest_reasons_to_visit_Sven_Zacek.jpg");
+    background-size: auto;
+}
+
+#mygtukas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .foto {
   background-repeat: no-repeat;
@@ -55,4 +82,10 @@
 }
 .footer-nav {
 
+}
+
+.foto-centre {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
