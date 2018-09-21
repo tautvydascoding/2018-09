@@ -1,8 +1,41 @@
 h1 {
-    color: red;
+    color: rgb(19, 16, 110);
+    text-align: center;
+    padding-top: 20px;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
+li {
+display: inline;
+width: 70px;
+padding: 20px;
+
+}
+p {
+padding: 5px;
+
+}
+.logo{
+  width: 150px;
+  height: auto;
+}
+.tekstas2{
+/* align-items: center;
+justify-content: center; */
+align-self: flex-end;
+}
+.background{
+  background-image: url("https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+.foto_desine{
+/* position: absolute; */
+
+}
 
 .aukstis-100 {
     min-height: 100px;
