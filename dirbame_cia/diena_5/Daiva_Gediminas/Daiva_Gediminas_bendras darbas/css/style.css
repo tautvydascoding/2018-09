@@ -1,0 +1,17 @@
+.foto{
+float: right;
+margin-right: -20px;
+}
+.main {
+  background-color: lightblue;
+}
+/* .header{
+height: 100px;
+}
+.tekstas{
+float: left;
+}  */
+ .rounded-circle{
+    width: 200px;
+    height: 200px;
+  }
