@@ -1,21 +1,22 @@
-h1 {
-    color: red;
+.div1 {
+  height: 100%;
+  background-image: url("http://www.sportima.lt/uploads/images/Gallery/Futbolo-aikstele/HL9G2127_galerija.jpg");
 }
+.antras1 {
+  height: 100%;
+}
+.col1 {
+  height: 200px;
+  }
+.col4 {
+  height: 100%;
+}
+  .col2antraste {
+    height: 100%;
+}
+.mygtukas {
 
-
-
-.aukstis-100 {
-    min-height: 100px;
+  height: 50px;
 }
-.aukstis-200 {
-    min-height: 200px;
-}
-.aukstis-300 {
-    min-height: 300px;
-}
-.aukstis-400 {
-    min-height: 400px;
-}
-.aukstis-500 {
-    min-height: 500px;
-}
+.center_bacgraund {
+  background-image: url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&h=350");

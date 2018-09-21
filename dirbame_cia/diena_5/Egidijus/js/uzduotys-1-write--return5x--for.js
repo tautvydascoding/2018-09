@@ -6,6 +6,7 @@
 
 
 
+
 //==============TEKSTO ISVEDIMAS (tik susipazinti)=========
 // UZDUOTIS
 // Issimeginti komandas:
@@ -48,6 +49,14 @@
 // parasyti f-ja "getVardas()", kuri turi "return" zodeli ir grazina varda i iskveitimo vieta.
 // sukurti kintamaji "vardas" Tomas
 // patikrinti ar veikia f-ja
+
+function getVardas () {
+  var vardas = "Tomas";
+  return vardas;
+}
+getVardas();
+
+
 
 // 3 UZDUOTIS
 // parasyti f-ja "getVardasPavarde()", kuri turi "return" zodeli ir grazina varda ir pavarde i iskveitimo vieta.
