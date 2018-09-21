@@ -11,6 +11,7 @@
 .ad-right {
   background: url("../img/ad-2.jpg") no-repeat center center;
   background-size: cover;
+}
 
 h1 {
     color: rgb(19, 16, 110);
@@ -43,9 +44,11 @@ padding: 5px;
 justify-content: center; */
 align-self: flex-end;
 }
+
 .background{
   background-image: url("https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
 }
+
 .foto_desine{
 /* position: absolute; */
 
