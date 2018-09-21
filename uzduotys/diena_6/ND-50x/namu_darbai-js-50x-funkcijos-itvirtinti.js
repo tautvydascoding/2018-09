@@ -1,38 +1,51 @@
 
 // UZDUOTIS =======ismokti f-jas 50x===============
-// A) sukurti kintamaji "vardas" Tomas
-// B) sukurti 50 f-ju.
-// nelyginiu (1,3,5,...) funkciju pavadinimai getVardas1(), getVardas3(), ...
-// nelygines f-jos turi "return" ir iskvietus turi grazinti varda ir jo skaiciu salia pvz: "Tomas1"
-// lyginiu (2,4,6,8...) funkciju pavadinimai setVardas2(name), setVardas4(name), ...
-// lygines f-jos turi pakeisti varda ir uzdeti skaiciu salia
-// NOTE: visas f-jas iskviesti
+// Aptrasymas) sukurti 30 getVardas ir 30 setVardas(x) f-ju. Jas iskviesti eiles tvarka "maisant" poruojant pvz:
+// setVardas1("Antanas");
+// getVardas1();
+// setVardas2("Juozas");
+// getVardas2();
+// A) sukurti (gloabalu) kintamaji pvz:
+//      var vardas =  "Tomas";
+// B) sukurti 20-30 f-ju:  getVardas1(), getVardas2(), getVardas3(), ...getVardas30()
+// kurios  turi "return" ir iskvietus f-ja ji  grazina varda ir prideti skaiciu salia  pvz: "Tomas1", Antanas22, Juozas33
+// B) sukurti 20-30 f-ju:   setVardas1(name), setVardas2(name), ... setVardas30(name),...
+// kurios   turi pakeisti varda ir prideti skaiciu salia
+// C) visas f-jas iskviesti
 // pvz.:
 var vardas = "Tomas";
 // 1
+function setVardas1(name) {
+   vardas = name + "1";
+}
+setVardas1("Tomas"); // sugalvoti vis kita zodi
+
 function getVardas1() {
   return vardas + "1";
 }
 var x = getVardas1();   // arba  console.log(  getVardas1() );
-console.log(  x );
+console.log(  x );     // isveda: Tomas11
 
-// 2
+// 2 ------------
 function setVardas2(name) {
-   vardas = name + "2";
+    vardas = name + "2";
 }
 setVardas2("antanas"); // sugalvoti vis kita zodi
 
-// 3
-function getVardas3() {
-  return vardas + "3";
+function getVardas2() {
+    return vardas + "2";
 }
-x =  getVardas3();  // arba  console.log(  getVardas3() );
-console.log(  x );
+x =  getVardas2();     
+console.log(  x );  // isveda: antanas22
 
-// 4
-function setVardas4(name) {
-   vardas = name + "4";
+// 3---------------------
+function setVardas3(name) {
+    vardas = name + "3";
 }
-setVardas2("juozas"); // sugalvoti vis kita zodi
+setVardas3("juozas");            // sugalvoti vis kita zodi
 
-// 5
+function getVardas3(){
+    return vardas;
+}
+x =  getVardas3();
+console.log(  x );  // isveda: juozas33
