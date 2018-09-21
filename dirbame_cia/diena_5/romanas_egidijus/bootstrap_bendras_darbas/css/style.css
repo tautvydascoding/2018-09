@@ -1,21 +1,40 @@
-h1 {
-    color: red;
+.ad {
+  height: 500px;
+  position: relative;
+}
+
+.ad-left {
+  background: url("../img/ad-1.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.ad-right {
+  background: url("../img/ad-2.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.ad>button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%)
+}
+
+main>.row {
+  min-height: 300px;
 }
 
 
+/* TRANSITIONS */
 
-.aukstis-100 {
-    min-height: 100px;
+img {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
-.aukstis-200 {
-    min-height: 200px;
-}
-.aukstis-300 {
-    min-height: 300px;
-}
-.aukstis-400 {
-    min-height: 400px;
-}
-.aukstis-500 {
-    min-height: 500px;
+
+.gallery a img:hover {
+  transform: scale(1.03);
 }
