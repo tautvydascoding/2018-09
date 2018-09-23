@@ -11,7 +11,7 @@
 // 5. i masyva ideti papildomus duomenis: masinos metai "2004"
 
 // sunkesne:
-// html elemnetus: article, h2, ... susikurti su javascript/ innerHTML
+// html elementus: article, h2, ... susikurti su javascript/ innerHTML
 // 6. atspausdinti masyvo duomenis i ekrana:
 // <article>
 //      <h2> pavadinimas </h2>
