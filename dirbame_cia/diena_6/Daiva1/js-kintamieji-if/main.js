@@ -76,7 +76,7 @@ if (vardas1 == "Tomas" && vardas3 == "Karolis"){
 // 1 UZDUOTIS
 // turesime vartotojo amziu
 // var age = 24;
-// gapal ji, turesiem isvesti tam tikra reklamos teksta
+// pagal ji, turesiem isvesti tam tikra reklamos teksta
 
 
 // Salygos:
