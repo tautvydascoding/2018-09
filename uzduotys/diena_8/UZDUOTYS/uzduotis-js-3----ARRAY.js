@@ -6,6 +6,7 @@ names = ["Tomas", "Pietkus", 25, "VDU - inzinerija"];
 
 console.log(names);
 // UZDUOTIS; panaudoti masyvu Methods:
+
 // .length
 // .join()
 // .shift()
