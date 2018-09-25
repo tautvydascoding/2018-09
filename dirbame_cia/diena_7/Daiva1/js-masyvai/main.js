@@ -104,7 +104,7 @@ console.log(  "Labas pasauli"  );
 //
 //
 // // ==============================
-// // push[] - prideda elementa is masyvo
+// // push[] - prideda elementa i masyvo gala
 // // shift[] - atiduota pirma elementa ir ji isstumia is masyvo . Kitus elementus pastumia i kaire.
 // var pirmasElementas = a.shift();
 //
@@ -234,16 +234,19 @@ console.log(  "Labas pasauli"  );
  // arRodyti =   (galimi variantai true/ false)
  // vartotojoTipas =   "admin";
  // userName = "Tomas";
-var arRodyti = true;
-var vartotojoTipas = "admin";
-var userName = "Tomas";
-
-
-if ( vartotojoTipas == "admin"){
-console.log("labas Tomai");
-} else if (userName ) {
-  console.log("false");
-}
+// var arPrisijunges = true;
+// var vartotojoTipas = "admin";
+// var userName = "Tomas ";
+//
+//
+// if ( arPrisijunges){
+// console.log("sveiki" + userName);
+// }  if (vartotojoTipas == "admin" ) {
+//   console.log("esate administartorius");
+// }
+// else {
+//   console.log ( "esate neprisijunges");
+// }
 // 1.2) parasyti "if", kuris pagal kintamojo reiksme "arRodyti"  :  jeigu true isvestu : Labas Tomai
 // jeigu false isvestu : Sveiki
 
