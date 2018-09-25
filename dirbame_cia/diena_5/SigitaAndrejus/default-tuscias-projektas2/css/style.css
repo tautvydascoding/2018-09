@@ -1,4 +1,34 @@
+
+
+ul li {
+  float: left;
+  list-style-type: none;
+  margin: 30px;
+}
+.aukstis-300 {
+  min-height: 300px;
+}
+
+.sekcija1 {
+  display: flex;
+  align-items: flex-start;
+}
+.sekcija2{
+  display: flex;
+  align-items: center;
+}
+.sekcija3 {
+  display: flex;
+  align-items: flex-end;
+}
+.retroDviratis {
+  width: 250px;
+  align-content: center;}
+
+.dviratis {
+=======
 .paveiksliukas {
+>>>>>>> ed0b29e5631cc1f5ab6372d8eb428230a182b623
   background-color: #D3D3D3;
   min-height: 300px;
   margin-top: 2px;
@@ -26,6 +56,21 @@
 /* antra eilute nuotrauku */
 
 
+<<<<<<< HEAD
+.aukstis-100 {
+    min-height: 100px;
+>>>>>>> 43dffa1d951d8ac5861b05f5c8f087eb699a69a8
+}
+/* .kairen {
+  align-items: flex-start; */
+}
+.clearfix {
+  clear: both;
+  content: "";
+}
+.reklama:hover {
+  width: 75%;
+=======
 .triratis {
   display: flex;
   justify-content: space-between;
@@ -98,5 +143,20 @@ background-color: #DCDCDC;
 
 .sonbike {
   width: 80px;
-  height: 80px;
+  height: 80px;}
+>>>>>>> ed0b29e5631cc1f5ab6372d8eb428230a182b623
 }
+
+
+/* .tekstasKaire{
+
+width: 30%; */
+
+
+/* } */
+/* .straipsniai{
+  height: auto;
+  float: left;
+  background-color: rgb(228, 144, 145);
+  border: solid black 2px;
+} */

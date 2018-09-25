@@ -1,3 +1,17 @@
+
+* {
+  box-sizing: border-box;
+}
+.aukstis-100 {
+    min-height: 100px;
+}
+.aukstis-200 {
+    min-height: 200px;
+}
+.aukstis-300 {
+    min-height: 300px;
+  }
+
 header, .logo-big {
     height: 122px;
 }
@@ -28,6 +42,46 @@ text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.foto {
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.centruoti-antrastes {
+  text-align: center;
+}
+.mygtukas {
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+.tekstas-apacioje {
+  display: flex;
+  align-items: flex-end;
+}
+.tekstas-centre {
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+.bear-logo {
+  width: 100px;
+  height: 50px;
+  margin-left: -50px;
+}
+.logo-margin {
+  margin-left: 80px;
+  margin-top: -40px;
+}
+.footer-pic {
+  width: 130px;
+  height: 70px;
+  margin-top: -82px;
+  margin-right: -15px;
+}
+.footer-nav {
+
 }
 
 .foto-centre {
