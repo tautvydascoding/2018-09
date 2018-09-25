@@ -1,0 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
+.first, .second, .third, .forth, .fifth {
+    min-height: 200px;
+}
