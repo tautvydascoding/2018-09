@@ -34,7 +34,7 @@ text-align: center;
    }
 
 .fonas {
-    background: url("img/Estonian_forest_reasons_to_visit_Sven_Zacek.jpg");
+    background: url("../img/Estonian_forest_reasons_to_visit_Sven_Zacek.jpg");
     background-size: auto;
 }
 
@@ -77,7 +77,7 @@ text-align: center;
 .footer-pic {
   width: 130px;
   height: 70px;
-  margin-top: -82px;
+  margin-top: -172px;
   margin-right: -15px;
 }
 .footer-nav {

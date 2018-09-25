@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+.pirmas, .antras, .trecias, .ketvirtas, .penktas {
+    min-height: 200px;
+}
+
+.pilkas {
+    background-color: grey;
+}
+
+.melynas {
+    background-color: blue;
+}
+
+.zalias {
+    background-color: green;
+}
+
+.raudonas {
+    background-color: red;
+}
+
+.geltonas {
+    background-color: yellow;
+}
