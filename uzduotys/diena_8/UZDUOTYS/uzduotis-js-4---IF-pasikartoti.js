@@ -2,8 +2,12 @@
   
 // 3 UZDUOTIS
 
-// sukurti kintamuosius "arPrisijunges" (prie puslapio) "vartotojoTipas" (moderator, admin, subscriber), "userName"
+// 1) // sukurti kintamuosius:
+ // arRodyti =   (galimi variantai true/ false)
+ // vartotojoTipas =   "admin";
+ // userName = "Tomas";
 
-// parasyti koda, kuris patikris ar   vartotojas - sekmes atveju - pasisveikins su jo vardu.
+// 1.2) parasyti "if", kuris pagal kintamojo reiksme "arRodyti"  :  jeigu true isvestu : Labas Tomai 
+// jeigu false isvestu : Sveiki
 
-// Jeigu vartotojas adminas isves ir paveiksliuka i ekrana, jeigu subscriber - isves  paveiksliuka
+//  1.3 Jeigu vartotojo tipas 'admin': isvesti ne tik pasisveikinima, bet ir koki nors paveiksliuka 

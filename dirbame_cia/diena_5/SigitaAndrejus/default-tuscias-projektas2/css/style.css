@@ -25,10 +25,9 @@ ul li {
   width: 250px;
   align-content: center;}
 
-.dviratis {
-=======
+/* .dviratis {  ???? pataisyt*/
+
 .paveiksliukas {
->>>>>>> ed0b29e5631cc1f5ab6372d8eb428230a182b623
   background-color: #D3D3D3;
   min-height: 300px;
   margin-top: 2px;
@@ -56,10 +55,9 @@ ul li {
 /* antra eilute nuotrauku */
 
 
-<<<<<<< HEAD
+
 .aukstis-100 {
     min-height: 100px;
->>>>>>> 43dffa1d951d8ac5861b05f5c8f087eb699a69a8
 }
 /* .kairen {
   align-items: flex-start; */

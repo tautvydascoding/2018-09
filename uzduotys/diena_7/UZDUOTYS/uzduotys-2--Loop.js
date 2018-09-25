@@ -25,7 +25,7 @@
 
 // 2.3 UZDUOTIS
 // paleisti f-ja "printX(xx)" 12 kartu ir atspausdinti <img ...
-// skirtingius paveikslelius
+// 
 
 // 4 UZDUOTIS
 // A) sukurti f-jas piestiEilute(x); spausdintiStulpeli(x);
