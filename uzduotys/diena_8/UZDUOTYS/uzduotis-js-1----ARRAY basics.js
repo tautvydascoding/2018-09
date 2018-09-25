@@ -15,3 +15,9 @@
 	// 3.1  padaryti 3) uzdaviniui f-ja sukeistiMasyvo2elementus(x, y)
 
 	var prekiautojai = []; // empty array
+	prekiautojai[0] = "senukai";
+	prekiautojai[1] = "ikea";
+	prekiautojai[2] = "jusk";
+	prekiautojai[3] = "ermitazas";
+
+document.querySelector('h1').innerHTML += prekiautojai;
