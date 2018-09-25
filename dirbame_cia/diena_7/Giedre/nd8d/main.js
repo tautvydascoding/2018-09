@@ -53,8 +53,28 @@ var mLen = Math.max(masyvas1.length, masyvas2.length);
 
 for (var i = 0; i < mLen; i++) {
     masyvas3 += [masyvas1[i], masyvas2[i]] + ",";
+
 }
 document.querySelector('h1').innerHTML += masyvas3 + "<br>";
+
+
+
+// ************************************************************
+
+// // Gali buti ir taip:
+// masC[j] = masA[i];
+// j++;
+// masC[j] = masB[i];
+// j++;
+// // --------------
+// ARBA:
+
+// for (i = 0; index < masA.length; i++) {
+//     masC[i*2] = masA[i];
+// }
+// for (i = 0; index < masA.length; i++) {
+//     masC[i*2+1] = masB[i];
+// }
 
 
 // sunkesnis
@@ -71,3 +91,7 @@ for (var i = 0; i < len; i++) {
     newPrekes.unshift(t);
 }
 document.querySelector('h1').innerHTML += newPrekes;
+
+
+// // Gali buti ir taip:
+
