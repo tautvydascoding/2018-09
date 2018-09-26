@@ -125,11 +125,10 @@ if ( a <= 0.1) {
 }
 
 // random perkraut puslapi daug kartu ir iskrenta laimejimas
-var a = Math. floor(Math.random()*10)+1; // 1-10
+var a = Math.floor(Math.random()*10)+1; // 1-10
 var c =0;
 var l =0;
 function naujasSK(sk) {
-
   if ( a == sk) {
       document.querySelector("h2").innerHTML = "Laimejote Iphone!!!!!";
       l++;
