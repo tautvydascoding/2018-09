@@ -20,7 +20,7 @@
 // <ul>
 //     <li>Home</li>
 //     <li>About</li>
-//     <li classs='reklama'>Gallery</li>
+//     <li class='reklama'>Gallery</li>
 //     <li>Contact</li>
 // </ul>
 //        <input type="text" name="vardas" value="">
