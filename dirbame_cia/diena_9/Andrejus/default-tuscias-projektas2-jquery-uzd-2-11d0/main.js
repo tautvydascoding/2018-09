@@ -33,20 +33,7 @@ console.log(mas);
 // 3
 console.log("=============uzduotis================");
 
-function Mokinis(namen, surname, grade){
-  this.namen = name;
-  this.surname = surname;
-  this.grade = svoris;
-  this.mathGrade = mathGrade;
-  function mathGrade () {
-    console.log(6, 5, 9, 10, 8);
-  }
-}
-var mokinis = new Zmogus ("Jurgis", "Jurgauskas", 7);
-console.log(mokinis);
-var mass = [];
-mas.push(mokinis);
-console.log(mass);
+
 
 
 
