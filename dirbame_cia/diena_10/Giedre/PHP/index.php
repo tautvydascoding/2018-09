@@ -89,17 +89,43 @@ for ($i = 0; $i < 200; $i++) {
         <th>Pavardes eiles nr.</th>
     </tr>
 
-    <?php for ($i = 0; $i < 200; $i++) { ?>
-    <tr>
+    <?php for ($i = 0; $i < 200; $i++) {
+
+        include("include/LenteleVardaiPavardes.php");
+// psl tiesiog kazkoneatvaizduoja 
+// include_once("include/LenteleVardaiPavardes.php");
+//jeigu viena karta idejo, daugiau jo neikelines
+
+
+        // require("include/LenteleVardaiPavardes.php");
+//be jo psl negali veikti 
+// require_once jeigu viena karta idejo, daugiau jo neikelines
+
+ ?>
+
+    <!-- <tr>
         <td><?php echo $i+1; ?></td>
         <td><?php echo $duomenys[$i] ["vardas"]; ?></td>
         <td><?php echo $duomenys[$i] ["vardoEilNr"]; ?></td>
         <td><?php echo $duomenys[$i] ["pavarde"]; ?></td>
         <td><?php echo $duomenys[$i] ["pavardesEilNr"]; ?></td>
-    </tr>
+    </tr> -->
     <?php } ?>
 
 </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
