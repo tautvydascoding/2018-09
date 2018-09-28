@@ -14,7 +14,7 @@
     </head>
     <body>
 
-        <h1> Ziureti i console (inspect element)  </h1>
+        <input type="text" name="" value="">
 
 
 
