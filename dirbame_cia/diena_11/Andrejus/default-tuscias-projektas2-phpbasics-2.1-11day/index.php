@@ -16,6 +16,7 @@
 <body>
 
 <?php echo "================================uzduotis==================================================" ?>
+<br>
 <?php
 // <!--  Susikurti 2 failus:
 // preke.php
@@ -27,7 +28,33 @@
 // p (aprasymas)
 // button (Kaina) ?>
 
-<?php include("include/preke.php") ?>
+<?php // 2) sukurti index.php (ideti container ir row su bootatrap)
+// 2) index.php faile - paleisti FOR cikla 6 kartus include('preke.php');
+// 3) index.php
+// sukurti kintamuosius:
+// $kaina = ...;
+// $antraste = ...;
+// $aprasymas = ...;
+// 4) preke.php faile   isvesti kintamuosius $kaina, $antraste, $aprasymas
+// pvz
+// <h2> <?php echo $antraste;  </h2> ?>
+
+<?php include("preke.php") ?>
+
+<?php
+$kaina = 666 ;
+$antraste = "Antraste";
+$aprasymas = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+ ?>
+
+<div class="container">
+  <div class="row">
+    <?php for ($i = 0; $i < 6; $i++){
+     include("preke.php");
+    } ?>
+  </div>
+</div>
+
 
 
 
