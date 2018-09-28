@@ -56,12 +56,29 @@ console.log(masyvas);
 // if ( a <= 0.1) {
 //     console.log( "laimejai" );
 // }
+function atsitiktinisSk (min, max) {
+  return Math.floor (Math.random() * (max-min+1)) +min;
+}
+    var mas = [];
+    for (var i = 0; i < 60; i++) {
+    mas [i] = atsitiktinisSk (10,100);
+    var a = Math.random ();
+    if (a <= 0.1) {
+      mas [i] *= -1;
+    }
+}
+console.log(mas);
 
 
 
 
 // 3 UZDUOTIS:
 // visus skaicius paversti teigiamas (is masyvo parts)
+
+
+
+
+
 // 4 UZDUOTIS:
 // surasti geriausia darbuotoja
 // 5 UZDUOTIS:
