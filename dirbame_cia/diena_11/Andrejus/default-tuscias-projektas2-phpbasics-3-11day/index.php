@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="libs/bootstrap4/css/bootstrap.css">
 
   <!-- !!! mano CSS vissade zemiau -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="stylee.css">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -35,21 +35,39 @@
 
 // <img src='./img/<?php echo $x ? >' alt=''  />?>
 
-<div class="topnav">
+<!-- <div class="topnav">
   <a class="active" href="#home">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
-</div>
+  <a href="#news">About</a>
+  <a href="#contact">Gallery</a>
+  <a href="#about">Contact</a>
+  <a href="#about">Blog</a>
+</div> -->
+
+<?php $menu = ["home", "about", "gallery", "contact", "blog"] ?>
+<?php for($i = 0; $i < count($menu); $i++){ ?>
+<nav>
+  <ul>
+    <li>
+<?php echo $menu[$i]; ?>
+    </li>
+  </ul>
+</nav>
+<?php } ?>
+
+<?php echo "====================2uzd==============================" ?> <br>
+
+<?php $photo = ["dough", "bread", "muchWOW", "manyFaces", "nyan", "glases" ]; ?>
+
+<?php for( $i = 0; $i<count($photo); $i++) { ?>
+
+<img style="max-width: 25%; max-height: 100px; " src="./photo/<?php echo $photo[$i] ?>.jpg" alt="<?php echo $photo[$i] ?>">
 
 
 
+<?php
 
-
-
-
-
-
+if ($i == 2) echo "<br />";
+ } ?>
 
 
 
