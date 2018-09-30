@@ -18,7 +18,24 @@
 <?php echo "================================uzduotis==================================================" ?>
 <br>
 
+<?php include("straipsnis.php"); ?>
 
+<div> <?php echo $vardas, " ", $pavarde ?> </div>
+
+
+
+<div class="container">
+    <div class="row">
+        <main></main>
+    </div>
+    <div class="row">
+        <article>
+            <h2> <?php echo $straipsnis["antraste"]; ?> </h2>
+            <p> <?php echo $straipsnis["aprasymas"]; ?> </p>
+            <div> <?php echo $straipsnis["data"]; ?> </div>
+        </article>
+    </div>
+</div>
 
 
 

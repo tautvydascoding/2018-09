@@ -1,4 +1,8 @@
-<?php $vardas ?>
-<?php $pavarde ?>
+<?php
 
-<?php $straipsnis = ["antraste", "aprasymas", ] ?>
+$vardas = "Name";
+$pavarde = "LastName";
+
+$straipsnis = array('antraste' => 'BMW vel preleke saligatviu', 'aprasymas' => 'lorem lorem....', 'data' => '2010-12-01');
+
+?>
