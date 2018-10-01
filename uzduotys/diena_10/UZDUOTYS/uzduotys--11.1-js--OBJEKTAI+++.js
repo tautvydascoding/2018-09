@@ -5,7 +5,7 @@ var zmogus; // undefined
 
 //===========================================
 // 1 UZDUOTIS:
-// sukurti mokinio objekta: vardas, pavarde, kelintokas, mokinio matematikos pazymiai (6, 5, 9 , 10, 8)
+// sukurti mokinio objekta: vardas, pavarde, kelintokas, mokinio matematikos pazymiai (6, 5, 9, 10, 8)
 // (ir priskirti reiksmes pvz: 'Jurgis', "Jurgauskas", 7)
 
 // 1.1 UZDUOTIS

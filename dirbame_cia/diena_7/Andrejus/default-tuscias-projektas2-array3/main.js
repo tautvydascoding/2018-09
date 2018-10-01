@@ -125,7 +125,7 @@ for (var i = 0; i<50; i++) {
   }
 }
 console.log(skaicia);
-console.log("======5.1=======");
+console.log("======5.2=======");
 
 for (var i = 0; i<50; i++) {
   if (i % 5 == 4){
@@ -133,7 +133,7 @@ for (var i = 0; i<50; i++) {
   }
 }
 console.log(skaicia);
-console.log("=======5.2========");
+console.log("=======5.3========");
 // ================================
 // i = 0;
 // while (i <50) {
