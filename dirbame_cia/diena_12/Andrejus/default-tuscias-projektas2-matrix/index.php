@@ -128,7 +128,7 @@ $visosPrekes = [$preke1, $preke2, $preke3];
 for ($i=0; $i <count($visosPrekes) ; $i++) {
   ?>
   <h2><?php echo $visosPrekes[$i][0] ?></h2>
-  <img src="<?php echo $visosPrekes[$i][1] ?>" alt="nuotrauka">
+  <img src="<?php echo $visosPrekes[$i][1] ?>" alt="nuotrauka" style = "width: 300px">
   <p><?php echo $visosPrekes[$i][2]; ?></p>
   <button type="button" name="button"><?php echo $visosPrekes[$i][3]; ?></button>
 
