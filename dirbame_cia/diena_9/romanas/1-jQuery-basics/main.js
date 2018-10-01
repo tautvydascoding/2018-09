@@ -11,4 +11,7 @@ $(document).ready(function() {
   $("p:not(.slideUp)").click(function(){
     $(this).hide();
   });
+
+
+
 });
