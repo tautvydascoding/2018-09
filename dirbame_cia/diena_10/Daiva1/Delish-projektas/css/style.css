@@ -1,21 +1,29 @@
-h1 {
-    color: red;
+* body {
+      position: absolute;
+  }
+* box-sizing{
+  border-box;
+  }
+. fa fa-facebook-f{
+font-size:36px
 }
 
+.search{
+  float: right;
+}
 
-
-.aukstis-100 {
-    min-height: 100px;
+.navbar{
+  width: 20%;
+  position:relative;
+  float:left;
 }
-.aukstis-200 {
-    min-height: 200px;
+ul{
+  float:left;
 }
-.aukstis-300 {
-    min-height: 300px;
+.cleanfix{
+  char:both;
+  content:"";
 }
-.aukstis-400 {
-    min-height: 400px;
-}
-.aukstis-500 {
-    min-height: 500px;
-}
+.row1{
+  background-color: lightgreen;
+  }
