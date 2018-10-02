@@ -1,3 +1,4 @@
+
 .ad {
   height: 500px;
   position: relative;
@@ -51,7 +52,6 @@ align-self: flex-end;
 
 .background{
   background-image: url("https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-  position: relative;
 }
 
 .foto_desine{
@@ -59,11 +59,9 @@ align-self: flex-end;
 
 }
 
-.aukstis-100 {
-    min-height: 100px;
-}
-
-.ad>button {
+.mygtukas{
+  /* width: 50px;
+  margin-left: auto; */
   position: absolute;
   top: 50%;
   left: 50%;
@@ -71,22 +69,24 @@ align-self: flex-end;
   -moz-transform: translateX(-50%);
   -o-transform: translateX(-50%);
   transform: translateX(-50%)
+
+}
+.ads{
+  position: relative;
 }
 
-main>.row {
-  min-height: 300px;
+.aukstis-100 {
+    min-height: 100px;
 }
-
-
-/* TRANSITIONS */
-
-img {
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+.aukstis-200 {
+    min-height: 200px;
 }
-
-.gallery a img:hover {
-  transform: scale(1.03);
+.aukstis-300 {
+    min-height: 300px;
+}
+.aukstis-400 {
+    min-height: 400px;
+}
+.aukstis-500 {
+    min-height: 500px;
 }
