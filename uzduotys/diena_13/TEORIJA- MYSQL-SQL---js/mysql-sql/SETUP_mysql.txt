@@ -19,7 +19,9 @@ NOTE: jeigu issijungia, MAMP'e pasikeiskita portus i 80 arba su PrintScreen mygt
 !!! jeigu neveikia
 MAMP-> Preference -> PORTS
 Spaudziame pakeisti i 80 porta:  Set web & Mysql porsts to 80 ...
-
+arba
+perkrauti MAMP ir palaukti kol narsykleje automatiskai isijungs:
+ http://localhost/MAMP/
 
 
 //===========ARBA=========
