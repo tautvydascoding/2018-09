@@ -1,0 +1,10 @@
+#manoDiv {
+  height: 50vh;
+  width: 100vh;
+  border: 1px black solid;
+}
+section {
+  height: 50vh;
+ width: 100vh;
+ background-color: red;
+}

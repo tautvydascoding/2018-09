@@ -1,0 +1,208 @@
+* {box-sizing: border-box}
+body {
+  background-image: url("../galerija/mahdi-fathi-273014-unsplash.jpg");
+  width: 100%;
+  position: relative;
+}
+.nuotrauka {
+  max-width: 20%;
+  max-height: 150px;
+  border-style: double;
+  position: absolute;
+  right: 85%;
+}
+
+.nuotrauka2 {
+  max-width: 20%;
+  max-height: 150px;
+  border-style: double;
+  right: 85%;
+}
+
+/* sticky navigacija */
+
+
+/* Navbar links */
+/* #navbar ul li {
+  float: left;
+  display: inline-flex;
+  text-align: center; */
+  /* padding: 14px; */
+  /* text-decoration: none;
+} */
+
+/* Page content */
+/* .content {
+  padding: 16px;
+} */
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+/* .sticky {
+  position: fixed;
+  float: left;
+  top: 0;
+  width: 100%;
+} */
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+/* .sticky + .content {
+  /* padding-top: 60px; */
+/* } */
+/* hederio navigacija sticky baigiasi*/
+
+.header {
+  min-height: 100px;
+  position: relative;
+}
+
+ul li {
+  display: inline-flex;
+  margin: 5px;
+  list-style-type: none;
+}
+ .navigacija{
+display: inline;
+margin-right: 100px;
+ }
+
+.mygtukasMeniu {
+font-size: 12px;
+padding: 12px 28px;
+border-radius: 8px;
+margin-top: 10px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mygtukasMeniu:hover {
+  font-size: 12px;
+  padding: 12px 28px;
+  border-radius: 8px;
+  margin-top: 10px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  ;
+}
+.paieskosForma {
+  width: auto;
+  display: inline-flex;
+  float: right;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*  Iki cia headeris*/
+/* Kontaktai */
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+#contact{
+    /* background-color:#f1f1f1; */
+    font-family: sans-serif;
+}
+
+#contact .well{
+    margin-top:30px;
+    border-radius:0;
+    /* background-color: rgb(116, 125, 129); */
+}
+
+#contact .form-control{
+    border-radius: 0;
+    border:2px solid #1e1e1e;
+}
+
+#contact button{
+    border-radius:0;
+    border:2px solid #1e1e1e;
+}
+
+#contact .row{
+    margin-bottom:30px;
+}
+/* proceduros */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #ccc;}
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+/* kuponas */
+.container {
+    padding: 2px 16px;
+    background-color: #f1f1f1;
+}
+
+.promo {
+    background: #ccc;
+    padding: 3px;
+}
+
+.expire {
+    color: red;
+}
+.kuponai {
+  display: inline-block;
+}
+/* Footerio */
+a{
+	color:#26a5d3;
+}
+a:hover,a:focus{
+	text-decoration:none;
+	color:#26a5d3;
+}
+
+#contact{
+	background:#333333;
+	color:#f4f4f4;
+	padding-bottom:80px;
+}
+
+textarea.form-control{
+    height:100px;
+
+    /* ATSILIEPIMAI */
+}
+.clearBoth{
+  clear:both;
+  content: " ";
+}
+.straipsnis{
+  vertical-align: middle;
+}
+/* @media screen and (min-width: 320px) {
+  .nuotrauka {
+    visibility: hidden;
+  }} */
