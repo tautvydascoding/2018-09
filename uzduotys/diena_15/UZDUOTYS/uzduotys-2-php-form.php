@@ -1,4 +1,4 @@
-1. sukurti form'a naudojant metoda (GET) ir  su ivedimo laukais:
+1. index.php faile sukurti HTML form'a naudojant metoda (GET) ir  su ivedimo laukais:
  vardas, pavarde, telefonas, mygtukas 'registruotis'
 
 2. kai paspaudzia 'registruotis', vartotoja perkelti i registracija.php faila (formoje action='registracija.php')
