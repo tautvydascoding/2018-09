@@ -38,9 +38,9 @@ $("h1").html("<button> Registruotis </button>");
 //console.log("h1 <button>: " + oHTML);
 
 // Form'oje ivesti teksta uz vartotoja "val()"
-//$("form input").val("Type Username here");
+// $("form input").val("Type Username here");
 
-// $('form input').attr('value', 'Tomas');
+$('form input').attr('value', 'Tomas');
 // $('form input').attr('class', 'bg-info');
 //---JS ---
 

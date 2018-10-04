@@ -9,9 +9,6 @@ show tables;  -- parodo visas DB lenteles
 SELECT * FROM user;    -- issirenki duomenis, kuriuos nori surasti DB-je
 SELECT USER, PASSWORD, password_expired FROM user;
 
- CREATE USER 'tautvydas10'@'localhost' IDENTIFIED BY 'tratata'  PASSWORD EXPIRE NEVER;
-ALTER USER 'tautvydas7'@'localhost' PASSWORD EXPIRE NEVER;
- // tratata - spaltazodis
 
 " "
 ' '
@@ -20,19 +17,16 @@ ALTER USER 'tautvydas7'@'localhost' PASSWORD EXPIRE NEVER;
 
 
 
- GRANT ALL PRIVILEGES ON * . * TO 'tautvydas10'@'localhost' WITH GRANT OPTION;
+ -- tratata - spaltazodis
+ -- username - pas kai kuriuos negali tureti skaiciu!!!
+ CREATE USER 'tautvydas11'@'localhost' IDENTIFIED BY 'tratata'  PASSWORD EXPIRE NEVER;
+ ALTER USER 'tautvydas11'@'localhost' PASSWORD EXPIRE NEVER;
+ GRANT ALL PRIVILEGES ON * . * TO 'tautvydas11'@'localhost' WITH GRANT OPTION;
 
-
- // username - pas kai kuriuos negali tureti skaiciu!!!
- CREATE USER 'tautvydasDelete'@'localhost' IDENTIFIED BY 'tratata'    PASSWORD EXPIRE NEVER;
-GRANT ALL PRIVILEGES ON * . * TO 'tautvydasDelete'@'localhost' WITH GRANT OPTION;
 
  CREATE DATABASE  `hospital4`;
 
- CREATE DATABASE IF NOT EXISTS `ligonine4` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-
-
-
+ CREATE DATABASE IF NOT EXISTS `hospital4` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
 
 
 USER     IF NOT EXISTS
@@ -150,6 +144,17 @@ INSERT INTO doctors  VALUES  ('', 'Paul', 'Tor');
 INSERT INTO doctors  VALUES  ('', 'Jo', 'Oto');
 INSERT INTO doctors  VALUES  ('', 'Lili', 'Lekso');
 INSERT INTO doctors  VALUES  ('', 'Timy', 'So');
+
+	INSERT INTO patients  VALUES  (NULL, 'Marks', 'Jonh', '2');
+	INSERT INTO patients  VALUES  ('', 'Tom', 'Karlos', '2');
+	INSERT INTO patients  VALUES  ('', 'Aris', 'Tiedo', '1');
+	INSERT INTO patients  VALUES  ('', 'Tom', 'Kopo', '3');
+	INSERT INTO patients  VALUES  ('', 'Co', 'John', '1');
+	INSERT INTO patients  VALUES  ('', 'Tom', 'Naro', '5');
+	INSERT INTO patients  VALUES  ('', 'Lili', 'Jato', '4');
+
+
+
 //-------------patients---------------
 	INSERT INTO patients  VALUES  ('', 'Ari', 'Amon', '3');
 	INSERT INTO patients  VALUES  ('', 'Tim', 'Taros', '2');
