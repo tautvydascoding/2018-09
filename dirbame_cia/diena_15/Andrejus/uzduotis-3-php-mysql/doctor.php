@@ -12,17 +12,23 @@
     <body>
 
         <h1> Ziureti i console (inspect element)  </h1>
+
         <?php
 
-        include ("DB-functions.php");
+        include("DB-functions.php");
 
-        $numeris = 2;
+
+        $numeris = $_GET["x"];
         $gydytojas = getDoctor($numeris);
-        echo $gydytojas[1];
-        echo $gydytojas["name"];
+        // echo "<ul> <li class><p>$gydytojas[0]</li>  <li><p>$gydytojas[1]</li> <li><p>$gydytojas[2]</li></p> </ul>";
+        for ($i=0; $i < 1 ; $i++) {
+          echo "<a href=''>$gydytojas[2]</a>";
+        }
+// pabaigti kad butu pavarde paspausdimas ir paspaudus ismeta likusia info
 
 
-         ?>
+
+           ?>
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
