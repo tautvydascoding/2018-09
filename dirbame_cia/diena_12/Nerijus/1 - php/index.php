@@ -85,6 +85,13 @@
             echo "2 darbuotojas: ".$visiDarbuotojai[1][$i]. "<br>";
             echo "3 darbuotojas: ".$visiDarbuotojai[2][$i]. "<br>";
           }
+          echo "<br />";
+          for ($i=0; $i < count($visiDarbuotojai[0]); $i++) {
+            for ($j=0; $j < count($visiDarbuotojai[0]); $j++) {
+              echo "visi darbuotojai".$visiDarbuotojai[$j][$i]. "<br>";
+            }
+          }
+
         ?>
 
         <!-- Optional JavaScript -->

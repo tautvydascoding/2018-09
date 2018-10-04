@@ -27,7 +27,6 @@ elmAside.appendChild(elmText);
 //console.log(elmAside);
 
 // ! sukurti elementai - buna dar neideti i window  document html puslapi
-
 //=============
 //  objekto (Node) idejimas i HTML
 var elmH1 =  document.querySelector("h1");

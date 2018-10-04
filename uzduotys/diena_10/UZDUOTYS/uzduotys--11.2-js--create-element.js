@@ -1,7 +1,6 @@
 
 
 // 0. HTML faile  po H1 elementu  -  sukurti <aside> elementa
-
 // 1. naudojant javascript sukurti "header"  elementa  (document.createElment)
 // nepamirskite patestuot ar pavyko
 // console.log(  manoHeader );  // test
