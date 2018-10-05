@@ -1,0 +1,19 @@
+/* sitas komentaras bus ir css faile */
+.preke {
+  width: 24.9%;
+  color: #a2a2a2; }
+
+h2 {
+  font-size: 69px; }
+
+p {
+  background-color: #a3a3a3; }
+
+div {
+  color: red; }
+
+button {
+  color: blue; }
+
+div:preke {
+  color: red; }
