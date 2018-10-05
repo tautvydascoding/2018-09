@@ -13,34 +13,9 @@
     </head>
     <body>
 <!-- Navigation!! -->
-<nav class = "navbar navbar-expand-md navbar-light bg-light sticky-top" >
-  <div class="container-fluid">
-    <a href="#" class="navbar-brand"><img src="photo/logo-bg.png"  alt="logo without background" class="virsLogo"></a>
-    <button class="navbar-toggler" type="button" data-toggle= "collapse" data-target="#navbarResponcive" >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarResponcive">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Bikes</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Gallery</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contacts</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
+<?php
+include("nav.php")
+ ?>
 <!-- Carousel!!!!!! -->
 
 <div id = "slides" class="carousel slide" data-ride="carousel">
@@ -239,65 +214,25 @@
 
 <!-- conecting social media -->
 
-<div class="container-fluid padding">
-  <div class="row text-center padding">
-    <div class="col-12">
-      <h2>Conecting</h2>
-    </div>
-    <div class="col-12 social padding">
-      <a href="#"><i class="fab fa-facebook"></i></a>
-      <a href="#"><i class="fab fa-twitter"></i></a>
-      <a href="#"><i class="fab fa-google-plus-g"></i></a>
-      <a href="#"><i class="fab fa-instagram"></i></a>
-      <a href="#"><i class="fab fa-youtube"></i></a>
-    </div>
-  </div>
-</div>
+<?php 
+include("socialmd.php")
+
+ ?>
 
 <!-- footer -->
-<footer>
-<div class="container-fluid padding">
-  <div class="row text-center">
-    <div class="col-md-4">
-      <img src="photo/logo-bg.png" alt="logo">
-      <hr class="light">
-      <p>555-555-555</p>
-      <p>email@email.com</p>
-      <p>69 street name</p>
-      <p>State of city, 000000</p>
-    </div>
-    <div class="col-md-4">
-      <hr class="light">
-      <h5>wWorking hours</h5>
-      <hr class="light">
-      <p>Monday - Friday: 8:00-18:00</p>
-      <p>Saturday: 9:00 - 16:00</p>
-      <p>Sunday: Closed</p>
-    </div>
-    <div class="col-md-4">
-      <hr class="light">
-      <h5>wWorking hours</h5>
-      <hr class="light">
-      <p>State of city, 000000</p>
-      <p>State of city, 000000</p>
-      <p>State of city, 000000</p>
-      <p>State of city, 000000</p>
-    </div>
-    <div class="col-12">
-      <hr class="light-100">
-      <h5>&copy; youtube.com</h5>
-    </div>
-  </div>
+<?php
+include("footer.php")
 
-</div>
-</footer>
+
+
+ ?>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
         <script src=jquery/jquery.js> </script> <script type="text/javascript" src="main.js"> </script>
-        <script type="text/javascript"  src="main.js">      </script>
+        <script type="text/javascript"  src="js/mainjs.js">      </script>
 
     </body>
 </html>
