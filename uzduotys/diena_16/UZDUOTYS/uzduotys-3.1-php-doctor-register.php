@@ -8,15 +8,17 @@ include('db_functions.php');
 $vard = $_GET['vardas'];
 $parv = $_GET['pavarde'];
 createDoctor($vard, $parv);
-// 1.3. Narsykleje nueiti:
-//     localhost/ ... /naujasGydytojas.php
+// 1.3. Narsykleje nueiti (pamatysite klaida):
+    localhost/ ... /naujasGydytojas.php
+
 // 1.4. Narsykleje nueiti:
-//     localhost/ ... /naujasGydytojas.php?vard=TOMAS&parv=TOMAUSKIS
+    localhost/ ... /naujasGydytojas.php?vard=TOMAS&parv=TOMAUSKIS
 
 // 1.5 faile index.php
-// susikurti mygtuka"Naujas gydytojas" su "a" linku.
-// "a" linkas turi rodyti i :
-// naujasGydytojas.php?vard=TOMAS&parv=TOMAUSKIS
+// susikurti mygtuka "Naujas gydytojas" su "a" linku.
+// "a" linkas turi rodyti i :   naujasGydytojas.php?vard=TOMAS&parv=TOMAUSKIS
+// pvz:
+<a href='naujasGydytojas.php?vard=TOMAS&parv=TOMAUSKIS'> Kurti Nauja</a>
 
 
 
