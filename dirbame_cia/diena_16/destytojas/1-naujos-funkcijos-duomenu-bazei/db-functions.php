@@ -31,7 +31,7 @@
         return: array uzpildyta rastojo gydytojo duomenimis
     */
     function getDoctor($nr) {
-        $manoSQL = "SELECT * FROM doctors WHERE id = $nr";
+        $manoSQL = "SELECT * FROM doctors WHERE id = '$nr'  ";
         $resultai = mysqli_query(getPrisijungimas(),     $manoSQL);
         // mysqli_fetch_row - is rastu duomenu paima viena IR ideda ji i masyva
         $resultataiArray = mysqli_fetch_row($resultai);
@@ -71,4 +71,38 @@
     }
     // createDoctorILGESNE("test3", "test4");
 
-    //
+    // $nr - gydytojo id, kuris bus istrintas is DB
+    function  deleteDoctor( $nr) {
+        $nr = mysqli_real_escape_string( getPrisijungimas(), $nr);
+
+        $manoSQL = "DELETE FROM doctors
+                           WHERE id = '$nr';
+                   ";
+        $arPavyko = mysqli_query(getPrisijungimas(), $manoSQL);
+
+        if ($arPavyko == false && $arRodytiZinutes == true) {
+            echo "ERROR: nepavyko istrinti gydytojo $nr !!! <br />" . mysqli_error(getPrisijungimas());
+        }
+    }
+    // deleteDoctor(12);
+    // deleteDoctor(13);
+
+    /*
+        suranda gydytoja pagal id ir pakoreguoja jo varda, pavarde
+        $nr -koreguojamo gydytojo id is DB
+        $vardas - naujas vardas
+        $pavarde - nauja pavarde
+    */
+    function editeDoctor($nr, $vardas, $pavarde) {
+        $nr = mysqli_real_escape_string( getPrisijungimas(), $nr);
+        $vardas = mysqli_real_escape_string( getPrisijungimas(), $vardas);
+        $pavarde = mysqli_real_escape_string( getPrisijungimas(), $pavarde);
+
+        $manoSQL = "UPDATE doctors SET
+                                    name = '$vardas',
+                                    lname = '$pavarde'
+                                    WHERE id = '$nr'
+                    ";
+        mysqli_query(getPrisijungimas(), $manoSQL);
+    }
+    editeDoctor(3, "Ona", "Petrauskiene");
