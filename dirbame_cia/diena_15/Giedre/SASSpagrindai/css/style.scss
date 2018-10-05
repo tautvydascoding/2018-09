@@ -1,0 +1,44 @@
+// .scss failo galune
+
+// sitas komentaras isnyks
+/*  sitas komentaras bus CSS faile */ 
+
+//https://sass-lang.com/
+
+$pagrindineSpalva: #a2a2a2;
+$fonoSpalva: #f1f1f1;
+
+$prekesPlotis: 24.9%;
+
+.preke {
+    background-color: $pagrindineSpalva;
+    weight: $prekesPlotis;
+    h2, div {
+    background-color: $fonoSpalva;
+    }
+}
+
+
+
+
+h1 {
+    color: red;
+}
+
+
+
+.aukstis-100 {
+    min-height: 100px;
+}
+.aukstis-200 {
+    min-height: 200px;
+}
+.aukstis-300 {
+    min-height: 300px;
+}
+.aukstis-400 {
+    min-height: 400px;
+}
+.aukstis-500 {
+    min-height: 500px;
+}
