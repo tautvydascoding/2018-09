@@ -56,10 +56,19 @@
 
 
     function createDoctorILGESNE($vardas, $pavarde) {
+        // SAUGUMAS:  uzkoduoja spec. simbolius "  ' \n \t < >
+        $vardas = mysqli_real_escape_string( getPrisijungimas(), $vardas);
+        $pavarde = mysqli_real_escape_string( getPrisijungimas(), $pavarde);
+
         $manoSQL = "INSERT INTO doctors
                            VALUES (NULL, '$vardas', '$pavarde')
                     ";
-        mysqli_query( getPrisijungimas(),   $manoSQL);
+        $arPavyko = mysqli_query( getPrisijungimas(),   $manoSQL);
+        // if ( !$arPavyko && $arRodytiZinutes) {
+        if ($arPavyko == false && $arRodytiZinutes == true) {
+            echo "ERROR: nepavyko sukurti gydytojo !!! <br />" . mysqli_error(getPrisijungimas());
+        }
     }
+    // createDoctorILGESNE("test3", "test4");
 
     //
