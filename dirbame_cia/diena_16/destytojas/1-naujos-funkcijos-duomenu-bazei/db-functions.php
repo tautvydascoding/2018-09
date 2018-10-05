@@ -121,12 +121,12 @@
         $resultsOBJEKTAS = mysqli_query(getPrisijungimas(), $manoSQL);
         return $resultsOBJEKTAS; // !! cia Ne masyvas
     }
-    // PVZ.:
-    $visiGydytojaiNeMasyvas = getDoctors( 5 );
-    // !!!! mysqli_fetch_assoc - paima VIENA eilute DB ir pavercia i ARRAY
-    $gydytojasArray = mysqli_fetch_assoc($visiGydytojaiNeMasyvas);
-
-    while ($gydytojasArray) { // tikrina ar array pilnas
-        echo $gydytojasArray['name'] .  $gydytojasArray['lname'] . "<br />";
-        $gydytojasArray = mysqli_fetch_assoc($visiGydytojaiNeMasyvas);
-    }
+    // PVZ. 5-kiu gydytoju isvedimas:
+    // $visiGydytojaiNeMasyvas = getDoctors( 5 );
+    // // !!!! mysqli_fetch_assoc - paima VIENA eilute DB ir pavercia i ARRAY
+    // $gydytojasArray = mysqli_fetch_assoc($visiGydytojaiNeMasyvas);
+    //
+    // while ($gydytojasArray) { // tikrina ar array pilnas
+    //     echo $gydytojasArray['name'] .  $gydytojasArray['lname'] . "<br />";
+    //     $gydytojasArray = mysqli_fetch_assoc($visiGydytojaiNeMasyvas);
+    // }
