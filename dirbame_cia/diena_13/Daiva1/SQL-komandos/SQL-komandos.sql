@@ -68,3 +68,10 @@ UPDATE patients SET doctor_id = 4
 SELECT doctors.1name
        FROM doctors
        INNER JOIN patients ON patients.doctor_id = doctors.id AND patients.name = "Mark";
+
+
+-- +++++++++++++++++++++++++
+INSERT INTO img pavadinimas VALUES (NULL, "salad_1.jpg", 1, );
+INSERT INTO img pavadinimas VALUES (NULL, "salad_2.jpg", 2,  );
+INSERT INTO img pavadinimas VALUES (NULL, "salad_3.jpg", 3, );
+INSERT INTO img pavadinimas VALUES (NULL, "salad-4.jpg", 4, );
