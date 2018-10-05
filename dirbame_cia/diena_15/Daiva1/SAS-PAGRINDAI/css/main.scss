@@ -1,0 +1,35 @@
+//.scss
+ //sitas komentaras isnyks ir css faile nebus
+ /* sitas komentaras bus ir css faile */
+
+$pagrindineSpalva :#a2a2a2;
+$fonoSpalva : #a3a3a3;
+$prekesPlotis : 24.9%;
+
+.preke{
+  width: $prekesPlotis;
+  color: $pagrindineSpalva;
+}
+h2{
+  font-size: 69px;
+}
+p {
+
+  background-color: #a3a3a3;
+
+}
+
+
+div {
+  color:red;
+
+
+}
+button {
+  color: blue;
+}
+div:preke {
+  color:red;
+
+
+}
