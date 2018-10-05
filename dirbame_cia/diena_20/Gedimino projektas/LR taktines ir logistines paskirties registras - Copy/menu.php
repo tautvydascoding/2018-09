@@ -13,11 +13,10 @@
   </head>
 
   <body>
-    <?php include_once("footer.php"); ?>
 
 
       <header class="menu">
-        <h2 class="hedas text-center"><font color="white">LR TLPTP REGISTRAS</font></h2>
+        <h2 class="hedas"><font color="white">LR TLPTP REGISTRAS</font></h2>
             <a href="indexx.php">
                 <button type="button" class="btn btn-success exit">Atsijungti</button>
 
@@ -71,6 +70,13 @@
 
 
 
+
+
+
+
+
+
+
   </div>
     </div>
-      </div>
+  </div>
