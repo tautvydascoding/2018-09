@@ -2,6 +2,7 @@
 // 1) sukurti masyva : 1981, 1980, 1975, 1995, 1999
 // 1.1) atspausdinti masyva naudojant FOR cikla, While cikla ir FOREACH cikla
 // 1.4 Atspausdinti kas antra data
+// 1.4 Atspausdinti kas trecia data
 // 1.5 Atspasudinti visas datas nuo 3-cios (iskaitant 3-cia)
 
 
