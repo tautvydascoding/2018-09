@@ -22,7 +22,7 @@
 
   			<div>LR TLPTP<span>  REGISTRAS</span></div>
   		</div>
-  		<br>
+  		  <br>
 
   		<div class="login">  <!--Prisijungimas -->
 
@@ -32,11 +32,11 @@
 
   		</div>
       <div class="tekst">
-        <h6>Tik autorizuoti asmenys turi teisę prisijungti prie REGISTRO, tai yra asmenys kuriems yra sukurta REGISTRO naudotojo sąskaita - paskirtas prisijungimo vardas bei slaptažodis.</h6>
+          <h6>Tik autorizuoti asmenys turi teisę prisijungti prie REGISTRO, tai yra asmenys kuriems yra sukurta REGISTRO naudotojo sąskaita - paskirtas prisijungimo vardas bei slaptažodis.</h6>
       </div>
 
 
-    
+
 
 
 
