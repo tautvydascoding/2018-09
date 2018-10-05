@@ -1,0 +1,44 @@
+// .scss
+//   sitas komentaras isnyks ir CSS faile nebus
+
+/*   sitas komentaras bus CSS faile  */
+$pagrindineSpalva : #a2a2a2;
+$fonoSpalva : #f1f1f1;
+$prekesPlotis : 24.9%;
+
+.preke{
+    width: $prekesPlotis;
+    color: $pagrindineSpalva;
+    h2{
+        font-size: 60px;
+    }
+    p {
+        background-color: $fonoSpalva;
+    }
+}
+p {
+
+}
+
+
+h1 {
+    color: red;
+}
+
+
+
+.aukstis-100 {
+    min-height: 100px;
+}
+.aukstis-200 {
+    min-height: 200px;
+}
+.aukstis-300 {
+    min-height: 300px;
+}
+.aukstis-400 {
+    min-height: 400px;
+}
+.aukstis-500 {
+    min-height: 500px;
+}
