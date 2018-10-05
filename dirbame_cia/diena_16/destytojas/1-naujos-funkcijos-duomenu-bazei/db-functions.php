@@ -105,4 +105,28 @@
                     ";
         mysqli_query(getPrisijungimas(), $manoSQL);
     }
-    editeDoctor(3, "Ona", "Petrauskiene");
+    // editeDoctor(3, "Ona", "Petrauskiene");
+
+
+
+    /*
+        is DB paima visus (arba nurodyta skaiciu) gydytojus
+        $kiekis - kiek paimti gydytoju (jeigu kiekis nenurodomas, paima visus)
+    */
+    function getDoctors($kiekis = 999999) {
+         $kiekis = mysqli_real_escape_string( getPrisijungimas(), $kiekis);
+        $manoSQL = "SELECT * FROM doctors
+                             ORDER BY id DESC
+                             LIMIT $kiekis ";
+        $resultsOBJEKTAS = mysqli_query(getPrisijungimas(), $manoSQL);
+        return $resultsOBJEKTAS; // !! cia Ne masyvas
+    }
+    // PVZ. 5-kiu gydytoju isvedimas:
+    // $visiGydytojaiNeMasyvas = getDoctors( 5 );
+    // // !!!! mysqli_fetch_assoc - paima VIENA eilute DB ir pavercia i ARRAY
+    // $gydytojasArray = mysqli_fetch_assoc($visiGydytojaiNeMasyvas);
+    //
+    // while ($gydytojasArray) { // tikrina ar array pilnas
+    //     echo $gydytojasArray['name'] .  $gydytojasArray['lname'] . "<br />";
+    //     $gydytojasArray = mysqli_fetch_assoc($visiGydytojaiNeMasyvas);
+    // }
