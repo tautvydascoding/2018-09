@@ -28,7 +28,15 @@
 
   				<input type="text" placeholder="Prisijungimo vardas" name="Prisijungimo vardas"><br>
   				<input type="password" placeholder="Slaptažodis" name="Slaptažodis"><br>
-  				<input type="button" value="Prisijungti">
+
+          <a href="menu.php">
+          <input type="button" value="Prisijungti">
+          </a>
+
+
+
+
+
 
   		</div>
       <div class="tekst">
