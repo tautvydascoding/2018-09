@@ -9,3 +9,6 @@
 
 // 4. Narsykleje  pakeisti zodi "tekstas" i koki nors kitoki
 // 4.1 istaisyti klaidas index.php faile
+
+
+  
