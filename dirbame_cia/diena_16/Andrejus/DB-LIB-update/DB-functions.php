@@ -106,11 +106,11 @@ function getDoctors($kiekis){
   return $resultsOBJEKTAS; //Cia ne masyvas
 }
 // NOTE: PVZ:
-$visiGydytojaiNeMasyvas = getDoctors(5);// jei yra skaiciu tiek ir daktaru grazins.
-//// NOTE: mysqli_fetch_assoc - paima viena eilute DB ir pavercia i array
-$gydytojasArray = mysqli_fetch_assoc($visiGydytojaiNeMasyvas);
-while ($gydytojasArray) { // tikrina ar array pilnas
-  echo $gydytojasArray['name'].$gydytojasArray['lname']."<br />";
-  $gydytojasArray = mysqli_fetch_assoc($visiGydytojaiNeMasyvas);
-}
+// $visiGydytojaiNeMasyvas = getDoctors(5);// jei yra skaiciu tiek ir daktaru grazins.
+// //// NOTE: mysqli_fetch_assoc - paima viena eilute DB ir pavercia i array
+// $gydytojasArray = mysqli_fetch_assoc($visiGydytojaiNeMasyvas);
+// while ($gydytojasArray) { // tikrina ar array pilnas
+//   echo $gydytojasArray['name'].$gydytojasArray['lname']."<br />";
+//   $gydytojasArray = mysqli_fetch_assoc($visiGydytojaiNeMasyvas);
+// }
 // assoc komanta paima stalciu pavdinimus kaip id name lname ir pan.
