@@ -214,7 +214,7 @@ include("nav.php")
 
 <!-- conecting social media -->
 
-<?php 
+<?php
 include("socialmd.php")
 
  ?>
