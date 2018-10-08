@@ -152,13 +152,14 @@ function createDoctorILGESNE($vardas, $pavarde) {
       $resultsOBJEKTAS = mysqli_query(getPrisijungimas(), $manoSQL);
       return $resultsOBJEKTAS; //!!cia Ne masyvas
     }
-    $visiGydytojaiNeMasyvas = getDoctors (3);
+    $visiGydytojaiNeMasyvas = getDoctors (2);
     //$Ggydytojas - tai masyvas
     //!!! mysqli_flech_assoc -- paima VIENA eilute is DB  ir pavercia i ARRAY (masyva)
     $gydytojas = mysqli_fetch_assoc ($visiGydytojaiNeMasyvas);
     while ($gydytojas) { //tikrina ar array pilnas
-    //  echo $gydytojas["name"] . $gydytojas["lname"] . "<br />";
+    //echo $gydytojas["name"] . $gydytojas["lname"] . "<br />";
       // code...
-      $gydytojas = mysqli_fetch_assoc ($visiGydytojaiNeMasyvas); // pakartojus uzbaigia isvedima pagal kieki jei ne tai suksis be galo ratu ir ves ta pati is naujo...
-    }
+      //$gydytojas = mysqli_fetch_assoc ($visiGydytojaiNeMasyvas); // pakartojus uzbaigia isvedima pagal kieki jei ne tai suksis be galo ratu ir ves ta pati is naujo...
+      }
+
     //---------visu gyditoju pabaiga----------------------------
