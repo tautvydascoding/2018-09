@@ -1,0 +1,50 @@
+* body{
+/
+}
+.jumbotron{
+  text-align: center;
+  background: url(../foto/bg_img_2.jpg);
+  background-size: cover;
+  height: 55vh;
+  padding-top: 10%;
+  border-radius: 8;
+}
+.jumbotron{
+  color: #fff;
+}
+.main{
+  padding-top: 5%;
+
+}
+.nav-item{
+  line-height: 45px;
+}
+.card-section{
+  padding: 5%;
+}
+.img-section-first,.img-section-second, .text-section{
+  height: 43vh;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.img-section-first{
+  background: url(../foto/yogurt.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img-section-second{
+  background: url(../foto/party.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blog{
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+.footer{
+  background-color: black;
+  pading-top: 10px;
+  text-align: center;
+  height: 100px;
+}
