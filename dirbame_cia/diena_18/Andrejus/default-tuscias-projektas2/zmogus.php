@@ -11,47 +11,52 @@
     </head>
     <body>
 
-        <h1> Ziureti i console (inspect element)  </h1>
 
-        <?php
-        // UZDUOTIS 1:
-        // sukurti  klase: 'zmogus'
-        // zmogus turi: public ugis, public vardas
-        // f-ja 'einu()', kuri daro echo "Einu einu..."
-        class zmogus {
-          public $ugis = -1;
-          public $vardas = "Bevardis";
+      <?php
+      require("class.php");
 
-        public function __construct($vardas, $ugis) { //function tarpas ir du underscorai (__)
-          $this->vardas = $vardas;
-          $this->ugis = $ugis;
-        }
+      $Petras = new Zmogus ();
+      $Petras->setUgis(210);
+      $Petras->setUgis(205);
+      $Petras->setUgis(195);
+      echo $Petras->getUgis();
 
-        public function eiti() {
-          echo $this->vardas." ". "eina!!!!!";
-        }
-
-        }
-$monika = new zmogus ("Monika", 177);
-$tadas = new zmogus("Tadas", 195);
-$kestas = new zmogus("Kestas", 180);
-
-echo " ".$monika->vardas." ". $monika->ugis." ".$monika->eiti();
-echo "<br />";
-echo $tadas->vardas." ".$tadas->ugis;
-echo "<br />";
-echo $kestas->vardas." ".$kestas->ugis;
-        // UZDUOTIS 2:
-        // susikurti  objektus: Monika, Tadas, Kestas
-
-        // UZDUOTIS 2.1
-        // Atspausdinti varda ir ugi
-        // paleisti f-ja 'einu()'
+    echo $Petras->manoVardas()." ". $Petras->manoUgis();
+    $Angele = new Zmogus(178, "Angele");
+    echo $Angele->getUgis();
 
 
 
+    // UZDUOTIS 1:
+    // sukurti  klase: 'zmogus'
 
-        ?>
+    // zmogus turi:
+    // private ugis,
+    // private vardas
+    // public f-ja 'getManoUgis()'
+    // public f-ja 'getManoVardas()'21
+    // public f-ja 'setManoUgis($x)'
+    // public f-ja 'setManoVardas($x)'
+    // kintamojo paemimas f-je:    $this->vardas
+
+
+    // UZDUOTIS 2.1
+    // susikurti  objektus: Petras
+
+    // UZDUOTIS 2.2
+    // Atspasudinti varda ir ugi naudojant
+    // f-ja 'manoUgis()'
+    // f-ja 'manoVardas()'
+
+
+    // UZDUOTIS 3:
+    // susikurti konstruktoriu
+
+    // UZDUOTIS 3.1:
+    // susikurti  objektus: Monika, Tadas, Jurgis (naudojant konstruktoriu)
+
+      ?>
+
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->

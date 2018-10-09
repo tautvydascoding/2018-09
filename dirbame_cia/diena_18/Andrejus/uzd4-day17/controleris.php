@@ -11,47 +11,27 @@
     </head>
     <body>
 
-        <h1> Ziureti i console (inspect element)  </h1>
+      <?php
+      require("vilkas.php");
 
-        <?php
-        // UZDUOTIS 1:
-        // sukurti  klase: 'zmogus'
-        // zmogus turi: public ugis, public vardas
-        // f-ja 'einu()', kuri daro echo "Einu einu..."
-        class zmogus {
-          public $ugis = -1;
-          public $vardas = "Bevardis";
+      $Volas = new Vilkas();
+      echo $Volas->svoris . 180;
+      echo "<br />";
 
-        public function __construct($vardas, $ugis) { //function tarpas ir du underscorai (__)
-          $this->vardas = $vardas;
-          $this->ugis = $ugis;
-        }
+      echo $Volas->tipas . "mielas";
+      echo "<br />";
 
-        public function eiti() {
-          echo $this->vardas." ". "eina!!!!!";
-        }
+      // echo $Volas->ligos = "fainos";
+      // echo "<br />";
 
-        }
-$monika = new zmogus ("Monika", 177);
-$tadas = new zmogus("Tadas", 195);
-$kestas = new zmogus("Kestas", 180);
-
-echo " ".$monika->vardas." ". $monika->ugis." ".$monika->eiti();
-echo "<br />";
-echo $tadas->vardas." ".$tadas->ugis;
-echo "<br />";
-echo $kestas->vardas." ".$kestas->ugis;
-        // UZDUOTIS 2:
-        // susikurti  objektus: Monika, Tadas, Kestas
-
-        // UZDUOTIS 2.1
-        // Atspausdinti varda ir ugi
-        // paleisti f-ja 'einu()'
+      echo $Volas->pusryciai ;
+      echo "<br />";
 
 
 
+       ?>
 
-        ?>
+
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
