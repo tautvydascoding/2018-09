@@ -1,7 +1,7 @@
-Vartotojui paspaudus "registruotis" mygtuka - ivestus duomenis issaugoti DB.
+UZDUOTIS: Vartotojui paspaudus "registruotis" mygtuka - ivestus duomenis issaugoti DB.
 
-SUkurti gydytoju registracijos  forma (pvz: registracija.php )
-Vartotojui paspaudus "registruotis" mygtuka - vartotoja perkelti i registracija.php faila (HINT: action='registracija.php')
+1. SUkurti gydytoju registracijos  forma (pvz: registracija.php )
+1.2. Vartotojui paspaudus "registruotis" mygtuka - vartotoja perkelti i registracija.php faila (HINT: action='registracija.php')
 
-registracija.php faile:
-   Duomenis paimkite is $_GET ir perduokite i   createDoctor(....) f-ja, taip jums sukurs gydytoja 
+1.3. registracija.php faile:
+   Duomenis paimkite is $_GET ir perduokite i   createDoctor(....) f-ja, taip jums sukurs gydytoja
