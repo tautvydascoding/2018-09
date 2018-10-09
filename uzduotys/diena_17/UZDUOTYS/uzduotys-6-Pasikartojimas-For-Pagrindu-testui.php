@@ -1,14 +1,14 @@
 // ---- -PASIKARTOJIMAS PROGRAMAVIMO PAGRINDU TESTUI-----
 // 1) sukurti masyva : Tomas, Jurgis, Petras, Angele, Paulius
-// 1.1) atspausdinti masyva naudojant FOR cikla, While cikla ir FOREACH cikla
-// 1.4 Atspausdinti kas antra  
-// 1.4 Atspausdinti kas trecia  
-// 1.5 Atspasudinti viska nuo 2-cios (iskaitant 2-cia)
+// 1.1) atspausdinti masyva naudojant FOR cikla, While  cikla
+// 1.4 Atspausdinti kas antra  (naudojant i+=2; )
+// 1.4 Atspausdinti kas trecia
+// 1.5 Atspasudinti viska nuo 2-cios (iskaitant 2-tra)
 
 
 // 2) sukurti matrica:
 // Dviratis, 199, 3vnt
-// Paspirtukas, 100, 4vnt  
+// Paspirtukas, 100, 4vnt
 // Riedlente, 49, 12vnt
 // 2.0) atspausdinti su FOR ciklu
 // 2.1) atspausdinti su FOR ciklu
