@@ -135,6 +135,14 @@ color: #222;
   height: 150px;
 }
 
+/* business cards */
+.card-img-top {
+  height: 500px;
+}
+.card-img-top-temp {
+  width:90%
+}
+
 /* business card pataisyt */
 /* connect section */
 .social a {
@@ -210,9 +218,13 @@ hr.light-100 {
 .linkssh:hover {
   color: #8c8c8c;
 }
-
 /* road bikes */
 
+/* galerry img */
+.galimg {
+  width: 300px;
+  height: 200px;
+}
 /* Media queries */
 
 @media (max-width: 1024px) {

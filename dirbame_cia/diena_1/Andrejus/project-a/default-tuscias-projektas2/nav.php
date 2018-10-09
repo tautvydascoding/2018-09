@@ -1,6 +1,6 @@
 <nav class = "navbar navbar-expand-md navbar-light bg-light sticky-top" >
   <div class="container-fluid">
-    <a href="index.php" class="navbar-brand"><img src="photo/smallogo.png"  alt="logo without background" class="virsLogo"></a>
+    <a href="main.php" class="navbar-brand"><img src="photo/smallogo.png"  alt="logo without background" class="virsLogo"></a>
     <button class="navbar-toggler" type="button" data-toggle= "collapse" data-target="#navbarResponcive" >
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -10,7 +10,7 @@
           <a class="nav-link" href="main.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About us</a>
+          <a class="nav-link" href="about-us.php">About us</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Bikes</a>
@@ -24,7 +24,7 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Gallery</a>
+          <a class="nav-link" href="gallery.php">Gallery</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Contacts</a>
