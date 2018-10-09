@@ -19,7 +19,7 @@ include("nav.php")
  <div class="container-fluid padding mount">
    <div class="row text-center padding mount">
 <?php
-include("db/DB-mtbike.php");
+include_once("db/DB-mtbike.php");
 for ($i=1; $i < 13; $i++) {
   $mountain = getmtBike($i);
  ?>
