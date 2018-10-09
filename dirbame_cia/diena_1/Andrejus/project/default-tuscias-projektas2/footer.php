@@ -2,7 +2,7 @@
 <div class="container-fluid padding">
   <div class="row text-center">
     <div class="col-md-4">
-      <img src="photo/logo-bg.png" alt="logo">
+      <img class = "flogo" src="photo/smallogo.png" alt="logo">
       <hr class="light">
       <p>555-555-555</p>
       <p>email@email.com</p>
@@ -11,7 +11,7 @@
     </div>
     <div class="col-md-4">
       <hr class="light">
-      <h5>wWorking hours</h5>
+      <h5>Working hours</h5>
       <hr class="light">
       <p>Monday - Friday: 8:00-18:00</p>
       <p>Saturday: 9:00 - 16:00</p>
@@ -19,7 +19,7 @@
     </div>
     <div class="col-md-4">
       <hr class="light">
-      <h5>wWorking hours</h5>
+      <h5>Working hours</h5>
       <hr class="light">
       <p>State of city, 000000</p>
       <p>State of city, 000000</p>
