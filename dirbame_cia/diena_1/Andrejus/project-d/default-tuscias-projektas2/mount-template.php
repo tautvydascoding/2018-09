@@ -19,16 +19,16 @@
       include("nav.php");
       include("db/DB-mtbike.php");
       ?>
+      <div class="container-fluid padding mount">
+        <div class="row text-center padding mount">
 
       <?php
 
       $numeris = $_GET['ID'];
       $mountain = getmtBike($numeris);
-      
+
       ?>
 
-      <div class="container-fluid padding mount">
-        <div class="row text-center padding mount">
           <div class="col-xs-12 col-sm-6 col-md-4 ">
             <h1><?php echo $mountain[2] ?></h1>
             <img src="photo/<?php echo $mountain[1]; ?>" alt="mountain" class="mtbikes">

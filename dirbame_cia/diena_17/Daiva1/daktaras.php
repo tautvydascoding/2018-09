@@ -1,29 +1,31 @@
 <?php
-class daktaras{
+class daktaras {
+	public $id;
+	public $name;
+	public $lname;
 
-  public $id;
-  public $name;
-  public $i1name;
+	private $result;
 
+	public function getDoctor($id){
+		$qry = "SELECT * FROM doctors WHERE id = $id";
+		$this->result = mysqli_query(getPrisijungimas(), $qry);
+		return $this->next();
+	}
 
-private $rezult;
-public function getDoctor($id){
-  $qry = "SELECT * FROM doctors Where id = $id";
-  $rezultatai = mysqli_query(getPrisijungimas(),   $qry );
-if ($rezultataiArray = mysqli_fetch_)
+	public function getAll(){
+		$qry = "SELECT * FROM doctors";
+		$this->result = mysqli_query(getPrisijungimas(), $qry);
+	}
+
+	public function next(){
+		if ($resultataiArray = mysqli_fetch_assoc($this->result)) {
+      $this->id = $resultataiArray["id"];
+			$this->name = $resultataiArray["name"];
+			$this->lname = $resultataiArray["1name"];
+			return true;
+		}
+	}
 }
 
-}
-public function getAll(){
-$qry = "SELECT * FROM doctors";
-$this->rezult = mysql_query($getPrisijungimas (),    $qry);
-}
-public function next (){
 
-  
-
-  }
-}
-
-
- ?>
+?>

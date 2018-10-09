@@ -12,11 +12,6 @@
 
 </html>
 </div>   <!--  container end -->
-<!-- footer section -->
-
-<!-- <div class="go-to-top-parent"><a href="#" class="go-to-top"><span><i class="fa fa-angle-up"></i><br>Grįžti į puslapio viršų</span></a></div>
-</div> -->
-
 
 <!-- footer naujas -->
 

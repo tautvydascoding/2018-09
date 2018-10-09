@@ -16,11 +16,14 @@
 
         <h1> Ziureti i console (inspect element)  </h1>
 
-<?php
-require_once()
-require_once()
- ?>
+        <?php
+        require_once("db-functions.php");
+        require_once("daktaras.php");
 
+      
+        include("main.php");
+
+        ?>
 
 
 

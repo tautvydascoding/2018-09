@@ -10,7 +10,7 @@ include("carousel.php");
 <div class="container main  text-center">
   <h2> Sekite mus INSTAGRAM </h2>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-  <button class="btn btn-success btn-lg" href="https://www.facebook.com/pg/delishgeromaistobistro/about/" >Sekite mus</button>
+  <button class="btn btn-success btn-lg" href="https://www.facebook.com/delishgeromaistobistro" >Sekite mus</button>
        <!-- Image section -->
   <div class="row mt-3 card-section">
     <div class="col-md-4 ">
