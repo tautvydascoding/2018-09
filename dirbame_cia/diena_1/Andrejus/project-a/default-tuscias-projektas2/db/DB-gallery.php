@@ -5,7 +5,7 @@ define("DB_VARTOTOJAS", "root"); //user_name
 define("DB_SLAPTAZODIS", "root"); // password
 define("DB_HOST", "localhost");
 
-$prisijungimas = mysqli_connect( DB_HOST, DB_VARTOTOJAS, DB_SLAPTAZODIS, DB_PAVADINIMAS);
+$prisijungimas = mysqli_connect( DB_HOST, DB_VARTOTOJAS, DB_SLAPTAZODIS, DB_PAVADINIMAS); mysqli_set_charset($prisijungimas, "utf8");
 if ($prisijungimas) {
   //echo "Prisijunge sekmingai prie DB <br />";
 } else {
