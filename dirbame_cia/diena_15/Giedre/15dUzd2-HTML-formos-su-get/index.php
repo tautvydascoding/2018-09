@@ -40,7 +40,7 @@ pvz.: print_r( $GLOBALS)
     <input type="text" name = "tel" placeholder="Jusu telefono nr." title="Pavarde privaloma!" pattern=".{9,}" ><br />
     <!-- required ideti -->
     <!-- //tas pats rezultatas:           -->
-    <input type="submit" name="" value="registruotis"><br />
+    <!-- <input type="submit" name="" value="registruotis"><br /> -->
     <button type="submit" name="button">Registruotis</button><br />
 </form>
 <!-- patikrinimai langeliu http://html5pattern.com/Passwords -->

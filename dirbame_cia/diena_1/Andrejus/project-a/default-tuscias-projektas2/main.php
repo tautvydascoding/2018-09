@@ -145,7 +145,7 @@ include("nav.php")
   </div>
 </div>
 
-<!-- susipazinkit su komenda -->
+<!-- susipazinkit su komanda -->
 
 <div class="container-fluid padding">
   <div class="row welcome text-center">
@@ -159,37 +159,25 @@ include("nav.php")
 
 <div class="container-fluid padding">
   <div class="row padding">
+    <?php
+    include("db/DB-athlete.php");
+    for ($i=1; $i < 4; $i++) {
+      $athlete = getAthlete($i);
+     ?>
     <div class="col-md-4">
       <div class="card">
-        <img class="card-img-top" src="photo/Capture.PNG" alt="">
+        <img class="card-img-top" src="photo/<?php echo $athlete[6]; ?>" alt="">
         <div class="card-body">
-          <h4 class="card-title">Andrejus I.</h4>
-          <p class="card-text">so much lorem...so much lorem...so much lorem...so much lorem...so much lorem...so much lorem...</p>
-          <a href="#" class="btn btn-outline-secondary">See the profile</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="card">
-        <img class="card-img-top" src="photo/Capture1.PNG" alt="">
-        <div class="card-body">
-          <h4 class="card-title">Tom Waits</h4>
-          <p class="card-text">so much lorem...so much lorem...so much lorem...so much lorem...so much lorem...so much lorem...</p>
-          <a href="#" class="btn btn-outline-secondary">See the profile</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="card">
-        <img class="card-img-top" src="photo/Capture2.PNG" alt="">
-        <div class="card-body">
-          <h4 class="card-title">Antanas petras</h4>
-          <p class="card-text">so much lorem...so much lorem...so much lorem...so much lorem...so much lorem...so much lorem...</p>
-          <a href="#" class="btn btn-outline-secondary">See the profile</a>
+          <h4 class="card-title"><?php echo $athlete[1]. " ".$athlete[2] ; ?></h4>
+          <p class="card-text"><?php echo $athlete[4]; ?></p>
+          <a href="athlete-template.php?ID=<?php echo $i;?>" class="btn btn-outline-secondary">See the profile</a>
         </div>
       </div>
     </div>
 
+    <?php
+    }
+     ?>
   </div>
 
 </div>
