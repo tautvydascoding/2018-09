@@ -20,18 +20,4 @@ deleteDoctor(32);
 // 2.3. Narsykleje nueiti:
 //    localhost/ ... /trintiGydytoja.php
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  ?>
