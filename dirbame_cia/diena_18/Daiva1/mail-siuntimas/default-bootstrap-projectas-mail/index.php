@@ -21,15 +21,18 @@
 
         <h1>Isijunk konsole</h1>
 
-<form class="form" action= "siusti e-mail.php" metthod="get">
+        <form class="form" action="siusti-email.php" method="get">
+            <label for="vardas"> Jusu vardas </label>
+            <input type="text" name="vardas" value="">   <br />
 
+            <label for="pastas"> Jusu el. Pastas </label>
+            <input type="email" name="pastas" value="">  <br />
 
-  <input type="text" name="vardas" value=""> ; </br>
-  <input type="text" name="e-mail" value="">; </br>
-  <textarea type="text" name="klausimas" value="" row="8" cols="80"> </textarea>; </br>
-  <button type="button" name="button">Klausti</button>; </br>
+            <textarea name="klausimas" rows="8" cols="80">   </textarea> <br />
 
-</form>
+            <button type="submit" name="button">   Klausti  </button>
+        </form>
+
 
         <!-- js puslapio apacioje -->
         <script src="http://code.jquery.com/jquery-3.3.1.min.js"  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
