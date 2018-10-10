@@ -27,7 +27,7 @@
           <a class="nav-link" href="#">Galerija</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#Blogas">Blogas</a>
+          <a class="nav-link" href="#blogas">Blogas</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="https://www.facebook.com/delishgeromaistobistro/">Meniu</a>

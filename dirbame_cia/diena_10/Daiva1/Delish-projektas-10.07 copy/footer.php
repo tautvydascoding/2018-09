@@ -11,18 +11,24 @@
 </body>
 
 </html>
-</div>   <!--  container end -->
+</div>
+<!--  container end -->
 <!-- footer section -->
-
-<!-- <div class="go-to-top-parent"><a href="#" class="go-to-top"><span><i class="fa fa-angle-up"></i><br>Grįžti į puslapio viršų</span></a></div>
-</div> -->
-
-
-<!-- footer naujas -->
+<!-- footer  -->
 
 <footer>
 <div class="container-fluid padding">
-
+<div class="row">
+<div class="col-md-4">
+  facebook
+</div>
+<div class="col-md-4">
+  instagram
+</div>
+<div class="col-md-4">
+  wolt
+</div>
+</div>
     </div>
     <div class="row  ">
     <hr class="light" >
@@ -32,5 +38,5 @@
     </div>
   </div>
 
-</div>
-</footer>
+ </div>
+ </footer>
