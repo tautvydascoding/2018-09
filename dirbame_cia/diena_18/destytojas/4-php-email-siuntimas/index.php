@@ -21,8 +21,10 @@
 
     <label for="pastas"> Jusu el. Pastas </label>
     <input type="email" name="pastas" value="">  <br />
-    
+
     <textarea name="klausimas" rows="8" cols="80">   </textarea> <br />
+
+    <input type="text" name="id" value="4" hidden>
 
     <button type="submit" name="button">   Klausti  </button>
 </form>
