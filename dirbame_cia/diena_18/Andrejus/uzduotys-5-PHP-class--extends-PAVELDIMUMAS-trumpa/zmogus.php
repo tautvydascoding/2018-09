@@ -16,9 +16,13 @@ class Zmogus {
     public function getUgis() {
       return $this->ugis;
     }
-    
-}
 
+
+    public function getPusryciai(){
+      return $this->pusryciai;
+    }
+}
+//atsikopint is destytojo.
 
 
 // UZDUOTIS 0.

@@ -10,7 +10,7 @@ class Vyras  extends Zmogus {
       return $this->testosteronas;
     }
 function printVyroDuomenys() {
-  
+  echo $objVyras->getPusryciai();
 }
 
 
