@@ -3,7 +3,6 @@
 // UZDUOTIS 1:
 // sukurti  abstrakcia klase 'Pagrindai'
 // kuri turi kintamaji:  ratai = 4
-// kuri turi kintamaji:  durys = 5
 //   sukurti abstrakcia f-ja: vaziuoti($x)
 //   sukurti abstrakcia f-ja: sutoti()
 
@@ -11,6 +10,7 @@
 // sukurti klase   'Automobilis'
 //   sukurti  f-ja: atidarytiDuris($x)
 //  sukurti kintamasis: liukas = true;
+//  sukurti kintamasis: pavadinimas = "Audi";
 
 // UZDUOTIS 2.1
 // paveldeti klase:  Pagrindai
