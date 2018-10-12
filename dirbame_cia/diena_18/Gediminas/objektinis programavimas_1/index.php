@@ -16,30 +16,42 @@
 
         <h1> Ziureti i console (inspect element)  </h1>
 
-        <?php
-        // UZDUOTIS 1.3:
-// su kokiu nors ciklu atspausdinti VISUS gydytojus
-// <h2 class='bg-info   m-1'> vardas pavarde</h2>
 
-            //include_once  -- neleis antra kart ikelti include
-          include ("db-funcion_destytojo.php"); //jau destytojo pasinaudojom funcija tik pasinaudojom nuoroda kad rasyti nereikia
-          $gydytojas = getDoctor (20); //suranda gdytoja DB
-          //print_r  ($gydytojas)
-          //iskvietimas su for ciklu kad atspauzdintu
-          for ($i=10; $i <25 ; $i++) {
-            $gydytojas = getDoctor ( $i ); //is DB paima gydytoja
-            include ("template-item.php"); //paimtas nuoroda is to failo
-            //echo $gydytojas[0] . " " . $gydytojas[1] . " " . $gydytojas[2] ;
-              // $gydytojas[1] nedeti tarpeliu tarp $gydytojas ir [1]
+<?php
 
+// UZDUOTIS 1:
+// sukurti  klase: 'zmogus'
+// zmogus turi: public ugis, public vardas
+// f-ja 'einu()', kuri daro echo "Einu einu..."
 
-          }
+// UZDUOTIS 2:
+// susikurti  objektus: Monika, Tadas, Kestas
 
-        ?>
+// UZDUOTIS 2.1
+// Atspausdinti varda ir ugi
+// paleisti f-ja 'einu()'
 
+   class Zmogus {
+   public $ugis = -1;
+   public $vardas = 'Bevardis';
 
+   public function einu () {
+     echo "Einu einu...";
+   }
+}
 
+$Moteris = new Zmogus ();
+$Vyras1 = new Zmogus ();
+$Vyras2 = new Zmogus ();
 
+$Moteris->vardas = "Monika";
+$Vyras1->vardas = "Tadas";
+$Vyras2->vardas = "Kestas";
+echo "Vardas yra: $Moteris->vardas <br />";
+echo "Vardas yra: $Vyras1->vardas <br />";
+echo "Vardas yra: $Vyras2->vardas <br />";
+
+?>
 
 
 

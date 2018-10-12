@@ -1,0 +1,30 @@
+h1 {
+    color: red;
+}
+
+.aukstis-20 {
+  height: 20px;
+
+}
+
+
+
+.aukstis-100 {
+  height: 300px;
+
+}
+.aukstis-60 {
+    height: 110px;
+}
+.aukstis-200 {
+    min-height: 200px;
+}
+.aukstis-300 {
+    min-height: 300px;
+}
+.aukstis-400 {
+    min-height: 400px;
+}
+.aukstis-500 {
+    min-height: 500px;
+}

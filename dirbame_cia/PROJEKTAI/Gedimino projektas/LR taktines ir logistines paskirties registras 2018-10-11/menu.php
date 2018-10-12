@@ -14,7 +14,7 @@
 
   <body>
     <?php include_once("footer.php");
-
+          include_once("db-funcion.php");
 
      ?>
 
@@ -22,7 +22,7 @@
 
       <header class="menu">
         <h2 class="hedas text-center"><font color="white">LR TLPTP REGISTRAS</font></h2>
-            <a href="index.php">
+            <a href="indexx.php">
                 <button type="button" class="btn btn-success exit">Atsijungti</button>
 
             </a>
@@ -35,16 +35,22 @@
         <a href="admin.php">
         <button type="button" class="btn btn-secondary align mygtp ">Transporto priemonės</button
         </a>
-        <a href="valdytojas.php">
+        <a href="admin.php">
+          <button type="button" class="btn btn-secondary align mygtp ">Operaciju žurnalas</button>
+        </a>
+        <a href="admin.php">
+          <button type="button" class="btn btn-secondary align mygtp mygtp">Archyvų tvarkimas</button>
+        </a>
+        <a href="admin.php">
           <button type="button" class="btn btn-secondary align mygtp">TP valdytojas</button>
         </a>
-        <a href="tp_naudotojas.php">
+        <a href="admin.php">
           <button type="button" class="btn btn-secondary align mygtp">TP naudotojai</button>
         </a>
-        <a href="tp_marke.php">
+        <a href="admin.php">
           <button type="button" class="btn btn-secondary align mygtp">TP markė</button>
         </a>
-        <a href="">
+        <a href="admin.php">
           <button type="button" class="btn btn-secondary align mygtp">TP modeliai</button>
         </a>
         <a href="admin.php">
