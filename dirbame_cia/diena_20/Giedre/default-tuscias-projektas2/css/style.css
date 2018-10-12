@@ -1,0 +1,25 @@
+
+
+.aukstis-20 {
+    min-height: 20px;
+}
+.aukstis-100 {
+    min-height: 100px;
+}
+.aukstis-200 {
+    min-height: 200px;
+}
+.aukstis-150 {
+    min-height: 150px;
+}
+.aukstis-300 {
+    min-height: 239px;
+}
+.aukstis-500 {
+    min-height: 500px;
+}
+
+.dydis {
+    margin-left: -15px;
+    padding-left: 4px;
+}
