@@ -29,7 +29,7 @@ try {
     $mail->isSMTP();                                      // Set mailer to use SMTP
 
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
-    $mail->Username = 'testascoding@gmail.com';                 // SMTP username
+    $mail->Username = 'pastaskurioneneaudoju@gmail.com';                 // SMTP username
     $mail->Password = 'slaptazodis';                 // SMTP slaptazodis
   // -------iki cia -----------------
 

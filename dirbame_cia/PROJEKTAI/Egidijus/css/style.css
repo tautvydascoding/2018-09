@@ -1,0 +1,110 @@
+*{
+font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  color: blue;
+  padding-bottom: 60px;
+}
+
+/* video pradzia*/
+
+/* .header_video{
+  object-fit: fill ;
+} */
+
+/* header video {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  min-width: 80%;
+  min-height: 70%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+} */
+
+/* header .container {
+  position: relative;
+  z-index: 2;
+} */
+
+
+
+
+/* video pabaiga */
+
+/* img{
+  margin: 0;
+  vertical-align: baseline;
+} */
+
+p{
+  text-indent: 50px;
+  padding: 15px;
+}
+
+.registracija{
+min-height: 400px;
+width: 400px;
+
+}
+.registracija_d{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foto_pradinis{
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
+}
+.foto_pradinis1{
+  margin-left: 20px;
+}
+.foto_pradinis2{
+  margin-right: 20px;
+}
+
+.mygtukai_meniu {
+    margin-right: 3px;
+}
+
+.aukstis-150{
+  min-height: 150px;
+}
+.aukstis-200{
+  min-height: 200px;
+
+}
+.aukstis-350{
+  min-height: 350px;
+}
+.aukstis-500{
+  min-height: 500px;
+}
+
+.aukstis-700{
+  min-height: 700px;
+}
+
+.aukstis-250{
+  min-height: 250px;
+}
+
+
+
+
+/* @media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+} */
