@@ -1,0 +1,498 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600i,700,900');
+/* html, body{
+  height: 100%;
+}
+body {
+			background-image: url(../photo/side-bike.jpg) ;
+			background-position: center center;
+			background-repeat:  no-repeat;
+			background-attachment: fixed;
+			background-size:  cover;
+			background-color: #999;
+/* making a background picture */
+/* ======================================================= */
+html, body {
+  height: 100%;
+  width: 100%;
+font-family: 'Fira San', sans-serif;
+color: #222;
+}
+
+.navbar {
+  padding: .4rem;
+  position: relative;
+
+  /* 1 rem is 16 px */
+}
+.virsLogo {
+  height: 90px;
+  width: 210px;
+}
+.navbar-nav li {
+  padding-right: 30px;
+}
+
+.dropl {
+  display: none;
+  position: absolute;
+  list-style-type: none;
+  background-color: #fff;
+  border-radius: 0px 0px 4px 4px;
+}
+.nav-item:hover .dropl {
+  display: block;
+}
+
+.nav-link {
+  font-size: 1.1em !important;
+}
+
+/* carousel */
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+  /* sumazinti paveiksliukus pacius */
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.carousel-caption h1 {
+  font-size: 500%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+}
+.carousel-caption h3 {
+  font-size: 200%;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #000;
+  padding-bottom: 1rem;
+}
+
+.btn-primary {
+  background-color: #6648b1;
+  border: 1px solid #6648b1;
+}
+.btn-primary:hover {
+  background-color: #563d7c;
+  border: 1px solid #563d7c;
+}
+
+/* jumbotron */
+
+.jumbotron {
+  padding: 1rem;
+  border-radius: 0;
+}
+/* welcome */
+.padding {
+  padding-bottom: 2rem;
+}
+
+.welcome {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.welcome hr {
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+.fa-code {
+  color: #e54d26;
+}
+.fa-bold {
+  color: #563d7c
+}
+.fa-css3 {
+  color: #2163af;
+}
+
+.fa-code, .fa-bold, .fa-css3 {
+  font-size: 4em;
+  margin: 1rem;
+}
+
+.fun {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.gif {
+  width: 400px;
+}
+.gif {
+  max-width: 150%;
+}
+
+.whatl {
+  width: 300px;
+  height: 150px;
+}
+
+/* business cards */
+.card-img-top {
+  height: 500px;
+}
+.card-img-top-temp {
+  width:90%
+}
+
+/* business card pataisyt */
+/* connect section */
+.social a {
+  font-size: 4.5rem;
+  padding: 3rem;
+}
+
+.fa-facebook {
+  color: #3b5998;
+}
+.fa-twitter {
+  color: #00aced;
+}
+.fa-google-plus-g {
+  color: #dd4b39
+}
+.fa-instagram {
+  color: #507fa4;
+}
+.fa-youtube {
+  color: #bb0000;
+}
+
+.fa-facebook:hover, .fa-twitter:hover, .fa-google-plus-g:hover, .fa-instagram:hover, .fa-youtube:hover {
+color: #d5d5d5;
+}
+/* footer!!! */
+footer {
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding-top: 2.5rem;
+}
+.flogo {
+height: 100px;
+width: 250px;
+}
+
+hr.light {
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+
+footer a {
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding-top: 2rem;
+}
+
+hr.light-100 {
+  border-top: 1px solid #d5d5d5;
+  width: 100%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+  padding-top: 20px;
+}
+/* mountain bikes */
+.mount {
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+}
+.mtbikes {
+  width: 250px;
+  height: 150px;
+  padding-top: 10px;
+}
+
+.linkssh{
+  color: #1a1a1a;
+}
+.linkssh:hover {
+  color: #8c8c8c;
+}
+/* road bikes */
+
+/* galerry img */
+.galimg {
+  width: 300px;
+  height: 200px;
+}
+
+/* contact button */
+.marginus {
+  margin-top: 25px;
+}
+
+.submiting {
+  width: 100px;
+  height: 45px;
+  border: none;
+  background: steelblue;
+  color: white;
+}
+.submiting:hover {
+  color: #a2b9bc;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.tarpelis {
+  margin-top: 5px;
+}
+/* login template */
+
+.loginb {
+  margin: 0;
+  padding: 0;
+  background-image: url(../photo/login-logo-pic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+.loginbox {
+width: 320px;
+height: 420px;
+background: #000;
+color: #fff;
+top: 50%;
+left: 50%;
+position: absolute;
+transform: translate(-50%, -50%);
+box-sizing: border-box;
+padding: 70px 30px;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -15%;
+  right: 30%;
+}
+
+.heading {
+  margin: 0;
+  padding: 0;
+  text-align:center;
+  font-size: 22px;
+}
+
+.loginbox p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+.loginbox input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.loginbox input[type='text'], input[type='password'] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+.loginbox input[type='submit'] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #fb2525;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.loginbox input[type='submit']:hover {
+  cursor: pointer;
+  background: #ffc107;
+  color:#000;
+}
+.loginbox a{
+  text-decoration: none;
+  font-size:12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+.loginbox a:hover {
+  color: #ffc107;
+}
+/* signup form */
+.boxing {box-sizing: border-box}
+/* Full-width input fields */
+  .modal-content input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+.modal-content input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+.signbut {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.signbut:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+.linija {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+/* Media queries */
+
+@media (max-width: 1024px) {
+  .social a {
+    font-size: 4em;
+    padding: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .carousel-caption {
+    top: 45%;
+  }
+  .carousel-caption h1 {
+    font-size: 350%;
+
+  }
+  .carousel-capton h3 {
+    font-size: 140%;
+    font-weight: 300;
+    padding-bottom: 0.2rem;
+  }
+  .carousel-caption .btn {
+    font-size: 95%;
+    padding: 8px 14px;
+  }
+  .display-4 {
+    font-size: 200%;
+  }
+  .social a {
+    font-size: 2.5em;
+    padding: 1.2em;
+  }
+}
+@media (max-width: 320px){
+.carousel-caption {
+  top: 40%;
+}
+.carousel-caption h1 {
+  font-size: 250%;
+
+}
+.carousel-capton h3 {
+  font-size: 100%;
+}
+.carousel-caption .btn {
+  font-size: 85%;
+  padding: 4px 8px;
+}
+.carousel-indicators {
+  display: none;
+}
+.display-4 {
+  font-size: 150%;
+}
+.social a {
+  font-size: 2em;
+  padding: .6em;
+}
+}
