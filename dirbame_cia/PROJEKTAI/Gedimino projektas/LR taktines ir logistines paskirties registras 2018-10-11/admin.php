@@ -1,5 +1,5 @@
 <?php include_once("menu.php");
-
+      include_once("db-funcion.php");
 
  ?>
 
@@ -7,7 +7,7 @@
 <br><br>
 
 <a href="user_print.php">
-<button type="button" class="btn btn-secondary">Naudotojai</button>
+<button type="button" class="btn btn-secondary">Paieška</button>
 </a>
 
 <a href="new_user.php">

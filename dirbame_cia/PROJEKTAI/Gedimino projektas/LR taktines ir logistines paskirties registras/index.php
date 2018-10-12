@@ -7,36 +7,41 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="libs/bootstrap4/css/bootstrap.css">
 
-        <!-- !!! mano CSS vissade zemiau -->
+        <!-- !!! mano CSS visada zemiau -->
         <link rel="stylesheet" href="css/style.css">
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
 
-        <h1> Ziureti i console (inspect element)  </h1>
 
-        <?php
-        // UZDUOTIS 1.3:
-// su kokiu nors ciklu atspausdinti VISUS gydytojus
-// <h2 class='bg-info   m-1'> vardas pavarde</h2>
+      <div class="body"></div> <!--bacground -->
 
-            //include_once  -- neleis antra kart ikelti include
-          include ("db-funcion_destytojo.php"); //jau destytojo pasinaudojom funcija tik pasinaudojom nuoroda kad rasyti nereikia
-          $gydytojas = getDoctor (20); //suranda gdytoja DB
-          //print_r  ($gydytojas)
-          //iskvietimas su for ciklu kad atspauzdintu
-          for ($i=10; $i <25 ; $i++) {
-            $gydytojas = getDoctor ( $i ); //is DB paima gydytoja
-            include ("template-item.php"); //paimtas nuoroda is to failo
-            //echo $gydytojas[0] . " " . $gydytojas[1] . " " . $gydytojas[2] ;
-              // $gydytojas[1] nedeti tarpeliu tarp $gydytojas ir [1]
+  		<div class="grad"></div> <!--bacground -->
+  		<div class="header">
+
+  			<div>LR TLPTP<span>  REGISTRAS</span></div>
+  		</div>
+  		  <br>
+
+  		<div class="login">  <!--Prisijungimas -->
+
+  				<input type="text" placeholder="Prisijungimo vardas" name="Prisijungimo vardas"><br>
+  				<input type="password" placeholder="Slaptažodis" name="Slaptažodis"><br>
+
+          <a href="menu.php">
+          <input type="button" value="Prisijungti">
+          </a>
 
 
-          }
 
-        ?>
 
+
+
+  		</div>
+      <div class="tekst">
+          <h6>Tik autorizuoti asmenys turi teisę prisijungti prie REGISTRO, tai yra asmenys kuriems yra sukurta REGISTRO naudotojo sąskaita - paskirtas prisijungimo vardas bei slaptažodis.</h6>
+      </div>
 
 
 
