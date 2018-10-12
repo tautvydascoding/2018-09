@@ -9,9 +9,29 @@
         <link rel="stylesheet" href="css/style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
-    <body>
+    <body class="loginb">
+      <?php
+      include_once("db/DB-prisijungimas.php");
+      include("db/DB-aboutus.php");
 
-        <h1> Ziureti i console (inspect element)  </h1>
+
+
+
+       ?>
+      <div class="loginbox">
+        <img src="photo/login-red-icon.png" alt="avatar" class="avatar">
+          <h1 class="heading">Login here</h1>
+          <form class="loginf" action="includes/login.php" method="POST">
+            <p>UserName</p>
+            <input type="text" name="UserName" placeholder="Enter UserName" autocomplete="on" value="" title="Iveskit taisyklingai lauka" required>
+            <p>Pasword</p>
+            <input type="password" name="Password" placeholder="Enter Pasword" autocomplete="on" value="" title="Iveskit taisyklingai lauka" required>
+            <input type="submit" name="submit" value="Login">
+            <a href="#">Lost your pasword?</a> <br>
+            <a href="#">Register</a>
+          </form>
+      </div>
+
 
 
 
