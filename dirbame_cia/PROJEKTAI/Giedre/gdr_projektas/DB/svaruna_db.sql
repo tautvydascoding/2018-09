@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Oct 12, 2018 at 11:13 AM
+-- Generation Time: Oct 14, 2018 at 05:52 PM
 -- Server version: 5.6.34-log
 -- PHP Version: 7.2.1
 
@@ -21,6 +21,26 @@ SET time_zone = "+00:00";
 --
 -- Database: `svaruna_db`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `about`
+--
+
+CREATE TABLE `about` (
+  `id` int(50) UNSIGNED NOT NULL,
+  `misija` text COLLATE utf8_unicode_ci NOT NULL,
+  `vizija` text COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Dumping data for table `about`
+--
+
+INSERT INTO `about` (`id`, `misija`, `vizija`) VALUES
+(1, 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus fuga cum consequuntur porro mollitia totam necessitatibus, iste reprehenderit dolores voluptatibus unde. Ratione totam odio dicta eos dolores, molestias placeat hic. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, eveniet nobis. Dolore, a vel? Odit ex distinctio, nulla fugiat dolore libero ad tempora dolorem doloribus inventore officiis, explicabo veritatis ipsa.', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem aperiam praesentium ipsum, ex doloremque quibusdam, laudantium dolorum voluptatem hic eveniet quo quam autem ad ut aut nobis tempore quasi officia! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum, distinctio libero enim repellendus suscipit consequuntur deserunt obcaecati corrupti alias minus temporibus iure assumenda perferendis sed tenetur hic, facere provident quis.'),
+(3, 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam repellendus dicta adipisci, numquam id in. Nisi obcaecati distinctio quo soluta ipsum, excepturi ex, et pariatur fuga, natus doloribus corporis ut. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet exercitationem temporibus aut? Voluptatem ullam facere voluptas aliquid. Voluptatibus asperiores debitis illo impedit iure iste. Optio modi consequuntur maxime hic eaque.', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, quas dolor magnam inventore, fugiat tenetur accusantium eius sed quo voluptas ipsam quod sit expedita corrupti, in voluptatem nihil enim eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quisquam blanditiis itaque aspernatur. Eius dolorum qui in, dolorem quam perferendis incidunt provident repellat numquam veniam culpa eos magnam vel expedita! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, ipsam possimus totam earum eum, voluptas dolorem ipsum perspiciatis est perferendis minima tempore quae sequi aut illo facere incidunt magnam non.');
 
 -- --------------------------------------------------------
 
@@ -55,15 +75,15 @@ CREATE TABLE `paslaugos` (
   `Paslaugos pavadinimas` varchar(60) CHARACTER SET utf8 COLLATE utf8_lithuanian_ci NOT NULL,
   `Paslaugos aprašymas` text CHARACTER SET utf8 COLLATE utf8_lithuanian_ci NOT NULL,
   `Rezervacija` varchar(30) CHARACTER SET utf8 COLLATE utf8_lithuanian_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `paslaugos`
 --
 
 INSERT INTO `paslaugos` (`id`, `Foto`, `img_alt`, `Paslaugos pavadinimas`, `Paslaugos aprašymas`, `Rezervacija`) VALUES
-(1, 'home_clean1.jpg', 'Namų valymas.', 'Namų valymas111111111111', 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, laboriosam aliquid provident et magni totam omnis fuga. Adipisci numquam alias doloribus necessitatibus magnam. Fuga asperiores vero adipisci?', 'Rezervuokite laiką!'),
-(2, 'office-cleaning.jpg', 'Biurų valymas.33333', 'Biurų valymas2244555', 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic quam, eveniet minus numquam porro minima nulla voluptate corporis, et excepturi dolorum necessitatibus libero impedit in! Dolorem fuga nemo aperiam facili!', 'Rezervuokite laiką!'),
+(1, 'home_clean1.jpg', 'Namų valymas.', 'Namų valymas', 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, laboriosam aliquid provident et magni totam omnis fuga. Adipisci numquam alias doloribus necessitatibus magnam. Fuga asperiores vero adipisci?', 'Rezervuokite laiką!'),
+(2, 'office-cleaning.jpg', 'Biurų valymas.', 'Biurų valymas', 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic quam, eveniet minus numquam porro minima nulla voluptate corporis, et excepturi dolorum necessitatibus libero impedit in! Dolorem fuga nemo aperiam facili!', 'Rezervuokite laiką!'),
 (3, 'auto_interior.jpg', 'Automobilių valymas.', 'Automobilių valymas', 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic quam, eveniet minus numquam porro minima nulla voluptate corporis, et excepturi dolorum necessitatibus libero impedit in! Dolorem fuga nemo aperiam eaque!', 'Rezervuokite laiką!');
 
 -- --------------------------------------------------------
@@ -89,22 +109,16 @@ CREATE TABLE `registracija` (
 
 INSERT INTO `registracija` (`id`, `Paslauga`, `Data`, `Vardas`, `El. paštas`, `Telefono nr.`, `Adresas`, `Komentarai`) VALUES
 (1, 'Namų valymas', '2018-11-01', 'Giedrė', 'giedre@mail.lt', '861234567', 'Gatvė g. 1, Kaunas', 'Jokių komentarų.'),
-(2, 'NamÅ³ valymas', '2018-12-02', 'Vardas', 'vardas@gmail.com', '862222222', 'Adreso g. 115, Miestas', 'PuikÅ«s komentarai'),
-(3, 'NamÅ³ valymas', '2018-12-02', 'Vardas', 'vardas@gmail.com', '862222222', 'Adreso g. 115, Miestas', 'PuikÅ«s komentarai'),
-(4, 'AutomobiliÅ³ valymas', '2018-12-10', 'Vardas', 'vardas@gmail.com', '863333333', 'Adreso g. 88, Miestas', 'Bus komentarai'),
-(5, 'BiurÅ³ valymas', '2018-12-15', 'Vardas', 'vardas@gmail.com', '863333333', 'Adreso g. 200, Miestas', 'Bus komentarai'),
-(6, '', '0000-00-00', '', '', '', '', ''),
-(7, '', '0000-00-00', '', '', '', '', ''),
-(8, 'automobilio', '2018-10-19', 'Petras', 'petras@mail.com', '864444444', 'Petrausko g. 2, Kaunas', 'SKUBU!'),
-(9, 'BiurÅ³ valymas', '2018-10-18', 'Ona', 'ona@ona.lt', '865555555', 'Onos g. 50, Kaunas', 'Komentarai'),
-(10, 'NamÅ³ valymas', '2018-10-26', 'Kazys', 'kazys@kazys.lt', '866666666', 'Kazio g. 50, Kaunas', 'KomentarÅ³ nÄ—ra.'),
-(11, '', '2018-10-11', 'Vardas', 'hbjgh@gmail.com', '860000000', 'Petrausko g. 2, Kaunas', 'scdfvbnmnbfd'),
-(12, '', '2018-10-18', 'Vardas', '', '860000000', 'GatviÅ³ g. 99, Miestas', 'rfgthyujikol;'),
-(13, 'NamÅ³ valymas', '2018-10-19', 'Vardas', 'hbjgh@gail.com', '860000000', 'Petrausko g. 5552, Kaunas', 'kommmmm'),
-(14, 'NamÅ³ valymas', '2018-10-19', 'Vardas', 'hbjgh@gail.com', '860000000', 'Petrausko g. 5552, Kaunas', 'kommmmm'),
-(15, 'NamÅ³ valymas', '2018-10-19', 'Vardas', 'hbjgh@gail.com', '860000000', 'Petrausko g. 5552, Kaunas', 'kommmmm'),
-(16, 'NamÅ³ valymas', '2018-10-19', 'Vardas', 'hbjgh@gail.com', '860000000', 'Petrausko g. 5552, Kaunas', 'kommmmm'),
-(17, 'NamÅ³ valymas', '2018-11-01', 'giedre', 'giedre@giedre.lt', '552536363', 'vbnmbnjkml', 'hlkcvbjkm,;');
+(2, 'Namų valymas', '2018-12-02', 'Vardas', 'vardas@gmail.com', '862222222', 'Adreso g. 115, Miestas', 'Puikūs komentarai'),
+(3, 'Namų valymas', '2018-12-02', 'Vardas', 'vardas@gmail.com', '862222222', 'Adreso g. 115, Miestas', 'Puikūs komentarai'),
+(4, 'Automobilių valymas', '2018-12-10', 'Vardas', 'vardas@gmail.com', '863333333', 'Adreso g. 88, Miestas', 'Bus komentarai'),
+(5, 'Biurų valymas', '2018-12-15', 'Vardas', 'vardas@gmail.com', '863333333', 'Adreso g. 200, Miestas', 'Bus komentarai'),
+(9, 'Biurų valymas', '2018-10-18', 'Ona', 'ona@ona.lt', '865555555', 'Onos g. 50, Kaunas', 'Komentarai'),
+(13, 'Namų valymas', '2018-10-19', 'Vardas', 'hbjgh@gail.com', '860000000', 'Petrausko g. 5552, Kaunas', 'kommmmm'),
+(14, 'Namų valymas', '2018-10-19', 'Vardas', 'hbjgh@gail.com', '860000000', 'Petrausko g. 5552, Kaunas', 'kommmmm'),
+(15, 'Namų valymas', '2018-10-19', 'Vardas', 'hbjgh@gail.com', '860000000', 'Petrausko g. 5552, Kaunas', 'kommmmm'),
+(17, 'Namų valymas', '2018-11-01', 'giedre', 'giedre@giedre.lt', '552536363', 'vbnmbnjkml', 'hlkcvbjkm,;'),
+(18, 'Biurų valymas', '2018-10-17', 'Ona', 'ona@ona.lt', '860000000', 'Gatvė g. 1, Miestas', 'Čia komentarai!');
 
 -- --------------------------------------------------------
 
@@ -126,11 +140,22 @@ CREATE TABLE `rekvizitai` (
 --
 
 INSERT INTO `rekvizitai` (`id`, `pavadinimas`, `adresas`, `darbo_laikas`, `telefonas`, `el.pastas`) VALUES
-(1, '„Švarūna”', 'Pramonės g. 2D\r\n72328 Tauragė, Lietuva', 'I - V 8.00 - 17.00 \r\nVI -VII nedirbame', '+370 600 00000', 'info@svaruna.lt');
+(1, '„Švarūna”', 'Pramonės g. 2D\r\n72328 Tauragė, Lietuva', 'I - V 8.00 - 17.00\r\nVI -VII nedirbame', '+370 0000000', 'info@svaruna.lt'),
+(2, '\"PAVADINIMAS\"', 'Adreso g. 5, Kaunas', 'I-V 8:00 - 17:00', '860000000', 'info@svaruna.lt'),
+(3, '\"PAVADINIMAS\"', 'Adresų g. 15, Kaunas', 'I-V 8:00 - 17:00', '860000000', 'info@svaruna.lt'),
+(4, '\"PAVADINIMAS\"', 'Adresų g. 15, Kaunas', 'I-V 8:00 - 17:00', '860000000', 'info@svaruna.lt'),
+(5, '\"PAVADINIMAS\"', 'Gatvė g. 1, Miestas', 'I-V 8:00 - 17:00', '860000000', 'info@svaruna.lt'),
+(6, '', '', '', '', '');
 
 --
 -- Indexes for dumped tables
 --
+
+--
+-- Indexes for table `about`
+--
+ALTER TABLE `about`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `login`
@@ -161,6 +186,11 @@ ALTER TABLE `rekvizitai`
 --
 
 --
+-- AUTO_INCREMENT for table `about`
+--
+ALTER TABLE `about`
+  MODIFY `id` int(50) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+--
 -- AUTO_INCREMENT for table `login`
 --
 ALTER TABLE `login`
@@ -174,12 +204,12 @@ ALTER TABLE `paslaugos`
 -- AUTO_INCREMENT for table `registracija`
 --
 ALTER TABLE `registracija`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 --
 -- AUTO_INCREMENT for table `rekvizitai`
 --
 ALTER TABLE `rekvizitai`
-  MODIFY `id` int(99) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;COMMIT;
+  MODIFY `id` int(99) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

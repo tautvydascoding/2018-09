@@ -27,9 +27,9 @@ include('header.php');
         <div id="Pradinis" class="container-fluid">
             <div class="row">
                 <div class="col-12 card bg">
-                    <div class=" card-img-overlay text-center">
-                        <h1 class="card-text m-5 font-weight-bold text-white">ŠVARŪNA - visos valymo paslaugos</h1>
-                        <h2 class="card-text mt-3 text-light">Mes siūlome platų valymo paslaugų spektrą, <br> užtikrinančių puikius rezultatus ir išlaisvinančius Jus nuo rutininių valymo darbų.</h2>
+                    <div class=" card-img-overlay text-center pt-5">
+                        <h1 class="card-text my-5 font-weight-bold text-white">ŠVARŪNA - visos valymo paslaugos</h1>
+                        <h3 class="card-text mt-3 text-light">Mes siūlome platų valymo paslaugų spektrą, <br> užtikrinančių puikius rezultatus ir išlaisvinančius Jus nuo rutininių valymo darbų.</h3>
                     </div>
                 </div>
             </div>
@@ -46,7 +46,10 @@ include('header.php');
         <h2 id="Kontaktai" class="text-center text-light bg-primary mt-3">Kontaktai</h2><br>
         <div class="row">
             <div class="col">
-                <div class="field field--name-field-office-details field--type-string-long field--label-hidden field__item text-center"><br /><strong>UAB "ŠVARŪNA"</strong><br><br/>ADRESAS <br/>Pramonės g. 2D<br>72328 Tauragė, Lietuva<br/><br/>DARBO LAIKAS<br/>I - V 8.00 - 17.00<br/>VI -VII nedirbame<br/><br/>TELEFONAS<br/>+370 600 00000<br/><br/>EL. PAŠTAS<br/>info@svaruna.lt<br/></div>
+                <?php
+                include_once("db-functions_rekvizitai.php");
+                // <div class="field field--name-field-office-details field--type-string-long field--label-hidden field__item text-center"><br /><strong>UAB "ŠVARŪNA"</strong><br><br/>ADRESAS <br/>Pramonės g. 2D<br>72328 Tauragė, Lietuva<br/><br/>DARBO LAIKAS<br/>I - V 8.00 - 17.00<br/>VI -VII nedirbame<br/><br/>TELEFONAS<br/>+370 600 00000<br/><br/>EL. PAŠTAS<br/>info@svaruna.lt<br/></div>
+                ?>
             </div>
             <div class="col-9">
                 <div class="resposive mapouter"><div class="gmap_canvas"><iframe width="900" height="470" id="gmap_canvas" src="https://maps.google.com/maps?q=Pramon%C4%97s%20g.%202D%2072328%20Taurag%C4%97%2C%20Lietuva&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net"></a></div><style>.mapouter{text-align:center;height:470px;width:900px;}.gmap_canvas {overflow:hidden;background:none!important;height:470px;width:900px;}</style></div>
@@ -99,11 +102,10 @@ include('header.php');
             <h2 id="ApieMus" class="text-center bg-primary text-light mt-3">Apie mus</h2><br>
             <div class="container">
                 <div class="row">
-                    <div class="col-12 p-5 text-justify">
-                        <h4><strong>Įmonės misija.</strong></h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus fuga cum consequuntur porro mollitia totam necessitatibus, iste reprehenderit dolores voluptatibus unde. Ratione totam odio dicta eos dolores, molestias placeat hic. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, eveniet nobis. Dolore, a vel? Odit ex distinctio, nulla fugiat dolore libero ad tempora dolorem doloribus inventore officiis, explicabo veritatis ipsa.</p><br /><br />
-                        <h4><strong>Įmonės vizija.</strong></h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem aperiam praesentium ipsum, ex doloremque quibusdam, laudantium dolorum voluptatem hic eveniet quo quam autem ad ut aut nobis tempore quasi officia! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum, distinctio libero enim repellendus suscipit consequuntur deserunt obcaecati corrupti alias minus temporibus iure assumenda perferendis sed tenetur hic, facere provident quis.</p>
+                    <div class="col-12 p-md-5 text-justify">
+                        <?php
+                            include ('db-functions_about.php');
+                        ?>
                     </div>
                 </div>
             </div>

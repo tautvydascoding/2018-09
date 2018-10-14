@@ -77,7 +77,7 @@
 
 <body>
 	<div>
-		<div style="display: block; margin: 0px auto;">
+		<div>
 
 			<?php if(empty($_SESSION["user_id"])) { ?>
 				<form action="" method="post" id="frmLogin">
@@ -107,31 +107,29 @@
 		</div>
 
 <!-- Po prisijungmo--------------- -->
-			<div>
-
-				<h5>Rekvizitai</h5>
-							
-				<form action="add.php" method="post" name="form1">
+			<div class="ml-3">
+				<h5 class="bg-secondary mt-5 p-1">Rekvizitų redagavimas</h5>
+				<form action="create_rekvizitai.php" method="post">
 					<table width="25%">
 						<tr> 
 							<td>Pavadinimas</td>
-							<td><input type="text" name="pavadinimas"></td>
+							<td><input type="text" name="pavadinimas" required></td>
 						</tr>
 						<tr> 
 							<td>Adresas</td>
-							<td><input type="text" name="adresas"></td>
+							<td><input type="text" name="adresas" required></td>
 						</tr>
 						<tr> 
 							<td>Darbo laikas</td>
-							<td><input type="text" name="laikas"></td>
+							<td><input type="text" name="laikas" required></td>
 						</tr>
 						<tr> 
 							<td>Telefonas</td>
-							<td><input type="text" name="telefonas"></td>
+							<td><input type="text" name="telefonas" required></td>
 						</tr>
 						<tr> 
 							<td>El. paštas</td>
-							<td><input type="email" name="email"></td>
+							<td><input type="email" name="email" required></td>
 						</tr>
 						<tr> 
 							<td></td>
@@ -140,7 +138,26 @@
 					</table>
 				</form>
 			</div>
-		
+
+
+			<div class="bg-secondary ml-3 pb-1">
+				<h5 class="bg-secondary mt-5 p-1">Įmonės misijos ir vizijos redagavimas</h5>
+				
+				<form action="create_about.php" method="get">
+					<div class="form-group col-8">
+						<label for="misija">Įveskite misiją</label>
+						<input type="text" class="form-control" name="misija" placeholder="Misija" required>
+					</div>
+					<div class="form-group col-8">
+						<label for="vizija">Įveskite viziją</label>
+						<input type="text" class="form-control" name="vizija" placeholder="Vizija" required>
+					</div>
+					<div class="col-sm-10 offset-sm-2 mb-5">
+						<button type="submit" class="btn btn-dark" name="Submit">Įvesti</button>
+					</div>
+				</form>
+			</div>
+	
 	<?php } ?>
 </body>
 </html>

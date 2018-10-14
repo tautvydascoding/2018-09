@@ -29,12 +29,12 @@ try {
     $mail->isSMTP();                                      // Set mailer to use SMTP
  
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
-    $mail->Username = 'mail@gmail.com';                 // SMTP username
-    $mail->Password = 'pass';                 // SMTP username
+    $mail->Username = 'vardas@gmail.com';                 // SMTP username
+    $mail->Password = 'vardas123';                 // SMTP username
 
     //Recipients
-    $mail->setFrom('direktorius@mail.lt', 'Direktorius');
-    $mail->addAddress('mail@gmail.com', 'Puslapiu kurejai');     // Add a recipient
+    $mail->setFrom('direktorius@pavadinimas.lt', 'Direktorius');
+    $mail->addAddress('vardas@gmail.com', 'Puslapiu kurejai');     // Add a recipient
     //$mail->addAddress('ellen@example.com');               // Name is optional
     $mail->addReplyTo($klientoEmail, $klientoVardas);
     //$mail->addCC('cc@example.com');
