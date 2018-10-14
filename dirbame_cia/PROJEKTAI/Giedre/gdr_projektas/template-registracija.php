@@ -2,7 +2,7 @@
 <html lang="lt" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title>Švarūna</title>
+        <title>Švarūna rezervuokite!</title>
 
         <link rel="stylesheet" href="./material.min.css">
         <script src="./material.min.js"></script>

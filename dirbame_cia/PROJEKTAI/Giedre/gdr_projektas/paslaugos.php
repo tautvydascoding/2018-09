@@ -1,7 +1,7 @@
 <?php
 
 include_once("db-functions.php");
-echo '<div class="row mt-1 px-5">';
+echo '<div class="row mt-1 px-md-5">';
 
 //visu paslaugu is DB isvedimas:
     for ($i=1; $i < 4; $i++) { 

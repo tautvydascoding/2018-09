@@ -2,7 +2,6 @@
 
 $arRodytiZinutes = true;
 
-
   define("DB_PAVADINIMAS", "svaruna_db" );
   define("DB_VARTOTOJAS", "root" ); 
   define("DB_SLAPTAZODIS", "root" ); 
@@ -27,19 +26,19 @@ $arRodytiZinutes = true;
   getPrisijungimas();
 
 // duomenu ivedimas i DB 
-function createReg($service, $data, $vardas, $email, $telefonas, $adresas, $komentarai) {
+function createRekvizitai($pavadinimas, $adresas, $laikas, $telefonas, $email) {
     // Del saugumo uzkoduojame: 
-    $vardas = mysqli_real_escape_string( getPrisijungimas(), $vardas);
-    $email = mysqli_real_escape_string( getPrisijungimas(), $email);
-    $telefonas = mysqli_real_escape_string( getPrisijungimas(), $telefonas);
+    $pavadinimas = mysqli_real_escape_string( getPrisijungimas(), $pavadinimas);
     $adresas = mysqli_real_escape_string( getPrisijungimas(), $adresas);
-    $komentarai = mysqli_real_escape_string( getPrisijungimas(), $komentarai);
+    $laikas = mysqli_real_escape_string( getPrisijungimas(), $laikas);
+    $telefonas = mysqli_real_escape_string( getPrisijungimas(), $telefonas);
+    $email = mysqli_real_escape_string( getPrisijungimas(), $email);
 
-    $manoSQL = "INSERT INTO registracija
-                       VALUES (NULL, '$service', '$data', '$vardas', '$email', '$telefonas', '$adresas', '$komentarai')";
+    $manoSQL = "INSERT INTO rekvizitai
+                       VALUES (NULL, '$pavadinimas', '$adresas', '$laikas', '$telefonas', '$email')";
     $arPavyko = mysqli_query(getPrisijungimas(), $manoSQL);
     
     if ($arPavyko == false && $arRodytiZinutes == true) {
-        echo "ERROR: nepavyko sukurti registracijos!!! <br />" . mysqli_error(getPrisijungimas());
+        echo "ERROR: nepavyko sukurti rekvizitų!!! <br />" . mysqli_error(getPrisijungimas());
     }
 }
