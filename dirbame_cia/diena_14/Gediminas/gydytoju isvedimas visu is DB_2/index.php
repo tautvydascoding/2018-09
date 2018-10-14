@@ -23,10 +23,10 @@
 
             //include_once  -- neleis antra kart ikelti include
           include ("db-funcion_destytojo.php"); //jau destytojo pasinaudojom funcija tik pasinaudojom nuoroda kad rasyti nereikia
-          $gydytojas = getDoctor (3); //suranda gdytoja DB
+          $gydytojas = getDoctor (20); //suranda gdytoja DB
           //print_r  ($gydytojas)
           //iskvietimas su for ciklu kad atspauzdintu
-          for ($i=2; $i <6 ; $i++) {
+          for ($i=10; $i <25 ; $i++) {
             $gydytojas = getDoctor ( $i ); //is DB paima gydytoja
             include ("template-item.php"); //paimtas nuoroda is to failo
             //echo $gydytojas[0] . " " . $gydytojas[1] . " " . $gydytojas[2] ;
