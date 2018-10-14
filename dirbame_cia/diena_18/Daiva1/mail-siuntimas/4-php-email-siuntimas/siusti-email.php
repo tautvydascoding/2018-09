@@ -25,7 +25,7 @@ try {
     $mail->Port = 465;                                      // TCP port to connect to
 
     //Server settings
-    $mail->SMTPDebug = 2;                                 // Enable verbose debug output
+    $mail->SMTPDebug = 0;                                 // Enable verbose debug output
     $mail->isSMTP();                                      // Set mailer to use SMTP
 
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
@@ -35,7 +35,7 @@ try {
 
 
     //Recipients
-    $mail->setFrom('testascoding@gmail.com', 'Prezidentas');
+    $mail->setFrom('testascoding@gmail.com', 'Daiva');
     $mail->addAddress('testascoding@gmail.com', 'Puslapiu kurejai');     // Add a recipient
     // $mail->addAddress('ellen@example.com');               // Name is optional
     $mail->addReplyTo( $klientoEmail, $klietoVardas);

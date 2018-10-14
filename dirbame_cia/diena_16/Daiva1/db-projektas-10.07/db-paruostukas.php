@@ -1,3 +1,5 @@
 
 
-<?php  echo  $foto[1]; ?>
+<?php
+// echo  $foto[1];
+ // ?>

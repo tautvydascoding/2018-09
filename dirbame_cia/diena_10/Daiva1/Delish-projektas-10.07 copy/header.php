@@ -33,7 +33,7 @@
           <a class="nav-link" href="https://www.facebook.com/delishgeromaistobistro/">Meniu</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link"  id="comments.php" href="">Atsiliepimai</a>
+          <a class="nav-link" href="comments.php">Atsiliepimai</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">el.pastas</a>
