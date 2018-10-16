@@ -8,9 +8,7 @@
 
 <script type="text/javascript" src="main.js"> </script>
 
-</body>
 
-</html>
 </div>
 <!--  container end -->
 <!-- footer section -->
@@ -40,3 +38,6 @@
 
  </div>
  </footer>
+</body>
+
+</html>
