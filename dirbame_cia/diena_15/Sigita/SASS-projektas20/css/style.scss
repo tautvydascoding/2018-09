@@ -1,0 +1,31 @@
+///galune butinai turi buti .scss
+/*jei komentuosim su zvaigzdutem tai liks css faile*/
+//su scss galima kurtis kintamuosius;
+
+$pagrindineSpalva: #a2a2a2;
+$fonoSpalva: #d8d5d9;
+$prekesPlotis: 24.9%;
+$color: #c3c6c9;
+$prekesAukstis: 30%;
+
+
+
+
+body {
+  background-color: $fonoSpalva;
+}
+h1{
+color: $pagrindineSpalva;
+text-decoration: underline;
+}
+
+div {
+  div{
+  width: $prekesPlotis;
+  background-color: $color;
+  height: $prekesAukstis};
+}
+
+div{
+  background-color: $fonoSpalva;
+}

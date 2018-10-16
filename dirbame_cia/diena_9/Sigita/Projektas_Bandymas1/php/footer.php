@@ -1,14 +1,26 @@
+
 <div class="container" style="background-image: url('../galerija/mahdi-fathi-273014-unsplash.jpg')">
-    <div class="row" >
-      <div class="col-xs-12">
-          <h1 style="color:white;" >Kontaktai</h1>
-      </div>
-    </div>
+
     <div class="row">
-      <div class="col-md-8">
-        <img class="logo nuotrauka" src="../galerija/Logo1.png" alt="logo">
+      <div class="col-md-4">
+        <h1 style="color:white;" >Kontaktai</h1>
+        <img class="logo nuotrauka" src="/galerija/Logo1.png" alt="logo">
         </div>
-      <div class="col-xs-12 col-sm-12 col-md-4">
+        <div class="col-md-4">
+          <!-- vectorines ikoneles  -->
+<a href="https://www.facebook.com/Ilgalaikio-gro%C5%BEio-linijos-Raimonda-170956773598003/?ref=br_tf" class="fa fa-facebook" style="padding: 20px;font-size: 30px;width: 60px;text-align: center;text-decoration: none; margin: 5px 2px; background: #3B5998; color: white;"></a>
+
+<a href="#" class="fa fa-twitter " style="padding: 20px;font-size: 30px;width: 60px;text-align: center;text-decoration: none; margin: 5px 2px; background: #55ACEE; color: white;"></a>
+
+<a href="http://google.lt" class="fa fa-google" style="padding: 20px;font-size: 30px;width: 60px;text-align: center; text-decoration: none; margin: 5px 2px; background: #dd4b39; color: white;"></a>
+
+<a href="http://linkedin.com" class="fa fa-linkedin" style="padding: 20px;font-size: 30px;width: 60px;text-align: center;text-decoration: none; margin: 5px 2px; background: #007bb5; color: white;"></a>
+
+<a href="http://youtube.com" class="fa fa-youtube" style="padding: 20px;font-size: 30px;width: 60px;text-align: center;text-decoration: none; margin: 5px 2px; background: #bb0000; color: white;"></a>
+<!-- vectorines ikoneles baigiasi -->
+                          <!-- kontaktai -->
+        </div>
+      <div class="col-md">
         <ul>
           <li>
             <div>
@@ -27,8 +39,8 @@
           </li>
           <li>
             <div>
-              <a target="_blank" href="https://en-gb.facebook.com/Ilgalaikio-gro%C5%BEio-linijos-Raimonda"> <button type="button" name="button" > <img src="../galerija/facebook-app-logo.png" alt="feisbuk"/>  Igl-Raimonda </button>  </a>
-  
+              <a target="_blank" href="https://www.facebook.com/Ilgalaikio-gro%C5%BEio-linijos-Raimonda-170956773598003/?ref=br_tf"> <button type="button" name="button" > <img src="../galerija/facebook-app-logo.png" alt="feisbuk"/>  Igl-Raimonda </button>  </a>
+
             </div>
           </li>
         </ul>

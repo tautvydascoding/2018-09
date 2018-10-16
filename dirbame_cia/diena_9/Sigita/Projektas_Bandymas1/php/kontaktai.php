@@ -4,60 +4,70 @@
 <head>
   <meta charset="utf-8">
   <title></title>
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="../bootstrap.css">
+  <link rel="stylesheet" href="../css/bootstrap.css">
 
   <!-- !!! mano CSS vissade zemiau -->
   <link rel="stylesheet" href="../css/style.css">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<!-- Header konteineris prasideda GALIMA ITRAUKTI I PHP==================-->
 
+<!-- Headeris=================-->
 <?php include('header.php') ?>
-  <!--Header konteinerio pabaiga GALIMA ITRAUKTI I PHP===================  -->
+  <!--Headeris===================  -->
 
+<body>
   <!--  Pgrindines dalies konteineris prasideda ======-->
-  <div class="container"   style="background-image: url('../galerija/greyLight.jpg')">
-    <main class="col-md-12">
-      <section id="contact">
-          <div class="well well-sm">
-            <h3>Mus rasite: Pakraščio g. 20 Kaunas</h3>
-          </div>
-
-          <div class="row">
-            <div class="col-md-7">
-            </div>
-            <div>
-              <div><iframe width="500" height="500" src="https://maps.google.com/maps?q=kaunas%20Pakra%C5%A1%C4%8Dio%2020&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="2" scrolling="no" ></iframe></div>
-            </div>
-            <div class="col-md-5">
-              <h3><strong>Susisiekite</strong></h3>
-              <form>
+  <div class="container">
+    <main class="row">
+      <section id="contact" class="col-md-6">
+                                <div class="well well-sm">
+                                  <h3>Mus rasite: Pakraščio g. 20 Kaunas</h3>
+                                </div>
+              <div><iframe style="width:100%; height:100%;" src="https://maps.google.com/maps?q=kaunas%20Pakra%C5%A1%C4%8Dio%2020&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="2" scrolling="no" ></iframe></div>
+            <!-- uzklausa su duomenu issiuntimu i el pasta -->
+             <div>
+               <h5><strong>Atsiųskite mums savo klausimą elektroniniu paštu :)</strong></h5>
+              <form action="siusti-email.php" method="get">
                 <div class="form-group">
-                  <input type="text" class="form-control" name="" value="" placeholder="Vardas">
-          </div>
-                  <div class="form-group">
-                    <input type="email" class="form-control" name="" value="" placeholder="El.paštas">
-          </div>
-                    <div class="form-group">
-                      <input type="tel" class="form-control" name="" value="" placeholder="Telefono numeris">
-          </div>
-                      <div class="form-group">
-                        <textarea class="form-control" name="" rows="3" placeholder="Žinutė"></textarea>
-                      </div>
-
-                      <button class="mygtukasMeniu" type="submit" name="button">
-            </i> SIŲSTI</button>
+                  <input type="text" class="form-control" name="vardas" value="" placeholder="Jūsų vardas">
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control"name="pastas" value="" placeholder="Jūsų elektronins paštas">
+                </div>
+                <div class="form-group">
+                  <textarea name="klausimas" class="form-control" rows="8" cols="50" placeholder="Jūsų klausimas">   </textarea>
+                </div>
+                <button class="btn-lg" type="submit" name="button">Klausti</button>
               </form>
-            </div>
+              </div>
+  </section>
+            <!-- uzklausa su duomenu paemimu i Duomenu Baze , forma is MDL-->
+          <div class="col-md">
+              <h3><strong>Susisiekite telefonu </strong></h3>
+    <form action="create-uzklausa.php" method="get">
+          <div class="mdl-textfield mdl-js-textfield">
+            <input class="mdl-textfield__input" type="text" id="sample1" name="Vardas" value="" placeholder="Jūsų vardas">
+            <label class="mdl-textfield__label" for="sample1">Text...</label>
           </div>
-
-      </section>
-
+            <div class="mdl-textfield mdl-js-textfield">
+                <input class="mdl-textfield__input" type="tel" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2" name="TelNr" value="" placeholder="Telefono numeris">
+                <label class="mdl-textfield__label" for="sample2">Number...</label>
+                <span class="mdl-textfield__error">Input is not a number!</span>
+              </div>
+              <div class="form-group">
+              <textarea class="form-control" name="Gautas_pranešimas" rows="3" placeholder="Jūsų žinutė"></textarea>
+              </div>
+                        <!-- uzklausa su duomenu paemimu i Duomenu Baze -->
+                    <button class="btn-lg" type="submit" name="button">SIŲSTI</button>
+    </form>
+    <!-- row baigesi -->
     </main>
-
   </div>
   <!--Pagrindines dalies konteinerio pabaiga=========  -->
 
@@ -66,6 +76,8 @@
   <?php include("footer.php") ?>
 
   <!-- Footeris -->
+
+</body>
 
 
 
