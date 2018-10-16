@@ -42,7 +42,7 @@ echo "<br>";
 $kestas->einu();
 echo "<br>";
 
-//===============================3.2
+//=====================3.2
 
 class zmogus {
     private $ugis;

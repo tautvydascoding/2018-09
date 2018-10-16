@@ -61,3 +61,19 @@ footer {
   position: relative;
 
 }
+
+.register {
+  position: relative;
+
+    left: 20px;
+}
+.userregister {
+  position: relative;
+
+    left: 17px;
+}
+.atgal {
+  position: relative;
+
+    left: 95%;
+}

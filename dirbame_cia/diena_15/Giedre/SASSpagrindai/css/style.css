@@ -1,33 +1,24 @@
 /*  sitas komentaras bus CSS faile */
 .preke {
   background-color: #a2a2a2;
-  weight: 24.9%;
-}
-
-.preke h2, .preke div {
-  background-color: #f1f1f1;
-}
+  weight: 24.9%; }
+  .preke h2, .preke div {
+    background-color: #f1f1f1; }
 
 h1 {
-  color: red;
-}
+  color: red; }
 
 .aukstis-100 {
-  min-height: 100px;
-}
+  min-height: 100px; }
 
 .aukstis-200 {
-  min-height: 200px;
-}
+  min-height: 200px; }
 
 .aukstis-300 {
-  min-height: 300px;
-}
+  min-height: 300px; }
 
 .aukstis-400 {
-  min-height: 400px;
-}
+  min-height: 400px; }
 
 .aukstis-500 {
-  min-height: 500px;
-}
+  min-height: 500px; }
