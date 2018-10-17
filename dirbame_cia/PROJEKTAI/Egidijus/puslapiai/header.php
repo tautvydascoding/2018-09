@@ -12,18 +12,14 @@
   </head>
   <body>
     <div class="container">
-      <header class="row jumbotron bounceInLeft">
-<!-- header video pradzia----------------------->
-<!-- <video class="header_video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-  <source src="../imgs/run_video.mp4" type="video/mp4">
-</video> -->
-<!--header video pabaiga  ------------------->
+      <header class="row jumbotron">
+
         <div class="col-md-3 aukstis-200">
            <a href="index.php"><img src="../imgs/logo.png" alt="bėgantys žmonės" class="image-fluid mx-auto d-block"></a>
         </div>
         <div class="col-md-9  aukstis-200">
 
-          <h1 class="text-center display-4">Bėgimo entuziastai!</h1>
+          <h1 class="text-center display-4 bounceInLeft">Bėgimo entuziastai!</h1>
           <nav class="nav nav-pills nav-justified">
             <a class="mygtukas_men_vir nav-item nav-link btn btn-outline-primary mygtukai_meniu" href="index.php">Pirmas</a>
             <a class="nav-item nav-link btn btn-outline-primary mygtukai_meniu" href="apie.php">Apie</a>
@@ -35,23 +31,3 @@
         </div>
 
       </header>
-
-
-
-
-      <!-- herder testas -->
-
-      <!-- <header class="container">
-  <div class="row">
-
-    <div class="col-md-12">
-
-      <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-        <source src="../imgs/run_video.mp4" type="video/mp4">
-      </video>
-
-      </div>
-    </div>
-
-  </div>
-</header> -->

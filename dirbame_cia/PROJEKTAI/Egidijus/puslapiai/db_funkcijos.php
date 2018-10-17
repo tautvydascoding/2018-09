@@ -1,8 +1,11 @@
 <?php
 
 $arRodytZinutes = true; //// $debugMode 2
-//
+///
 
+
+
+//////////////////////////////////
 define("DB_PAVADINIMAS", "begimo_entuziastai");
 define("DB_VARTOTOJAS", "root");
 define("DB_SLAPTAZODIS", "root");
@@ -85,3 +88,9 @@ function getFoto($nr){
   // print_r($rezultataiArray);
   return $rezultataiArray;
 }
+///////////////////////////////////////////////////////////////////////////////
+
+
+
+
+?>

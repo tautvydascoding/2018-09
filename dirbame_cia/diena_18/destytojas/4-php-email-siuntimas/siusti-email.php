@@ -29,8 +29,13 @@ try {
     $mail->isSMTP();                                      // Set mailer to use SMTP
 
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
+<<<<<<< HEAD
     $mail->Username = 'pastaskurioneneaudoju@gmail.com';                 // SMTP username
     $mail->Password = 'slaptazodis';                 // SMTP slaptazodis
+=======
+    $mail->Username = 'testascoding@ .com';                 // SMTP username
+    $mail->Password = ' ';                 // SMTP slaptazodis
+>>>>>>> 56690abde2a26625b05c95b3423cdb976f53dafe
   // -------iki cia -----------------
 
 
@@ -53,3 +58,7 @@ try {
 } catch (Exception $e) {
     echo 'Atleiskite napavyko issiusti. Mailer Error: ', $mail->ErrorInfo;
 }
+
+
+ 
+//
