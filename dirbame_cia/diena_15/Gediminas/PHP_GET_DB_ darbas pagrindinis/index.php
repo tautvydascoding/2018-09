@@ -16,8 +16,8 @@
 
         <h1> Ziureti i console (inspect element)  </h1>
         <?php
-      
-        $x = $_GET['bandymas'];
+
+        $x = $_GET['name'];
         echo $x;
         print_r($x)
          ?>

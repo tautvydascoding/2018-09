@@ -32,7 +32,7 @@
 
             //include_once  -- neleis antra kart ikelti include
           include ("db-funcion_destytojo.php"); //jau destytojo pasinaudojom funcija tik pasinaudojom nuoroda kad rasyti nereikia
-          $gydytojas = getDoctor (2); //suranda gdytoja DB
+          $gydytojas = getDoctor (10); //suranda gdytoja DB
           //print_r  ($gydytojas)
           //iskvietimas su for ciklu kad atspauzdintu
           for ($i=2; $i <6 ; $i++) {

@@ -21,7 +21,7 @@
 
         // visu gydytoju is DB isvedimas
         echo "<div class='row'>";
-                for ($i=1; $i < 11; $i++) {
+                for ($i=1; $i < 50; $i++) {
                     $gydytojas = getDoctor( $i );  // is DB paima nurodyta gydytoja
 
                     include("paruostukas-template.php");

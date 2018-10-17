@@ -1,12 +1,13 @@
 <?php include_once("menu.php");
-      
+
+
  ?>
 
 <div class="col-lg-11 divas ">
 <br><br>
 
 <a href="user_print.php">
-<button type="button" class="btn btn-secondary">Paieška</button>
+<button type="button" class="btn btn-secondary">Naudotojai</button>
 </a>
 
 <a href="new_user.php">
