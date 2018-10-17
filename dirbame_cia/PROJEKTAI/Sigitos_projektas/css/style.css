@@ -1,0 +1,176 @@
+* {box-sizing: border-box;}
+body {
+  background-image: url("../galerija/mahdi-fathi-273014-unsplash.jpg");
+  width: 100%;
+  position: relative;
+
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.container2 {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+.nuotrauka3{
+  width: 100%;
+
+}
+
+.nuotrauka {
+  max-height: 150px;
+  right: 85%;
+}
+
+.nuotrauka2 {
+  max-width: 30%;
+  max-height: 150px;
+  align-items: center;
+
+}
+
+.header {
+  min-height: 100px;
+}
+
+ul li {
+  display: inline-flex;
+  margin: 5px;
+  list-style-type: none;
+}
+ .navigacija{
+display: inline-block;
+ }
+
+.mygtukasMeniu {
+font-size: 20px;
+padding: 12px 28px;
+border-radius: 8px;
+margin-top: 60px;
+color:white;
+}
+/*  Iki cia headeris*/
+
+/* Kontaktai */     /* ATSILIEPIMAI */
+textarea.form-control{
+    height:100px;
+}
+
+/* proceduros */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
+.active, .collapsible:hover {
+  background-color: #ccc;}
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+/* kuponas */
+.container {
+    padding: 2px 16px;
+    background-color: #f1f1f1;
+}
+.promo {
+    background: #ccc;
+    padding: 3px;
+}
+.expire {
+    color: red;
+}
+.kuponai {
+  display: inline-block;
+}
+/* Footerio */
+a{
+	color:#26a5d3;
+}
+a:hover,a:focus{
+	text-decoration:none;
+	color:#26a5d3;
+}
+
+.clearBoth{
+  clear:both;
+  content: " ";
+}
+.straipsnis{
+  vertical-align: middle;
+}
+/* @media screen and (min-width: 320px) {
+  .nuotrauka {
+    visibility: hidden;
+  }} */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+
+  /* Responsive layout - */
+  /* @media screen and (max-width: 768px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  } */
+
+  /* nuotraukos - Responsive layout */
+  /* @media (max-width: 320px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+    .mygtukasMeniu {
+      font-size: 10px;
+      padding: 5px 10px;
+      border-radius: 8px;
+
+      color:white;
+    }
+  } */
+  /* @media screen and (max-width:768px) {
+    .nuotrauka {
+      max-height: 80px;
+
+    }
+  }
+
+@media screen and (max-width: 320px) {
+    .nuotrauka {
+      max-height: 80px;
+
+    }
+  } */
