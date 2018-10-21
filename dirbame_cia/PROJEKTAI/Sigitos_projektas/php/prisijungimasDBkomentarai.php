@@ -22,7 +22,7 @@ function getPrisijungimas(){
 getPrisijungimas();
 
 function createKomentarai($vardas, $komentaras){
-$manoSQL = "INSERT INTO `Komentarai` VALUES (NULL,'$vardas','$komentaras')"; //butinai kintamieji kabutese, taciau viengubose nes jau yra dvigubos;
+$manoSQL = "INSERT INTO `komentarai` VALUES (NULL,'$vardas','$komentaras')"; //butinai kintamieji kabutese, taciau viengubose nes jau yra dvigubos;
 $arPavyko = mysqli_query(getPrisijungimas(), $manoSQL);
 // $arPavyko = mysqli_query(getPrisijungimas(), $manoSQL);
 // // if(!$arPavyko && $arRodytiZinutes) trumpasis budas;
@@ -31,7 +31,7 @@ $arPavyko = mysqli_query(getPrisijungimas(), $manoSQL);
 }
 // susirandam straipsnius, funkcija duomenu bazeje iesko straipsnio pagal id.
 function getKomentarai($nr){
-$manoSQL = "SELECT * FROM `Komentarai` WHERE `ID` = $nr";
+$manoSQL = "SELECT * FROM `komentarai` WHERE `ID` = $nr";
 $rezultatai = mysqli_query(getPrisijungimas(), $manoSQL);
 $rezultataiArray = mysqli_fetch_row($rezultatai);
 return $rezultataiArray;
@@ -39,7 +39,7 @@ return $rezultataiArray;
 }
 
 function deletKomentara($nr){
-  $manoSQL = "DELETE FROM `komentarai` WHERE id = '$nr'
+  $manoSQL = "DELETE FROM `komentarai` WHERE 'ID' = '$nr'
              ";
   $arPavyko = mysqli_query(getPrisijungimas(), $manoSQL);
 }
